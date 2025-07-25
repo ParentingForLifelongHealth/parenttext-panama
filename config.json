@@ -11,11 +11,10 @@
     "flows_outputbasename": "parenttext_all",
     "output_split_number": 1,
     "sheet_names": {
-        "MX_sheets": "1yUzKndclwMurTwBgDTzA5ha7xLjj214oZy10KYtjW4U",
+        "PA_sheets": "1hYDdrnxLhR7NKaJB_eUH3xL7WvG9u8c59ZGjzsBF9Mg",
         "N_triggers": "195s4fnuluMNyls9S1ghjC2e7DaxczT2BPsOwEcDfvY8",
         "T_content": "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU",
         "N_onboarding_data": "1bueUmf42QOgOkafa7hfO2uk3tfNlDtOcc0nBo-IbfG4",
-        "T_onboarding": "1Sl0Jl_N4cGQi2INmE_EnX_aYUMUrUB6cKbuWVPzirtY",
         "C_ltp_activities": "1q1pkuzH5b5bM6i2KMweGjChSvTO_A2bFMWSOMTp5utY",
         "C_modules_teen": "1HWO7qEapBeNfqbRUDtgL1vmhQYqoeAM7JMhVVkwDVzM",
         "C_modules_child": "11TWp8bAsScmuIz4JZS2KTLjfznvlJZpHDZ-3IYIL1Qc",
@@ -40,7 +39,6 @@
             "subformat": "google_sheets",
             "files_list": [
                     "N_onboarding_data",
-                    "T_onboarding",
                     "C_ltp_activities",
                     "C_modules_all_ages",
                     "C_modules_teen",
@@ -55,7 +53,7 @@
                     "N_menu_data",
                     "T_menu",
                     "N_triggers",
-                    "MX_sheets"
+                    "PA_sheets"
                 ]
         },
         "edits_pretranslation": {
