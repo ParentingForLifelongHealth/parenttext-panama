@@ -1,0 +1,534 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "content_index": [
+      {
+        "type": "data_sheet",
+        "sheet_name": "safeguarding_leave_programme_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "safeguarding_start_programme_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "referrals",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "ReferralsModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "safeguarding_entry_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SafeguardingEntryModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "safeguarding_trigger_wrapper_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SafeguardingLaunchFlowModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "id_generator_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "safeguarding_wfr_interaction_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "safeguarding_help_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "uncaught_message_flow_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "book_trigger_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      }
+    ],
+    "safeguarding_trigger_wrapper_data": [
+      {
+        "ID": "menu",
+        "disabled_not_completed_registration": "El menú estará disponible una vez que hayas completado el registro. No te quitará mucho tiempo. ¡Por favor, sigue avanzando!",
+        "disabled_not_selected_first_goal": "El menú estará disponible una vez que hayas completado el registro. No te quitará mucho tiempo. ¡Por favor, sigue avanzando!",
+        "conclusion_msg": "",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
+      },
+      {
+        "ID": "play",
+        "disabled_not_completed_registration": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "disabled_not_selected_first_goal": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "conclusion_msg": "",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
+      },
+      {
+        "ID": "safe",
+        "disabled_not_completed_registration": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "disabled_not_selected_first_goal": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "conclusion_msg": "Excellent work. You have learned the basics of self defence. Remember you can access this information at any time typing {SAFE}. ",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
+      },
+      {
+        "ID": "prevent",
+        "disabled_not_completed_registration": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "disabled_not_selected_first_goal": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "conclusion_msg": "Excellent work. You have completed the Prevent Sexual Violence skill. Remember you can access this information at any time typing {PREVENT}. ",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
+      },
+      {
+        "ID": "grow",
+        "disabled_not_completed_registration": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "disabled_not_selected_first_goal": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "conclusion_msg": "",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
+      },
+      {
+        "ID": "book",
+        "disabled_not_completed_registration": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "disabled_not_selected_first_goal": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "conclusion_msg": "",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
+      },
+      {
+        "ID": "review",
+        "disabled_not_completed_registration": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "disabled_not_selected_first_goal": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "conclusion_msg": "",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
+      },
+      {
+        "ID": "pause",
+        "disabled_not_completed_registration": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "disabled_not_selected_first_goal": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "conclusion_msg": "Gracias por hacer una pausa conmigo el día de hoy.",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
+      },
+      {
+        "ID": "help",
+        "disabled_not_completed_registration": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "disabled_not_selected_first_goal": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+        "conclusion_msg": "",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
+      }
+    ],
+    "safeguarding_leave_programme_data": [
+      {
+        "ID": "intro",
+        "msg": "Seguir en Crianza de Conciencia+ te ayudará a ti y a tu niña o niño. ¿Estás seguro de que quieres abandonar el programa?",
+        "metadata.description": ""
+      },
+      {
+        "ID": "confirm",
+        "msg": "Si no quieres recibir más mensajes, escribe \"FINALIZAR\".\n\nSi te equivocaste, escribe \"REGRESAR\".",
+        "metadata.description": "BACK needs to be consistent with \"back_option\"\nEXIT needs to be consistent with \"leave_option\""
+      },
+      {
+        "ID": "back_option",
+        "msg": "REGRESAR",
+        "metadata.description": "needs to be consistent with \"confirm\" message"
+      },
+      {
+        "ID": "leave_option",
+        "msg": "EXIT",
+        "metadata.description": "needs to be consistent with \"confirm\" message"
+      },
+      {
+        "ID": "goodbye",
+        "msg": "Gracias por participar. Si quieres volver al programa, escribe HOLA.\n\n¡Esperamos volverte a ver pronto!",
+        "metadata.description": "HELLO is just to suggest something to type, but anything typed in the chat will trigger the same behaviour"
+      },
+      {
+        "ID": "stay",
+        "msg": "¡Nos alegra mucho que quieras quedarte! Mañana reanudaremos tu progreso.",
+        "metadata.description": ""
+      }
+    ],
+    "safeguarding_start_programme_data": [
+      {
+        "ID": "join_again_in_program",
+        "msg": "¡Ya eres parte de Crianza con Conciencia +!",
+        "metadata.description": ""
+      },
+      {
+        "ID": "instructions",
+        "msg": "Escribe y manda {MENÚ} para tener acceso a algunos recursos y revisar los módulos completados, {JUGAR} para recibir una actividad lúdica que puedas hacer con tu niña o niño, o {AYUDA} para ver una lista de recursos de apoyo locales en caso de crisis.",
+        "metadata.description": ""
+      },
+      {
+        "ID": "join_again_completed",
+        "msg": "¡Completaste Crianza con Conciencia +!",
+        "metadata.description": ""
+      },
+      {
+        "ID": "rejoin_greeting",
+        "msg": "¡Te damos la bienvenida de nuevo a Crianza con Conciencia +!",
+        "metadata.description": ""
+      }
+    ],
+    "safeguarding_entry_data": [
+      {
+        "ID": "generic",
+        "question": "¿Tienes una emergencia en este momento?",
+        "yes_opt": "Sí",
+        "yes_aliases": "yes y yeah yep",
+        "no_opt": "No",
+        "no_aliases": "no n nope",
+        "intro": "Aquí tienes los datos de contacto de los servicios de emergencia de tu comunidad:",
+        "no_message": "Escribe y manda {AYUDA} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas. ¡Recuerda que todo lo que digas se quedará en privado!"
+      },
+      {
+        "ID": "mental_health",
+        "question": "¿Necesitas apoyo con un problema emocional?",
+        "yes_opt": "Sí",
+        "yes_aliases": "yes y yeah yep",
+        "no_opt": "No",
+        "no_aliases": "no n nope",
+        "intro": "Si alguna vez quieres hablar en privado con un profesional, puedes llamar:",
+        "no_message": "Escribe y manda {AYUDA} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas. ¡Recuerda que todo lo que digas se quedará en privado!"
+      },
+      {
+        "ID": "health",
+        "question": "¿Estás experimentando algún problema de salud?",
+        "yes_opt": "Sí",
+        "yes_aliases": "yes y yeah yep",
+        "no_opt": "No",
+        "no_aliases": "no n nope",
+        "intro": "Aquí tienes los datos de contacto de los servicios médicos de tu comunidad:",
+        "no_message": "Escribe y manda {AYUDA} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas. ¡Recuerda que todo lo que digas se quedará en privado!"
+      },
+      {
+        "ID": "violence",
+        "question": "¿Estás viviendo alguna situación insegura?",
+        "yes_opt": "Sí",
+        "yes_aliases": "yes y yeah yep",
+        "no_opt": "No",
+        "no_aliases": "no n nope",
+        "intro": "Si alguna vez quieres hablar en privado con un profesional, puedes llamar:",
+        "no_message": "Escribe y manda {AYUDA} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas. ¡Recuerda que todo lo que digas se quedará en privado!"
+      },
+      {
+        "ID": "natural_disasters",
+        "question": "¿Tienes una emergencia?",
+        "yes_opt": "Sí",
+        "yes_aliases": "yes y yeah yep",
+        "no_opt": "No",
+        "no_aliases": "no n nope",
+        "intro": "Aquí tienes los datos de contacto de los servicios de emergencia de tu comunidad:",
+        "no_message": "Escribe y manda {AYUDA} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas. ¡Recuerda que todo lo que digas se quedará en privado!"
+      },
+      {
+        "ID": "drugs",
+        "question": "¿Necesitas ayuda urgente?",
+        "yes_opt": "Sí",
+        "yes_aliases": "yes y yeah yep",
+        "no_opt": "No",
+        "no_aliases": "no n nope",
+        "intro": "Si alguna vez quieres hablar en privado con un profesional, puedes llamar:",
+        "no_message": "Escribe y manda {AYUDA} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas. ¡Recuerda que todo lo que digas se quedará en privado!"
+      }
+    ],
+    "safeguarding_wfr_interaction_data": [
+      {
+        "ID": "",
+        "msg": "no",
+        "metadata.description": ""
+      },
+      {
+        "ID": "go_back_qst",
+        "msg": "¿Te gustaría regresar a los mensajes anteriores?",
+        "metadata.description": ""
+      },
+      {
+        "ID": "yes_opt",
+        "msg": "Sí",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_opt",
+        "msg": "No",
+        "metadata.description": ""
+      },
+      {
+        "ID": "yes_opt_aliases",
+        "msg": "sí yeah yep",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_opt_aliases",
+        "msg": "no n nope nah",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_message",
+        "msg": "No pasa nada. Escribe y manda {AYUDA} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas.",
+        "metadata.description": ""
+      }
+    ],
+    "referrals": [
+      {
+        "ID": "generic",
+        "referrals": "{generic referrals}",
+        "option_name": "Policía"
+      },
+      {
+        "ID": "health",
+        "referrals": "{health referrals}",
+        "option_name": "Servicios médicos"
+      },
+      {
+        "ID": "fire_deparment",
+        "referrals": "{natural_disasters referrals}",
+        "option_name": "Bomberos"
+      },
+      {
+        "ID": "mental_health",
+        "referrals": "{mental_health referrals}",
+        "option_name": "Servicios de salud mental"
+      },
+      {
+        "ID": "violence",
+        "referrals": "{violence referrals}",
+        "option_name": "Línea directa para la prevención de violencia"
+      },
+      {
+        "ID": "suicide",
+        "referrals": "{mental_health referrals}",
+        "option_name": "Línea directa para la prevención de suicidio"
+      },
+      {
+        "ID": "family",
+        "referrals": "{family referrals}",
+        "option_name": "Servicios de consejería familiar"
+      },
+      {
+        "ID": "drugs",
+        "referrals": "{drugs referrals}",
+        "option_name": "Abuso de sustancias"
+      },
+      {
+        "ID": "natural_disasters",
+        "referrals": "{natural_disasters referrals}",
+        "option_name": "Desastres naturales"
+      },
+      {
+        "ID": "development",
+        "referrals": "{development resources 1}",
+        "option_name": "Desarrollo infantil"
+      }
+    ],
+    "safeguarding_help_data": [
+      {
+        "ID": "intro",
+        "msg": "Parece que tienes una emergencia. ¿Puedes decirnos qué tipo de ayuda necesitas?",
+        "metadata.description": ""
+      },
+      {
+        "ID": "offer_next",
+        "msg": "¿Qué te gustaría hacer?",
+        "metadata.description": ""
+      },
+      {
+        "ID": "more_contacts_opt",
+        "msg": "Obtener otros contactos de emergencia",
+        "metadata.description": ""
+      },
+      {
+        "ID": "menu_opt",
+        "msg": "Ir al Menú Principal",
+        "metadata.description": ""
+      },
+      {
+        "ID": "progress_opt",
+        "msg": "Continuar con mi curso ahorita.",
+        "metadata.description": ""
+      },
+      {
+        "ID": "exit_opt",
+        "msg": "Continuar con mi curso mañana.",
+        "metadata.description": ""
+      },
+      {
+        "ID": "farewell",
+        "msg": "Esperamos que esto te haya servido. Puedes acceder a esta información en cualquier momento al escribir y mandar {AYUDA}.",
+        "metadata.description": ""
+      }
+    ],
+    "id_generator_data": [
+      {
+        "ID": "success_msg",
+        "msg": "Tu número de registro es @fields.research_id",
+        "metadata.description": ""
+      },
+      {
+        "ID": "failure_msg",
+        "msg": "Something went wrong when creating your user ID, please get in touch with your facilitator.",
+        "metadata.description": ""
+      }
+    ],
+    "uncaught_message_flow_data": [
+      {
+        "ID": "rejoin_greetings",
+        "msg": "¡Te damos la bienvenida de nuevo a Crianza con Conciencia +!",
+        "metadata.description": ""
+      },
+      {
+        "ID": "instructions",
+        "msg": "No entiendo tu mensaje.\nEscribe y manda {MENÚ} para tener acceso a algunos recursos y revisar los módulos completados, {JUGAR} para recibir una actividad lúdica que puedas hacer con tu niña o niño, o {AYUDA} para ver una lista de recursos de apoyo locales en caso de crisis.",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_consent",
+        "msg": "No has dado tu consentimiento para participar en este programa. ¿Te gustaría participar?",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_consent_yes_opt",
+        "msg": "Sí",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_consent_no_opt",
+        "msg": "No",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_join_msg",
+        "msg": "Si en algún momento decides participar en el programa, solo escribe HOLA.\nEsperamos volver a verte pronto, ¡y te deseamos un feliz y tranquilo día!",
+        "metadata.description": ""
+      },
+      {
+        "ID": "rejoin_question",
+        "msg": "Criar a una niña, un niño o un adolescente es difícil. Crianza con Conciencia + te puede ayudar. Has completado @fields.n_goals_completed de @fields.n_goals_prog objetivos relacionados con la crianza. ¿Te gustaría seguir avanzando?",
+        "metadata.description": ""
+      },
+      {
+        "ID": "rejoin_yes_opt",
+        "msg": "Sí",
+        "metadata.description": ""
+      },
+      {
+        "ID": "rejoin_no_opt",
+        "msg": "No",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_rejoin_msg",
+        "msg": "No pasa nada. Si en algún momento decides regresar, escribe HOLA.\nEsperamos volver a verte pronto, ¡y te deseamos un feliz y tranquilo día!",
+        "metadata.description": ""
+      }
+    ],
+    "book_trigger_data": [
+      {
+        "ID": "book",
+        "msg": "{book resources}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1112 @@
+[
+  {
+    "SourceText": "Are you a WOMAN or MAN?",
+    "text": "¿Cuál es tu sexo?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "Disculpa, no entiendo lo que quieres decir.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What is your relationship status?",
+    "text": "¿Cuál es tu estado civil?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Is @fields.child_nickname a girl or a boy?",
+    "text": "¿@fields.child_nickname es una niña o un niño?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Is your child a girl or a boy?",
+    "text": "¿Su hijo es niña o niño?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Which state do you live in?",
+    "text": "¿En qué estado de la república vives?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What is your child's name?",
+    "text": "¿Cómo se llama tu niña, niño o adolescente?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Please type \"N\" if you prefer not to answer.",
+    "text": "Escribe \"N\" si prefieres no contestar.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What is your name?",
+    "text": "¿Cuál es tu nombre?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Por favor seleccione su idioma:",
+    "text": "Por favor selecciona tu idioma:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is a video that shows how to use @fields.prog_name.",
+    "text": "Aquí tienes un vídeo que muestra cómo utilizar @fields.prog_name.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Variables have been reset",
+    "text": "Las variables han sido restablecidas",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "When was @fields.child_nickname born? Enter their date of birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2010, enter 19/05/2010.",
+    "text": "¿Cuándo nació @fields.child_nickname? Ingresa su fecha de nacimiento usando este formato: DD/MM/AAAA. Por ejemplo, si tu niña, niño o adolescente nació el 19 de mayo de 2010, escríbelo así 19/05/2010.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "When was your {child} born? Enter their date of birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2010, enter 19/05/2010.",
+    "text": "¿Cuándo nació tu {child}? Ingresa su fecha de nacimiento usando este formato: DD/MM/AAAA. Por ejemplo, si tu niña, niño o adolescente nació el 19 de mayo de 2010, escríbelo así 19/05/2010.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, this date is invalid. Please provide your child's date of birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2010, enter 19/05/2010.",
+    "text": "Lo sentimos, esta fecha no es válida. Por favor, indica la fecha de nacimiento de tu niña, niño o adolescente en el siguiente formato: DD/MM/AAAA. Por ejemplo, si tu niña o niño nació el 19 de mayo de 2010, ingresa 19/05/2010.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "The date you entered is in the future. Please provide your child's date of birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2010, enter 19/05/2010.",
+    "text": "La fecha que has introducido es futura. Indica la fecha de nacimiento de tu niña, niño o adolescente en el siguiente formato: DD/MM/AAAA. Por ejemplo, si tu niña, niño o adolescente  nació el 19 de mayo de 2010, introduce 19/05/2010.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let's try again. Please provide your child's date of birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2010, enter 19/05/2010.",
+    "text": "Intentémoslo de nuevo. Ingresa la fecha de nacimiento de tu niña, niño o adolescente en el siguiente formato: DD/MM/AAAA. Por ejemplo, si tu niña, niño o adolescente nació el 19 de mayo de 2010, escríbelo de esta manera: 19/05/2010.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@fields.child_nickname is @(round_down(datetime_diff(results.date,now(),\"M\")/12)) years old. Is that correct?",
+    "text": "@fields.child_nickname tiene @(round_down(datetime_diff(results.date,now(), \"M\")/12)) años. ¿Es correcto?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Your {child} is @(round_down(datetime_diff(results.date,now(),\"M\")/12)) years old. Is that correct?",
+    "text": "Tu {child} tiene @(round_down(datetime_diff(results.date,now(), \"M\")/12)) años. ¿Es correcto?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "@fields.child_nickname is @(round_down(datetime_diff(results.date,now(),\"M\")/12)) years old.  Is that correct?",
+    "text": "@fields.child_nickname tiene @(round_down(datetime_diff(results.date,now(), \"M\")/12)) años. ¿Es correcto?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Your {teen} is @(round_down(datetime_diff(results.date,now(),\"M\")/12)) years old.  Is that correct?",
+    "text": "Tu {teen} tiene @(round_down(datetime_diff(results.date,now(), \"M\")/12)) años.  ¿Es correcto?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "According to the date you provided, @fields.child_nickname would be @(round_down(datetime_diff(results.date,now(),\"M\")/12)) years old. ParentText is only for children aged 2-17. Please enter a valid date for your child's birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2010, enter 19/05/2010.",
+    "text": "Según la fecha que has proporcionado, @fields.child_nickname tendría @(round_down(datetime_diff(results.date,now(), \"M\")/12)) años. El Curso de Crianza con Conciencia + es solo para madres, padres o personas cuidadoras que interactuan con niñas, niños y adolescentes de 2 a 17 años. Ingresa una fecha de nacimiento de tu niña, niño o adolescente que sea válida en el siguiente formato: DD/MM/AAAA. Por ejemplo, si tu niña, niño o adolescente  nació el 19 de mayo de 2010, ingresa 19/05/2010.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "According to the date you provided, your {child} would be @(round_down(datetime_diff(results.date,now(),\"M\")/12)) years old. ParentText is only for children aged 2-17. Please enter a valid date for your child's birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2010, enter 19/05/2010.",
+    "text": "Según la fecha que has proporcionado, tu {child} tendría @(round_down(datetime_diff(results.date,now(), \"M\")/12)) años. El Curso de Crianza con Conciencia + es solo para madres, padres o personas cuidadoras que interactuan con niñas, niños y adolescentes de 2 a 17 años. Ingresa una fecha de nacimiento de tu niña, niño o adolescente que sea válida en el siguiente formato: DD/MM/AAAA. Por ejemplo, si tu niña, niño o adolescente nació el 19 de mayo de 2010, ingresa 19/05/2010.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "✨ Welcome to @fields.prog_name!",
+    "text": "✨ ¡Te damos la bienvenida a @fields.prog_name!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "✅ In @fields.prog_name, you will receive daily sessions with practical examples and positive parenting strategies to strengthen your relationship with your children and adolescents.",
+    "text": "✅ En @fields.prog_name, recibirás sesiones diarias con ejemplos prácticos y estrategias de crianza positiva para fortalecer la relación con tus hijos y adolescentes.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "✅ You can learn more about this programme and the team behind it at {URL}",
+    "text": "✅ Puedes obtener más información sobre este programa y el equipo detrás de él en {URL}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thanks, @fields.first_user_name. Now let's get to know your child. You might have more than one, but we're going to start by focusing on just one.",
+    "text": "Gracias, @fields.first_user_name. Ahora vamos a conocer a tu niña, niño o adolescente. Es posible que tengas más de una niña, niño o adolescente a tu cuidado, pero vamos a comenzar enfocándonos solo en uno de ellos.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Which region of Mexico do you live in?",
+    "text": "¿En qué región de México vives?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your name is @fields.first_user_name @fields.family_name. Is that correct?",
+    "text": "Tu nombre es @fields.first_user_name @fields.family_name. ¿Es correcto?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "It looks like this is not a good time. Please type 1 if you'd like to continue.",
+    "text": "Parece que este no es un buen momento. Por favor, presiona 1 si te gustaría continuar ahora.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ In @fields.prog_name you'll receive daily lessons with stories and strategies to make parenting work. ",
+    "text": "✅ En @fields.prog_name recibirás sesiones diarias con ejemplos y estrategias de crianza positiva.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "✅ Your personal information is safe and private. To read our privacy policy, visit {consent}. If you are over 18 and consent to our privacy policy, select YES.  Type \"EXIT\" if you do not want to participate.",
+    "text": "✅ Tu información personal está segura y es privada. Para leer nuestra política de privacidad, visita {consent}. Si tienes más de 18 años y aceptas nuestra política de privacidad, selecciona \"SÍ\".  Escribe \"SALIR\" si no quieres participar.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you sure you do not want to get these messages? If you do not want to receive any more messages, please press NO. If you made a mistake, please press BACK and choose another option.",
+    "text": "¿Estás seguro de que no quieres recibir estos mensajes? Si no quieres recibir más mensajes, escribe \"NO\". Si te has equivocado, presiona REGRESAR y elige otra opción.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you ever decide to participate in the programme, type HELLO. ",
+    "text": "Si en algún momento decides participar en el programa, solo escribe HOLA. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope to see you again soon, and we wish you a happy and peaceful day!",
+    "text": "Esperamos volver a verte pronto, ¡y te deseamos un feliz y tranquilo día!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! To complete this programme, you'll need a partner in parenting. There are 2 parenting experts to choose from:",
+    "text": "¡Estupendo! Para completar este programa, necesitarás a alguien que te guie. Hay 2 especialistas en crianza para elegir:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Dani is a 35 old mom of 3. She's a clinical psychologist and the first person her friends ask for help with parenting.",
+    "text": "Dani tiene 35 años y es madre de 3. Es psicóloga clínica y la primera persona  que sus amistades buscan para pedirle apoyo en temas de crianza.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Cris is a 38 year old dad. He used to lose his patience and get anxious when spending time with his kids. He worked as a family physician but now coaches parents on the same strategies that helped him.",
+    "text": "Cris es un padre de 38 años. Solía perder la paciencia y ponerse ansioso cuando pasaba tiempo con sus hijas e hijos. Es médico familiar y actualmente acompaña a madres, padres y personas cuidadoras con las mismas estrategias que le ayudaron a él.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Who would you like to be your guide?",
+    "text": "¿Quién te gustaría que fuera tu guía?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Hi! I'm @fields.avatar_name! Welcome to @fields.prog_name. You know about me, I would love to know more about you. I will use this information to create a custom programme for you.",
+    "text": "¡Hola! ¡Soy @fields.avatar_name! Te doy la bienvenida a @fields.prog_name. Ahora que ya sabes un poco sobre de mí, me encantaría saber más sobre ti. Esta información me servirá para crear un programa personalizado para ti.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "This looks too long. Please enter a shorter name.",
+    "text": "Parece demasiado largo. Por favor, introduce un nombre más corto.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Nice to meet you, @fields.first_user_name.",
+    "text": "¡Es un gusto conocerte, @fields.first_user_name!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Please enter the first letter of your state.",
+    "text": "Por favor, introduce la primera letra del Estado en donde vives.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I'm sorry, @fields.first_user_name. I don't understand. Please enter the first letter of your state. For example, enter M if you live in Michocán.",
+    "text": "Lo siento, @fields.first_user_name. No entiendo. Por favor, introduce la primera letra del Estado en donde vives. Por ejemplo, introduce M si vives en Michoacán.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Hmm. I don't know of any states beginning with that letter. Can you please try again?",
+    "text": "Hmmm. No conozco ningún Estado que empiece con esa letra. ¿Puedes volver a intentarlo?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Just one more question, @fields.first_user_name. How did you find out about @fields.prog_name?",
+    "text": "Una última pregunta, @fields.first_user_name. ¿Cómo te enteraste acerca de @fields.prog_name?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "How many years old is @fields.child_nickname?",
+    "text": "¿Cuántos años tiene @fields.child_nickname?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "How many years old is your {child}?",
+    "text": "¿Cuántos años tiene tu {child}?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let's try that again. How many years old is @fields.child_nickname? Please enter a number between 2-17.",
+    "text": "Intentémoslo de nuevo. ¿Cuántos años tiene @fields.child_nickname? Introduce un número entre 2-17.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Let's try that again. How many years old is your {child}? Please enter a number between 2-17.",
+    "text": "Intentémoslo de nuevo. ¿Cuántos años tiene tu {child}? Introduce un número entre 2-17.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Oops! This programme is only for parents of children ages 2-17. Let's try that again. How many years old is @fields.child_nickname? Please enter a number between 2-17.",
+    "text": "¡Uy! Este programa es sólo para madres, padres y personas cuidadoras de niñas, niños o adolescentes de 2 a 17 años. Intentémoslo de nuevo. ¿Cuántos años tiene @fields.child_nickname? Por favor, introduce un número entre 2-17.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Oops! This programme is only for parents of children ages 2-17. Let's try that again. How many years old is your {child}? Please enter a number between 2-17.",
+    "text": "¡Uy! Este programa es sólo para madres, padres y personas cuidadoras de niñas, niños o adolescentes de 2 a 17 años. Intentémoslo de nuevo. ¿Cuántos años tiene tu {child}? Por favor, introduce un número entre 2-17.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thanks @fields.first_user_name. I've got your programme ready for you.",
+    "text": "Gracias @fields.first_user_name. ¡Tu programa está listo!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Woman",
+    "text": "Mujer",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Man",
+    "text": "Hombre",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Prefer not to say",
+    "text": "Prefiero no decirlo",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Single (not in a relationship)",
+    "text": "Soltero o soltera (sin pareja)",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Married",
+    "text": "Casado o casada",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Partnered but not married",
+    "text": "En pareja pero no casado",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Divorced or separated",
+    "text": "Divorciado o separado",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Widowed",
+    "text": "Viudo o viuda",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Girl",
+    "text": "Niña",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Boy",
+    "text": "Niño",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Baja California",
+    "text": "Baja California",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Sonora",
+    "text": "Sonora",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Chihuahua",
+    "text": "Chihuahua",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Coahuila",
+    "text": "Coahuila",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Nuevo León",
+    "text": "Nuevo León",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Tamaulipas",
+    "text": "Tamaulipas",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Baja California Sur",
+    "text": "Baja California Sur",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Sinaloa",
+    "text": "Sinaloa",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Durango",
+    "text": "Durango",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Zacatecas",
+    "text": "Zacatecas",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Go back and select a different region",
+    "text": "Regresa y selecciona otra región",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Guanajuato",
+    "text": "Guanajuato",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Querétaro",
+    "text": "Querétaro",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Hidalgo",
+    "text": "Hidalgo",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Estado de México",
+    "text": "Estado de México",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Mexico City",
+    "text": "Ciudad de México",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Morelos",
+    "text": "Morelos",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Tlaxcala",
+    "text": "Tlaxcala",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Jalisco",
+    "text": "Jalisco",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Aguascalientes",
+    "text": "Aguascalientes",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Colima",
+    "text": "Colima",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Michoacán",
+    "text": "Michoacán",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Nayarit",
+    "text": "Nayarit",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "San Luis Potosí",
+    "text": "San Luis Potosí",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Puebla",
+    "text": "Puebla",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Guerrero",
+    "text": "Guerrero",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Oaxaca",
+    "text": "Oaxaca",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Chiapas",
+    "text": "Chiapas",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Veracruz",
+    "text": "Veracruz",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Tabasco",
+    "text": "Tabasco",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Campeche",
+    "text": "Campeche",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yucatán",
+    "text": "Yucatán",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Quintana Roo",
+    "text": "Quintana Roo",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Spanish",
+    "text": "Español",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "English",
+    "text": "Inglés",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NEXT",
+    "text": "SIGUIENTE",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes",
+    "text": "Sí",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No",
+    "text": "No",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Norte",
+    "text": "Norte",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Centro",
+    "text": "Centro",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Sur",
+    "text": "Sur",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Let's Go!",
+    "text": "¡Vamos!",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "YES",
+    "text": "SI",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NO",
+    "text": "NO",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "BACK",
+    "text": "REGRESAR",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Dani",
+    "text": "Dani",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Cris",
+    "text": "Cris",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Go back and enter a different letter",
+    "text": "Regresa y selecciona otra letra",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Community center",
+    "text": "Centro comunitario",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Childcare center",
+    "text": "Centro de cuidado infantil",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Educational center / School",
+    "text": "Centro educativo / Escuela",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Health center",
+    "text": "Centro de salud",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Workplace (company)",
+    "text": "Lugar de trabajo (empresa)",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Media",
+    "text": "Medios de comunicación",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Personal recommendation",
+    "text": "Recomendación personal",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Other",
+    "text": "Otro",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "woman",
+    "text": "mujer",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "man",
+    "text": "hombre",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "prefer not to say",
+    "text": "prefiero no decirlo",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "single (not in a relationship)",
+    "text": "soltero o soltera (sin pareja)",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "married",
+    "text": "casado o casada",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "partnered but not married",
+    "text": "en pareja pero no casado",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "divorced or separated",
+    "text": "divorciado o separado",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "widowed",
+    "text": "viudo o viuda",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "girl",
+    "text": "niña",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "boy",
+    "text": "niño",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "baja california",
+    "text": "baja california",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "sonora",
+    "text": "sonora",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "chihuahua",
+    "text": "chihuahua",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "coahuila",
+    "text": "coahuila",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "nuevo león",
+    "text": "Nuevo León",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "tamaulipas",
+    "text": "Tamaulipas",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "baja california sur",
+    "text": "baja california sur",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "sinaloa",
+    "text": "sinaloa",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "durango",
+    "text": "Durango",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "zacatecas",
+    "text": "Zacatecas",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "go back and select a different region",
+    "text": "regresa y selecciona otra región",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "guanajuato",
+    "text": "guanajuato",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "querétaro",
+    "text": "querétaro",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "hidalgo",
+    "text": "hidalgo",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "estado de méxico",
+    "text": "estado de méxico",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "mexico city",
+    "text": "ciudad de méxico",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "morelos",
+    "text": "morelos",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "tlaxcala",
+    "text": "Tlaxcala",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "jalisco",
+    "text": "jalisco",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "aguascalientes",
+    "text": "aguascalientes",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "colima",
+    "text": "colima",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "michoacán",
+    "text": "Michoacán",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "nayarit",
+    "text": "nayarit",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "san luis potosí",
+    "text": "San Luis Potosí",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "puebla",
+    "text": "Puebla",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "guerrero",
+    "text": "guerrero",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "oaxaca",
+    "text": "oaxaca",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "chiapas",
+    "text": "chiapas",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "veracruz",
+    "text": "veracruz",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "tabasco",
+    "text": "tabasco",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "campeche",
+    "text": "campeche",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yucatán",
+    "text": "Yucatán",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "quintana roo",
+    "text": "Quintana Roo",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "n",
+    "text": "n",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "spanish",
+    "text": "español",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "english",
+    "text": "inglés",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes y yeah yep",
+    "text": "sí s claro seguro",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no n nope",
+    "text": "no n nop",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "norte",
+    "text": "norte",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "centro",
+    "text": "centro",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "sur",
+    "text": "sur",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes",
+    "text": "sí",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no",
+    "text": "no",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "exit",
+    "text": "finalizar",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "back",
+    "text": "REGRESAR",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "dani",
+    "text": "Dani",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "cris",
+    "text": "cris",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "go back and enter a different letter",
+    "text": "Regresa y selecciona otra letra",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "community center",
+    "text": "centro comunitario",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "childcare center",
+    "text": "centro de cuidado infantil",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "educational center / school",
+    "text": "centro educativo / escuela",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "health center",
+    "text": "centro de salud",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "workplace (company)",
+    "text": "lugar de trabajo (empresa)",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "media",
+    "text": "medios de comunicación",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "personal recommendation",
+    "text": "recomendación personal",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "other",
+    "text": "otro",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]

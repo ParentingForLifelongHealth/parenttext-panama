@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "content_index": [
+      {
+        "type": "data_sheet",
+        "sheet_name": "ltp_activity_teen_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "operation": "",
+        "data_model": "LtpActivityModel",
+        "template_arguments": "",
+        "status": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "ltp_activity_child_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "operation": "",
+        "data_model": "LtpActivityModel",
+        "template_arguments": "",
+        "status": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "ltp_activity_teen_data;ltp_activity_child_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "ltp_activity_data",
+        "operation": "concat",
+        "data_model": "LtpActivityModel",
+        "template_arguments": "",
+        "status": ""
+      }
+    ],
+    "ltp_activity_teen_data": [
+      {
+        "ID": "friendly_chat",
+        "name": "Una plática amistosa",
+        "text": "¡Platica con tu adolescente sobre algo que le interese! 😃\n\n⚽ Una forma fácil de empezar a platicar con tu adolescente es preguntarle sobre algo que le interese. Por ejemplo, puedes platicar de deportes, libros, películas, amistades, música, famosos o la escuela.\n\n👂 Puede que no todo lo que comparta tu adolescente te parezca interesante, pero es importante que muestres interés y ganas de aprender.\n\nPoner atención a lo que le importa a tu adolescente puede hacer una gran diferencia en su relación y en su felicidad.",
+        "act_type": "Quick | Calm ",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "create_recipe",
+        "name": "Crea tu propia receta",
+        "text": "¡Deja que tu niña, niño o adolescente invente una nueva idea de comida!\n\n🍚 ¡Crea un plato nuevo con {tu adolescente} usando ingredientes que les encanten!\n\n🔵 Escojan juntos dos ingredientes y pide a tu adolescente que prepare una comida con ellos. Por ejemplo: pollo y espinacas, tomates y arroz, tortilla y zanahoria.🍅\n\n📝 Si les gusta la nueva receta, puede ser algo que coman semanalmente en familia, y pide a tu niña, niño o adolescente que escriba esa receta para ti. Denle un nombre especial a esa comida y expliquen cómo hacerla.\n\n✨ ¡Si tu adolescente se da cuenta que estás aprendiendo de su forma de cocinar, aumentará su confianza!",
+        "act_type": "Active",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "reflect_positive",
+        "name": "Reflect on the positive",
+        "text": "¡Comparte lo positivo! 🌈\n\n💡 Tómense un minuto para pensar en todas las cosas que han hecho hoy.\n\n☀️ Compartan por turnos una cosa positiva o divertida que haya ocurrido. Puede ser algo pequeño, como sentirte bien porque has limpiado la casa, o algo grande, como pasar tiempo con la familia y amistades.\n\n⏰ Intenta hacer esto todos los días, y has un esfuerzo mayor los días que sientas que no has hecho nada especial.",
+        "act_type": "Calm | Quick",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "whats_new",
+        "name": "¿Qué tal?",
+        "text": "¡Aprender es divertido! 🎓\n\n❓ Pídele a tu adolescente que piense en una habilidad nueva y divertida que puedan aprender juntos.\nPor ejemplo: mantener una pelota en el aire con el pie, hacer malabares, hacer sopa, bailar , silbar, decir el alfabeto al revés, aprender todos los países de América Latina.\n\n🔄 Tomen turnos intentando la nueva habilidad. ¡Asegúrense de reconocerse mutuamente y de aprender y jugar juntos!\n💛 Aborda el aprendizaje de la habilidad de una forma amable y divertida, y no juzgues a tu adolescente ni a ti mismo por tu capacidad de desempeñar la habilidad.",
+        "act_type": "Active",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "dance_moves",
+        "name": "Movimientos de baile",
+        "text": "¡Vamos a movernos! 👋 ¡Bailar es una forma genial de hacer ejercicio, divertirte y convivir con tu adolescente al mismo tiempo! Ambos pueden expresarse de forma divertida y relajada. 🎵\n\nEste juego se puede jugar en pares o en grupo tomando turnos para ser líder:\n📱 Deja que tu niño, niña o adolescente elija una canción que le guste e imaginen una secuencia de movimientos de baile.\n👀 La primera persona hace un movimiento de baile y todo el mundo la copia.\n☀️ No te preocupes por hacer movimientos de baile perfectos, ¡se trata de divertirse juntos!\n💡 ¡Si quieren, pueden bailar para la familia completa!",
+        "act_type": "Quick | Active | Group",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "dance_activity",
+        "name": "Actividad de Baile",
+        "text": "¡Prueba algo nuevo y aprende un reto de baile con tu adolescente! ✨ ¡Diviértete!\n⭐ ¡Bailar es una forma increíble de divertirse juntos siendo creativos y moviendo el cuerpo!\n📱 Si tu adolescente usa la aplicación TikTok, sugiérele hacer juntos un reto de baile.\n😃 Pídele a tu adolescente que elija su baile favorito y apréndanlo juntos.\n🎉 ¡No pasa nada si no sabes bailar bien, diviértete e intenta no tomártelo demasiado en serio!\n💡 No tienes que publicar el video para aprender el baile. Puedes guardarlo como un recuerdo entre tú y tu adolescente.",
+        "act_type": "Quick | Active",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "checkin_chat",
+        "name": "Plática para ponerse al día",
+        "text": "¡Ver activamente cómo está el otro ayuda a mantener relaciones sanas! ⭐\nHáganse preguntas mutuamente: \"¿Qué te ha hecho feliz hoy?\" 👂 \"¿Qué ha sido difícil hoy?\" 👂 \"¿En qué puedo ayudarte?\" 👂\nPara que esto sea útil, tu adolescente tiene que sentirse seguro cuando comparta cosas contigo. Muéstrate abierto a sus respuestas. 💚 Los adolescentes tienden a ser más sinceros cuando confían en que lo que dicen no se utilizará después en su contra.\nNo seas duro contigo mismo si tu adolescente no quiere compartir sus problemas contigo. Frecuentemente, a los adolescentes les asusta compartir sus problemas porque tienen miedo de meterse en problemas. Enojarte con ellas y ellos no servirá de nada: ¡sigue demostrándoles que les quieres y dales tiempo! 🌷",
+        "act_type": "Quick | Calm",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "express_yourself",
+        "name": "Exprésate",
+        "text": "¡Bailar hace feliz a la gente!\n🌈 Este juego puede jugarse por parejas o en grupo: de pie, uno frente al otro o formando un círculo.\n🎵 Juntos elijan una canción divertida y alegre y una persona que empiece el juego creando un movimiento de baile.\n👀 La persona a su derecha debe copiar ese movimiento de baile y añadirle su propio movimiento.\n✨ Dale la vuelta al círculo, añadiendo cada persona su propio movimiento de baile a la canción completa.\n🔄 El primero que olvide los pasos de baile de alguien o lo haga en el orden equivocado elige la siguiente canción y vuelve a empezar el juego.\n🎉 ¡Prueba nuevos movimientos de baile con este juego y diviértete!",
+        "act_type": "Quick | Active | Group",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "2truth_1lie",
+        "name": "2 Verdades, 1 Mentira",
+        "text": "¡Este es un juego divertido y rápido! el objetivo es aprender cosas sobre las y los demás. ¡Haz tus respuestas lo más interesantes posible! 🎨\n💡 Pídele a tu niña, niño o adolescente que piense en 3 datos sobre sí mismos. 2 deben ser verdaderos, 1 debe ser una mentira.\n🔷 Estos son algunos ejemplos: Odio los plátanos, he viajado a Brasil, mi materia favorita en el colegio eran las matemáticas.\n👀 Comparte tus datos con tu niña, niño o adolescente y pídeles que adivinen cuál es una mentira.\n🔄 Ahora pídeles que hagan lo mismo y adivina cual es la suya.\n¿Aprendiste algo nuevo sobre tu niño, niña o adolescente?¿Aprendieron algo nuevo sobre ti? 💛",
+        "act_type": "Quick | Calm | Group",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "yes_no_maybe",
+        "name": "Sí, No o Tal vez",
+        "text": "¿Estás cansado de oír a tu adolescente responder sí, no o tal vez a todas tus preguntas? Convierte tu plática en un juego, y no permitas respuestas de una sola palabra. 🎈\n\n🔴 Los adolescentes son conocidos por dar respuestas de una sola palabra para evitar hablar.\n💡 Cuando quieras saber realmente cómo está tu adolescente, puedes convertir la plática en un juego.\n⭐ Tomen turnos para hacerse preguntas. La única regla es que no pueden usar respuestas de una sola palabra, como Sí, No, Tal vez, Bien y Okey.\n⚽ Puedes preguntar sobre las cosas que le gustan a tu adolescente o lo que ha hecho hoy. Por ejemplo, ¿cómo estuvo tu día? ¿Qué te emociona? ¿Hay algo que te preocupe?\n🔄 Es importante dejar que tu adolescente también haga preguntas. La confianza se construye cuando tu adolescente puede ver que también compartes tu vida con él o ella, y no solo intentas aprender sobre su vida.",
+        "act_type": "Quick | Calm ",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "movie_world",
+        "name": "Un Mundo de Película",
+        "text": "Dejar atrás el estresante y ocupado mundo puede ser bueno para nuestra salud. 🌱 ¡Tómate un momento para escapar con tu adolescente creando juntos una historia de superhéroes!\n🎈 Pídele a tu adolescente que imagine que es un superhéroe y cuáles serían sus superpoderes. ¿Volar? ¿Viajar en el tiempo? ¿Leer la mente? ¿Superfuerza?\n✨ Pregúntales cómo utilizarían esos superpoderes y por qué.\nAyúdales a ponerle un nombre a su superhéroe, un traje y un compañero, y a representarlo. Si tu adolescente no quiere actuar, no pasa nada: ¡hablar de ello es igual de bueno!\n👑 Ahora, deja que te inventen un superhéroe. ¡Interpreta el papel! Puedes hacer preguntas, como quién sería el villano o cómo te convertiste en superhéroe.\n💡 Crea una historia: ¿qué les pasa a los personajes? ¿Es una historia de acción? ¿Es un una película de suspenso, espacial, deportiva, de aventuras o romántica?\n➡️ La próxima vez que juegues a este juego, podrías crear una nueva historia o superhéroe con tu adolescente o continuar la historia que empezaron juntos.",
+        "act_type": "Quick | Calm",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "get_active",
+        "name": "Actívate",
+        "text": "El ejercicio es una forma increíble de pasar tiempo juntos y es muy bueno para la salud. 🌱 ¡Encuentra un deporte o ejercicio que tanto tú como tu adolescente tengan ganas de hacer y pruébenlo juntos!\n⏰ Incluso caminar 10 minutos al día es bueno para ti.\n⚽ Pueden caminar, correr, jugar fútbol, nadar, bailar o hacer cualquier otro deporte...\n🏆 Piensen en formas de hacerlo aún más divertido. ¿Pueden trotar hasta un punto determinado? ¿Tomar turnos para liderar? ¿Puede haber una pequeña recompensa gratuita, como decidir la siguiente actividad?\n🌈 El ejercicio se hace más fácil y agradable cuanto más lo haces.\n🔄 Si a ti o a tu adolescente no les gusta el primer ejercicio que elijan, prueben uno nuevo. ¡La experimentación es un aprendizaje fabuloso!",
+        "act_type": "Active",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "make_story",
+        "name": "Inventa una historia",
+        "text": "Crear historias juntos es una forma increíble de aprender el arte de contar historias, ¡y de fomentar la creatividad de tu adolescente! 📖\n\n🔟 Inventa con 10 palabras una historia con tu adolescente. ¡Pueden ser las palabras que quieran! Por ejemplo: plátano, nave espacial, pez, agua, pintura, nido de avispas, cocinar, boda.\n\n🎂 Empieza tu historia con: \"Érase una vez…\" y asegúrate de utilizar una de las palabras de la lista en tu frase. Por ejemplo: \"Érase una vez una familia que trabajaba en una granja de *plátanos*\".\n\n📝 Deja que tu adolescente invente la siguiente frase usando otra palabra de la lista.\n\n🔄 Tomen turnos hasta que hayan usado todas las palabras de la lista que puedan, o hasta que hayan terminado su historia.\n\n🔔 Sé lo más creativo posible con tu historia y no le digas a tu adolescente lo que tiene que decir. ¡No tiene que ser una historia real para ser una buena historia!\n\n🎁 Pregúntale a tu adolescente cuál fue su parte favorita de la historia, ¡y cuéntale la tuya!",
+        "act_type": "Calm",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "take_a_pause",
+        "name": "Toma una Pausa con tu adolescente",
+        "text": "Haz una pausa con tu adolescente. ¡Esto les ayuda a manejar el estrés de forma saludable!\n⏰ Podrías hacer una pausa antes de cenar, después de la escuela, antes de la escuela o antes de acostarte.\n👂 Siéntese juntos y cierren los ojos. Escucha tu respiración mientras entra y sale. Observa cómo te sientes.\n⭐ Respira hondo 5 veces más.\n\n👀 Cuando estés listo, vuelve a abrir los ojos. ¿Te sientes diferente?\n⏸ Pregúntale a tu adolescente cómo fue hacer una pausa. Escucha y acepta lo que te diga al respecto.",
+        "act_type": "Calm | Quick",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "name_tune",
+        "name": "Nombra la Canción",
+        "text": "Escuchar música es una forma increíble de reducir el estrés y divertirte con tu familia. 💚\n📻 Reúne a los miembros de tu familia y elige a una persona para que toque o cante una canción.\n❓ Los demás deben adivinar el nombre y el artista de la canción.\n🎉 El primero que lo adivine se convierte en la siguiente persona en cantar o tocar una canción.\n🔄 Sigue dando vueltas hasta que todos hayan podido poner su canción favorita y que el resto la oiga.",
+        "act_type": "Active|Group",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "pass_ball",
+        "name": "Pasa la pelota",
+        "text": "¡Los juegos son una forma increíble y divertida de pasar tiempo con tu familia!\n3️⃣ Este juego es mejor con al menos 3 personas.\n⚽ Encuentra una pelota para jugar. Si no puedes encontrar una pelota, elige un objeto que puedas lanzar con seguridad. Por ejemplo, una botella o un vaso de plástico.\n➡️ Pónganse en círculo y pasen la pelota.\n👋 Empiecen a aventar la pelota en nuevas direcciones (arriba, abajo, recta, curva, rodando por el suelo) y con diferentes fuerzas (fuerte, suave, media). Pueden hacer rebotar la pelota, lanzarla al aire y cacharla varias veces antes de pasarla.\n✨ Cuando todos sepan cachar la pelota, pueden empezar a moverse por el cuarto, sin dejar de pasarse la pelota.\n⭐ ¿Puedes aventar la pelota por debajo de la pierna? ¿Por detrás de la espalda? ¿Por encima de la cabeza? ¿Bloquear un pase? ¡Diviértete!",
+        "act_type": "Active|Group",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "fun_housework",
+        "name": "Haz de las Tareas del Hogar algo Divertido",
+        "text": "¡Convierte tus tareas del hogar en juegos! 🏆\n☀️ Hacer que los deberes de la casa sean divertidos es una buena forma de enseñar a tu adolescente a ser responsable y a confiar en sí mismo.\n📝 Hagan una lista juntos de todas las tareas del hogar que hay que hacer.\n💡 Asegúrate de que las tareas sean justas y cosas que tu adolescente pueda hacer. Por ejemplo, lavar los platos, barrer, trapear, tender las camas y lavar la ropa.\n🔄 Cada semana, deja que una persona diferente de la familia elija primero una tarea.\n🎵 Pon música o enciende la radio. ¡La música es una forma increíble de hacer divertida una tarea aburrida!\n✅ Marca las tareas cuando estén hechas para que puedan ver sus progresos como familia. Céntrate en los aspectos positivos y no esperes la perfección. Puedes ofrecer pequeñas recompensas como motivación para completar las actividades.\n📺 Por ejemplo, podrías dejar que tu adolescente viera más la tele, pasara más tiempo con sus amistades, eligiera lo que quiere para cenar o comiera algo dulce si hace sus tareas del hogar en un tiempo razonable.\n❓ Si tu adolescente no cumple una tarea, pregúntale por qué y busquen juntos una consecuencia justa.",
+        "act_type": "Active|Group",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "picnic_game",
+        "name": "Voy de Picnic y Llevaré…",
+        "text": "¡Los juegos de memoria son una forma divertida de fortalecer nuestro cerebro!\n🎂 Piensen en todas las cosas que tendrías en el picnic de tus sueños.\n\n🎈 La primera persona dice: \"El sábado iré al parque a hacer un picnic. A este picnic llevaré...\" y dicen una cosa que llevarán al picnic.\n🍅 Por ejemplo: un sándwich, una pelota, una cobija, tenedores, tazas, un perro, o agua.\n\n🔔 La segunda persona agrega cosas a la lista de la primera, pero debe empezar desde el principio: \"El sábado iré al parque a hacer un picnic. A este picnic llevaré...\" y decir lo que ha dicho la primera persona Y luego agregar lo suyo a la lista.\n🔄 Cada vez que agregues un elemento, debes decir primero todos los elementos anteriores, ¡en el orden correcto!\n⭐ Cada persona agrega algo a la lista, recordando todos los elementos anteriores.\n\n👀 Si todo el mundo tiene un turno, sigue adelante y construye tu lista. La primera persona que olvide un objeto ¡reinicia el juego!",
+        "act_type": "Calm|Group",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "who_i_am",
+        "name": "Esto es lo que soy",
+        "text": "El autoestima es la manera en que te valoras a ti mismo, ya sea de forma positiva o negativa. ¡Ayudar a tu niña, niño o adolescente a tener un autoestima alto es la receta para el éxito! 🏆\n⭐¡Comparte con tu niña, niño o adolescentes 3 cosas que te gustan sobre ti mismo!\n3️⃣ Pídele a tu niña, niño o adolescente que te comparta 3 cosas que le gustan de sí mismo.\nPor ejemplo: Soy genial para tratar a otros amablemente. Soy genial para estilizar mi cabello. Soy genial en el fútbol. ⚽\nSi tu niña, niño o adolescente no se siente cómodo compartiendo estos, pídeles que los escriban. 📝",
+        "act_type": "Calm",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "things_i_like",
+        "name": "Cosas que me gustan de los demás y de mí",
+        "text": "Esta es una actividad que les ayudará a ti y a tu adolescente a darse cuenta de las partes buenas de ustedes mismos..\n☀️Pídele a tu adolescente comparta 3 cosas que le gusten de un amigo o de alguien a quien admire, como un famoso.\n❓ Pregúntales también si comparten alguna de estas cualidades.\n💙 Tú puedes hacer lo mismo: comparte con tu adolescente las cualidades que te gustan de ti mismo o de alguien a quien admiras, ¡y lo que te gusta de tu adolescente!",
+        "act_type": "Calm",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "family_wishlist",
+        "name": "Haz una lista de deseos familiares",
+        "text": "Las listas de deseos son una forma increíble de establecer, planificar y hacer un seguimiento de tus objetivos y sueños. 🌷\n📝 Para empezar tu lista de deseos, reúne a tu familia y tomen plumas y papel.\n🚲 Permite que cada miembro de la familia escriba una lista de objetivos y experiencias que quiere lograr este año.\n🎂 Por ejemplo: hacer ejercicio diario, leer 1 libro al mes, hacer un nuevo amigo, aprender a hacer un pastel, aprender a hacer malabares o ir a ver jugar al equipo de fútbol local.\n🔔 Cuando hayas terminado, pon la lista donde todos puedan verla diario.\n🎉 A medida que los miembros de la familia alcancen sus objetivos, táchalos de la lista y celebra cada objetivo alcanzado.\n❓ A medida que avance el año, es posible que haya algunos objetivos que algunos de ustedes no hayan alcanzado. Habla con tu familia sobre si sigues queriendo alcanzar ese objetivo o si el objetivo ha cambiado.\n🔑 Si aún quieres lograr el objetivo, platica con tu familia sobre lo que tienes que hacer para tachar el objetivo de tu lista de deseos.",
+        "act_type": "Calm|Group",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "setting_goal",
+        "name": "Fijación de Objetivos Semanales",
+        "text": "Fijemos algunos objetivos ⭐\n\n⏰ Puede ser útil fijar objetivos semanales más pequeños que sean más fáciles de alcanzar. Esto nos ayuda a alcanzar nuestros objetivos más grandes con el tiempo.\n\n💡Pregúntale a tu adolescente un objetivo que le gustaría lograr esta semana.\n\n🔄 Asegúrate de que este objetivo es *específico* y *alcanzable* para conseguirlo en 1 semana.\n\n💚 También puedes compartir tu propio objetivo semanal con tu adolescente y apoyarse mutuamente para que ambos puedan alcanzar sus objetivos.\n\n🎉 Asegúrate de reconocer y celebrar el esfuerzo de tu adolescente por alcanzar su objetivo.\n\n🔔 Si tu adolescente no alcanza su objetivo, está bien. Háblale de los pasos que aún tiene que seguir o de cómo podría lograrlo de una manera diferente.",
+        "act_type": "Calm",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "cakes_candle",
+        "name": "Tres pasteles y una vela",
+        "text": "Trabajar para conseguir grandes objetivos puede ser difícil. Aquí tienes una forma de ayudar a tu adolescente a fijar nuevos objetivos para las cosas que quiere lograr. 👑\n Pídele a tu adolescente que proponga tres cosas que sea bueno haciendo y habla de lo que hizo para ser tan bueno en ellas. Por ejemplo: mantener ordenado su cuarto, ayudar a tu familia con los deberes de la casa o practicar algún deporte.\n🏆 Después, pregúntale a tu adolescente en qué desearía ser bueno.\n🔑 Recuérdales que les costó trabajo y práctica llegar a ser buenos en las habilidades que tienen. Tendrán que hacer lo mismo con cualquier nuevo objetivo.\n⏰ Ayúdale a tu adolescente a desglosar su objetivo y a establecer objetivos más pequeños que tenga que lograr para alcanzar su objetivo mayor.\n📝 ¡Es mucho más fácil alcanzar un objetivo si lo escribes! Así podrás recordarlo mientras trabajas para conseguirlo.\n☀️ Por ejemplo, si el objetivo es ser bueno jugando fútbol, los pequeños objetivos semanales podrían ser ir al entrenamiento de fútbol 2 veces por semana, correr al menos 1 km 5 veces por semana y aprender sobre este deporte de otros jugadores de fútbol de la comunidad o de libros o videos que encuentren.\n✅ Es importante anotar estos objetivos más pequeños y dejar que tu adolescente marque cada tarea a medida que las realiza cada semana. ¡Ver que alcanzan objetivos más pequeños les mantendrá motivados para lograr el gran objetivo!",
+        "act_type": "Calm",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "role_playing",
+        "name": "Juego de Roles",
+        "text": "¡Empecemos a actuar! ⭐\n❓Hacer un papel con tu adolescente de momentos sociales estresantes que son comunes, le permite practicar cómo responder para estar preparado si ese momento llega a pasar. 🌷\n✨ Pregúntale a tu adolescente si quiere hacer un juego de rol contigo. También puedes sugerirle un tema. Por ejemplo, invitar a alguien a una cita, decir no a las drogas/alcohol/mensajes sexuales, enfrentarse a un bully, sacar una mala calificación o enfrentar los chismes.\n🌙 Tu adolescente podría representar el papel de un amigo que te invita a tomar en una fiesta. Tú podrías interpretar el papel de un adolescente menor de edad que no quiere tomar. Anima a tu adolescente a hacerse el tonto y métete realmente en su personaje.\n⏯️ Después de actuar la escena, es importante que hables con tu adolescente sobre los roles que hayan actuado. ¡Pueden actuar esta escena tantas veces como quieran!",
+        "act_type": "Active",
+        "act_age": "10|11|12|13|14|15|16|17"
+      },
+      {
+        "ID": "traffic_lights",
+        "name": "Semáforo",
+        "text": "¡Una actividad en grupo es una forma increíble de hacer vínculos con los demás! 💛\n💡 Elige a una persona para que se gire y se ponga de frente a la pared. Este será el policía de tránsito.\n🏁 Todos los demás comenzarán el juego al otro lado de la sala, o si están fuera, en una línea de salida. Establece una distancia larga entre el policía de tránsito y los jugadores.\n💚 El juego comienza cuando el policía grita \"Verde\", y todo el mundo puede empezar a moverse hacia el policía de tránsito a la velocidad que elija.\n🔴 El policía puede gritar \"¡Rojo!\" en cualquier momento, sin mirar detrás de él. Cuando lo grite, ¡todo el mundo debe detenerse y quedarse inmóvil!\n⏸ El policía se gira para ver si todo el mundo está quieto. Si ve que alguien se mueve, tiene que mandarlo de regreso a la línea de salida.\n🏆 El ganador es la primera persona que llega al oficial sin ser devuelta a la salida.\n👑 ¡El ganador o la ganadora se convierte entonces en el policía de tránsito y pueden jugar otra ronda!",
+        "act_type": "Active|Group",
+        "act_age": "10|11|12|13|14|15|16|17"
+      }
+    ],
+    "ltp_activity_child_data": [
+      {
+        "ID": "cooking_with_maths",
+        "name": "Cocinar con Matemáticas",
+        "text": "¡Cocinar puede ayudar a tu niña o niño a empezar a aprender matemáticas!\n💚 Invita a tu niña o niño a ayudarte a cocinar para tu familia, o a elegir algo que les gustaría cocinar a ellos\n\n🍅 Pídele a tu niña o niño que cuente los distintos ingredientes. ¡Ayúdales si se les hace difícil!\n\n🔟 Ayuda a tu niña o niño a comprender la suma y la resta de cantidades\n\n📝 Anima a tu niña o niño a reconocer los números de los empaques\n\n 👀 Pregúntale a tu niña o niño sobre los diferentes tamaños de los ingredientes, por ejemplo, ¿cuál es más grande/el más grande?\n\n🔄 ¡Piensa cuándo volverán a cocinar juntos! También pueden practicar la comprensión de los números y las cantidades durante otras actividades como ir de compras o construir/hacer cosas",
+        "act_type": "Active",
+        "act_age": "3| 4 | 5 | 6 "
+      },
+      {
+        "ID": "follow_instructions",
+        "name": "Seguir Instrucciones",
+        "text": "👂 Juega un juego en el que tu niña o niño escuche e intente recordar cadenas de instrucciones.\n¡Esto te será útil en la escuela, en casa y más adelante en la vida!\n\nEmpieza con una sola instrucción utilizando un objeto de tu casa. Por ejemplo \"toca la pelota roja\" 🔴\n\nAñade poco a poco más instrucciones (por ejemplo, \"luego recoge la taza\" ☕), pero dile a tu niña o niño que solo puede empezar cuando hayas terminado de dar las instrucciones.\n¡Mira cuántas puede seguir tu niña o niño sin que se le olviden!\n\n🔄 ¡Ahora intercambia los papeles! ¡Le toca a tu niña o niño darte instrucciones! Si quieren, pueden utilizar los mismos objetos.\n¡También puedes probar este juego con un grupo de niñas y niños! Asegúrate de que tomen turnos :)",
+        "act_type": "Calm | Quick | Group",
+        "act_age": "3 | 4 | 5"
+      },
+      {
+        "ID": "one_on_one_time",
+        "name": "Tiempo Uno a Uno",
+        "text": "💚 Pasar tiempo solo con tu niña o niño y mostrar interés puede mejorar su relación.\n\n👀 Cuando tu niña o niño esté jugando solo u ocupándose tranquilamente, únete y muestra interés por lo que hacen.\n\n👂Haz preguntas sobre su actividad y escúchale.\n\nDeja que tu niña o niño dirija la actividad, sigue sus ideas para fomentar su confianza y autonomía 😃.\n\n👀 Di lo que ves: describe todo y apoya las acciones de tu niña o niño.\n\nSé positivo, reconoce a tu niña o niño y disfruta pasar este tiempo juntos 😃💚",
+        "act_type": "Calm",
+        "act_age": "2| 3 | 4 | 5 | 6 | 7 | 8 | 9"
+      },
+      {
+        "ID": "play_books_4to6",
+        "name": "Tiempo de Juego con Libros",
+        "text": "📖 Compartir libros ayudará a tu niña o niño a aprender, además, es una actividad recreativa y divertida para pasar tiempo de calidad en familia.\n\n⏰ Elige un momento en el que no te molesten, e intenta acabar con las distracciones; por ejemplo, apaga la tele y guarda los teléfonos.\n\n📖 Si tu niña o niño quiere elegir un libro, está bien, si no, puedes hacer una sugerencia.\n\n\n💚 Siéntate cerca y sigue la atención y el liderazgo de tu niña o niño.\nSeñala las cosas, nombra y repite las palabras. Ayúdales a conocer mejor lo que les interesa del libro 👀.\nSi hay palabras o números en el libro, pregunta y ayuda a tu niña o niño a reconocer letras números y palabras sencillas 💡.\n\nRelaciona cosas de los libros con la vida de tu niña o niño, ¡usa palabras sobre emociones y platica de ellas! 😃.\n\n🔄 Si es posible, inicia una rutina regular para leer juntos cuando tu niña o niño no esté demasiado cansado o tenga hambre.\nLeer juntos es una de las mejores formas de ayudar a tu niña o niño a aprender y prepararse para tener un buen desempeño escolar 🎓",
+        "act_type": "Calm",
+        "act_age": "4 | 5 | 6 "
+      },
+      {
+        "ID": "play_books_2to3",
+        "name": "Tiempo de Juego con Libros",
+        "text": "📖 Compartir libros ayudará a tu niña o niño a aprender, además, es una actividad recreativa y divertida para pasar tiempo de calidad en familia\n\n⏰ Elige un momento en el que no te molesten, e intenta no tener distracciones; por ejemplo, apaga la tele y guarda los teléfonos\n\n📖 Si tu niña o niño quiere elegir un libro, está bien, si no, puedes hacer una sugerencia\n\n\n💚 Siéntate cerca y sigue la atención y el liderazgo de tu niña o niño\nSeñala las cosas, nombra y repite las palabras. Ayúdales a conocer mejor lo que les interesa del libro 👀.\n\nRelaciona cosas de los libros con la vida de tu niña o niño, ¡usa palabras relacionadas con emociones y platica sobre ellas! 😃\n\n🔄 Si es posible, inicia una rutina regular para leer juntos cuando tu niña o niño no esté demasiado cansado o tenga hambre\nLeer juntos es una de las mejores formas de ayudar a tu niña o niño a aprender y prepararse para tener un buen desempeño escolar 🎓",
+        "act_type": "Calm",
+        "act_age": "2 | 3 |"
+      },
+      {
+        "ID": "i_spy",
+        "name": "¡Veo Veo!",
+        "text": "👀 ¡Veo veo es un divertido juego para jugar con tu niña o niño que les ayudará a aprender letras y palabras!\n\n\nElige un objeto o una cosa de tu entorno, y no le digas a tu niña o niño lo que es. Debe ser algo para lo que tu niña o niño conozca la palabra. Por ejemplo \"pelota\" ⚽\n\n👀 Luego di \"veo con mi ojito, algo que empieza con la letra *y luego di la primera letra de la palabra* que en este caso es \"p\"\n\nTu niña o niño debe mirar a su alrededor y adivinar qué objeto es. Cuando lo adivinen, halágales e intercambien los papeles. Si no lo logran, dales algunas pistas, como \"es redondo\" o \"es blanco y negro\". ✅\n\n\n¡Juega este juego con tantos objetos como sea posible y tantas letras diferentes! Ayuda a tu niña o niño a conocer las diferentes letras y sonidos de las palabras. Esto les ayudará a aprender a leer en casa y en la escuela. 🎓",
+        "act_type": "Calm | Quick | Group",
+        "act_age": "4 | 5 | 6 | 7 | 8 | 9"
+      },
+      {
+        "ID": "categorise_organise",
+        "name": "Categorizar y Organizar",
+        "text": "¡Ayuda a tu niña o niño a aprender cómo clasificar objetos y cosas! 🔵🔷\n\nTu niña o niño aprenderá comprendiendo cómo encajan y se agrupan las cosas (por ejemplo, oso = animal, mango = fruta, azul = color) 🧸\n\nBusca un libro con diferentes dibujos y ayuda a tu niña o niño a encontrar cosas de una categoría concreta (por ejemplo, \"encuentra todos los animales\") 👀\n\nBusca objetos *seguros* en casa, haz que tu niña o niño los agrupe por color, tamaño o tipos de objeto (tazas, platos). Luego haz categorías más complicadas (por ejemplo, tazas pequeñas, tazas grandes) ☕\n\n🔄 ¡Puedes jugar a categorizar en cualquier lugar! ¡Solo tienes que mirar a tu alrededor y pedirle a tu niña o niño que encuentre cosas de la categoría que tú digas!",
+        "act_type": "Quick | Group",
+        "act_age": "2 | 3 | 4 | 5"
+      },
+      {
+        "ID": "what_letter_is_this",
+        "name": "¿Qué Letra es Esta?",
+        "text": "Jugar a juegos con letras puede ayudar a tu niña o niño a aprender el alfabeto y cómo se unen las letras para formar palabras.\n\n📝 Escribe una letra en una cartulina o papel (por ejemplo, \"p\")\n\n👂 ¡Di la letra en voz alta y pídele a tu niña o niño que la diga también!\n\nPídele a tu niña o niño que diga algunas palabras que empiecen por la letra \"p\", dales pistas como \"¿qué empieza por \"p\"? Planta… ¿Qué más? 🌱\n\n👀 Pídele a tu niña o niño que busque objetos en tu casa que empiecen por una letra (por ejemplo, \"p\" de plato). Ayúdales a encontrar las cosas.\n\n🔄 ¡Intenta una letra nueva cada día!",
+        "act_type": "Quick | Group",
+        "act_age": "3 | 4 | 5"
+      },
+      {
+        "ID": "riddles",
+        "name": "Las Adivinanzas le Ayudan a las Niñas y Niños a Aprender",
+        "text": "Las adivinanzas y los rompecabezas son una forma divertida de desarrollar la capacidad de pensar. 💡\n\n¿Recuerdas alguna adivinanza de tu infancia? Si no puedes, invéntate una, ¡pueden ser muy sencillas! 😃\nComo \"¿qué puedes ver de noche pero no de día?\" Respuesta: \"La luna\" 🌙\n\nSi a tu niña o niño le resultan difíciles, prueba con uno fácil como: \"¿Qué es redondo, rebota y se puede aventar o patear?\". Respuesta: \"Una pelota\" ⚽\n\n¡Tu niña o niño también puede intentar hacer adivinanzas! 💡\n\nPuedes divertirte con las adivinanzas en cualquier lugar y en cualquier momento, como viajando en autobús, caminando la escuela o en coche 🚗",
+        "act_type": "Quick | Group | Calm",
+        "act_age": "3 | 4 | 5 | 6 | 7 | 8 | 9"
+      },
+      {
+        "ID": "whats_new_child",
+        "name": "¿Qué tal?",
+        "text": "¡Aprender es divertido! 🎓\n\n❓ Pídele a tu niña o niño que piense en una habilidad nueva y divertida que puedan aprender juntos.\nPor ejemplo: mantener una pelota en el aire con el pie, hacer malabares, hacer sopa, bailar, silbar, decir el abecedario al revés, aprender todos los estados de México.\n\n🔄 Tomen turnos intentando la nueva habilidad. ¡Asegúrense de reconocerse mutuamente y de aprender y jugar juntos!\n\n💛 Aborda el aprendizaje de la habilidad de forma amable y divertida, y no juzgues a tu niña o niño o a ti mismo por tu capacidad en la habilidad. Todas y todos estamos aprendiendo.\n\n😃 Una vez que domines la habilidad, elige otra habilidad para aprender juntos.",
+        "act_type": "Active",
+        "act_age": "5| 6 | 7 | 8 | 9"
+      },
+      {
+        "ID": "make_story_child",
+        "name": "Inventa una Historia",
+        "text": "Crear historias juntos es una forma increíble de divertirse con la imaginación, ¡y de fomentar la creatividad de tu niña o niño! 📖\n\n5️⃣ Con tu niña o niño, inventa 5 palabras para usar. ¡Pueden ser las palabras que quieras! Por ejemplo: plátano, nave espacial, pez, agua, pintar, cocinar, boda. Si necesitan recordarlas, escríbelas claramente en un papel con tu niña o niño.\n\n🎂 Empieza tu historia con: \"Érase una vez…\" y usa una de las palabras de la lista en la primera parte. Por ejemplo: \"Érase una vez una familia que trabajaba en una granja de *plátanos*\"\n\n📝 Deja que tu niña o niño invente la siguiente parte usando otra palabra de la lista.\n\n🔄 Tomen turnos hasta que hayan usado todas las palabras y creado una historia.\n\n🔔 Sé creativo y no le digas a tu niña o niño lo que tiene que decir. ¡No hace falta que sea una historia real para que sea divertida!\n\n🎁 Pregúntale a tu niña o niño cuál fue su parte favorita del cuento, ¡y cuéntale la tuya!",
+        "act_type": "Calm",
+        "act_age": "4 | 5| 6 | 7 | 8 | 9"
+      },
+      {
+        "ID": "play_with_clothes",
+        "name": "Jugar con la ropa",
+        "text": "💡¡Ayuda a tu niña o niño a usar los dedos, a hablar de la ropa y a organizarla!\n\nAyuda a tu niña o niño a ejercitar los dedos enseñándole cómo funcionan los botones y los cierres de la ropa, ¡y deja que practique usándolos! 👋\n\n🔵 ¡Platica acerca de los colores de la ropa! Pídele a tu niña o niño que elija un color y platiquen de todas las cosas que son de ese color: \"¿Qué cosas se nos ocurren que son azules?\"\n\n😃 Anima a tu niña o niño a que te ayude a clasificar la ropa en montones para cada miembro de la familia.",
+        "act_type": "Calm",
+        "act_age": "3 | 4| 5|"
+      },
+      {
+        "ID": "play_with_veggies",
+        "name": "Jugar con Verduras",
+        "text": "🌱 ¡Ayúdale a tu niña o niño a aprender pensando y hablando sobre verduras!\n\n🍅 Mezcla 2-3 ingredientes diferentes de tu elección (como cebollas, tomates y maíz, por ejemplo). Di: \"¿Me ayudas a clasificar estas verduras en montones?\". Intenta clasificarlas por tamaño.\n\n😃 ¡Recuérdamelo!\nPlatica de las experiencias de tu niña o niño. Haz preguntas y espera respuestas. Sigue los intereses de tu niña o niño.\n\"¿Puedes ayudarme a recordar qué hay en el mercado?\" \"¿Venden zanahorias en el mercado?\" \"¿Venden algo amarillo en el mercado?\" \"¿Qué más venden?\" \"¿Se te ocurren otras cosas que vendan?\"\n\n💡 ¿Se te ocurre algo parecido?\nDi: Vamos a pensar en algunas cosas parecidas o diferentes a las que yo les diga. Así que escuchen atentamente\"\nAquí tienes un jitomate. ¿Se te ocurre alguna otra cosa que sea roja como un jitomate? 🍅\n¿Se te ocurre alguna otra cosa que sea redonda como un jitomate?",
+        "act_type": "Calm",
+        "act_age": "3 | 4| 5|"
+      },
+      {
+        "ID": "animals",
+        "name": "Animals",
+        "text": "🧸 Animales activos: Toma turnos con {tu niño} haciendo acciones de animales: Salta como una rana, estírate como un gato, corre como un perro, deslízate como una serpiente, aletea como un pájaro\n\n💡Todos los animales que se nos ocurran: ¡piensa en grupos de animales!\n¿En qué animales podemos pensar que tengan plumas?\n¿En qué animales podemos pensar que coman plantas? 🌱\n¿En qué animales podemos pensar que pongan huevos?\n\n😃 Contar conejos\n🔟 Busca 10 piedras y ponlas en una fila, ¡dile a tu niña o niño que son conejos!\n¡Pídeles que cuenten los conejos!\nPon los conejos en 2 montones iguales. Pide a tu niña o niño que te dé 3 conejos. Di: \"Si me das 3, ¿cuántos conejos tienes?\". Agrega o quita conejos para que tu niña o niño resuelva cuántos conejos quedan.",
+        "act_type": "Active",
+        "act_age": "4| 5| 6 | 7"
+      },
+      {
+        "ID": "active_counting",
+        "name": "Conteo Activo",
+        "text": "👋 Aplaude, gira, salta: Juega este juego con {tu niño}. ¡Hazlo activo!\n\n1️⃣ Aplaude 1 vez. 2️⃣ Aplaude 2 veces.\n1️⃣ Salta 1 vez. 2️⃣ Salta 2 veces.\n1️⃣ Gira 1 vez.\n3️⃣ Gira 3 veces.\n💡 ¿Puedes girar, luego saltar y luego aplaudir?\n🏆 ¿Puedes aplaudir dos veces, saltar una vez y girar tres veces?\n\n💡Recordar instrucciones\nTomen turnos para jugar un juego en el que den 2-3 instrucciones que la otra persona tenga que recordar seguir. ¡Asegúrense de incluir el movimiento físico!\nPor ejemplo:\nBrinca dos veces, date la vuelta.\nSalta hacia la cocina, recoge una cuchara y regresa corriendo. ✅",
+        "act_type": "Active",
+        "act_age": "4|5|6"
+      },
+      {
+        "ID": "thinking_games",
+        "name": "Juegos de Lógica",
+        "text": "❗ ¡Mamá/Papá dice! Juega a dar instrucciones:\nMamá/papá dice que te toques la cabeza. Mamá/papá dice que abras la boca. Mamá/papá dice que des una vuelta. Mamá/papá dice que te toques las rodillas. Mamá/papá dice que saltes dos veces. Mamá/papá dice salta, luego aplaude y siéntate.\n\n👂 Caminar y detenerse: Juega con {tu niño}\nDi: Cuando diga \"alto\", nos quedamos quietos. Cuando diga \"avanza\", podemos volver a caminar.\nUna vez que {tu niño} esté familiarizado con el juego, {tu niño} te guiará.\n\n🔵 🔴 Azul-Rojo - ¡ahora juega este juego!\nSi digo que toques algo azul, tienes que tocar algo rojo. Si digo que toques algo rojo, tienes que tocar algo azul.",
+        "act_type": "Active",
+        "act_age": "4|5|6|7|8 "
+      },
+      {
+        "ID": "games_with_pictures",
+        "name": "¡Juega con las imágenes!",
+        "text": "👂 Inventar una historia a partir de una imagen\nPor ejemplo, di: Vamos a inventar una historia sobre este dibujo. Puedo empezar. Esta niña está muy emocionada hoy. ¿Por qué crees que está emocionada?\n😃 Lleva la bolsa en la mano y tiene una gran sonrisa. ¿A dónde crees que va?\n\n👀 ¿Puedes señalarlo?\nUsa un libro o una revista, o cualquier cosa con imágenes, por ejemplo:\nVoy a describir algo en la página y tú tienes que adivinar qué es y señalarlo. Por ejemplo: \"Veo algo que es [verde y se mueve lentamente].\n¿Puedes adivinar qué es?\" 💚",
+        "act_type": "Calm",
+        "act_age": "4|5|6"
+      },
+      {
+        "ID": "shapes_everywhere",
+        "name": "¡Formas por Todas Partes!",
+        "text": "📺 Cuadrados, cuadrados por todas partes\n\n👀 Dibuja cuadrados en la arena o la tierra. Haz unos más grandes y otros más pequeños.\nDile a {tu niño}, \"esto es un cuadrado\".\nPídele a tu niña o niño que intente dibujar un cuadrado. Toma la mano de tu niña o niño para ayudarle si le resulta difícil.\nBusca cosas en casa o en el exterior que tengan la misma forma.\n\n¡Ahora haz lo mismo con los círculos! 🔴",
+        "act_type": "Active | Quick",
+        "act_age": "2 | 3| 4| 5|"
+      },
+      {
+        "ID": "story_telling",
+        "name": "Contar Historias",
+        "text": "💡 ¡Hagamos una historia!\n\nDi: Vamos a inventar una historia. Yo empezaré y tú me ayudarás a continuarla.\n⏰ \"Érase una vez…\"\n\"¿Qué pasó después?\"👀\n\"¿Qué pasó después de eso?\"\n\n\n👂 ¡Cuéntame la historia!\nDile a {tu niño}: \"Aquí tengo un libro que hemos leído antes. ¿Puedes recordar la historia y contármela solo mirando las imágenes?\"\n👀 Enséñale a tu niña o niño las imágenes del libro. Pregúntale a tu niña o niño qué pasa en las imágenes y qué pasa después.",
+        "act_type": "Calm",
+        "act_age": "3| 4| 5|"
+      },
+      {
+        "ID": "im_a_writer",
+        "name": "¡Soy Escritor!",
+        "text": "📝 ¡Diviértete siendo creativo con la escritura!\n\nTú y {tu niño} pueden divertirse escribiendo con un lápiz y papel, ¡o con un palo y la arena!\nSi tu niña o niño no sabe escribir letras, anímalos a dibujar formas, e intenta copiar las formas de las letras. 🔵▶️\n\nCuando tenga más confianza, anímale a escribir letras e incluso palabras. 😃 Empieza a enseñarle a escribir su nombre y otras palabras que le importen, como mamá, pelota o leche.\n\nEnséñale las cosas sencillas que escribes, ¡como las listas del súper! Enséñale las palabras y cada una de las letras. ¡Deja que intente copiar las palabras! 📖",
+        "act_type": "Active | Quick",
+        "act_age": "4| 5|6"
+      },
+      {
+        "ID": "a_friendly_chat",
+        "name": "Una Plática Amistosa",
+        "text": "¡Platica con tu niña o niño sobre algo que les interese! 😃\n\n💚 Pasar tiempo de calidad con tu niña o niño y platicar con ellos todos los días es una buena manera de desarrollar una relación sólida.\n\n⚽ Una forma fácil de empezar a platicar con tu niña o niño es preguntarle sobre algo que le interese, por ejemplo, podrías hablar de temas como: deportes, libros, películas, amistades, música, famosos o la escuela.\n\n👂 Puede que no todo lo que comparta tu niña o niño te parezca interesante, pero es importante que muestres interés y ganas de aprender.",
+        "act_type": "Quick | Calm",
+        "act_age": "3 | 4 | 5 | 6 | 7 | 8 | 9"
+      },
+      {
+        "ID": "get_active_child",
+        "name": "Actívate",
+        "text": "El ejercicio es una forma increíble de pasar tiempo juntos y es muy bueno para la salud. 🌱 ¡Encuentra un deporte o ejercicio que tú y tu niña o niño quieran hacer y pruébenlo juntos!\n\n⏰ Incluso caminar 10 minutos al día es bueno para ti.\n\n⚽ Pueden caminar, correr, jugar fútbol, nadar, bailar o hacer cualquier otro deporte...\n\n🏆 Piensen en formas de hacerlo aún más divertido. ¿Pueden trotar hasta un punto determinado? ¿Tomar turnos para liderar? ¿Puede haber una pequeña recompensa gratuita, como decidir la siguiente actividad?\n\n🌈 El ejercicio se hace más fácil y agradable cuanto más lo haces.\n\n🔄 Si a ti o a tu niña o niño no les gusta el primer ejercicio que elijan, prueben uno nuevo.",
+        "act_type": "Active",
+        "act_age": "4 | 5 | 6 | 7 | 8 | 9"
+      },
+      {
+        "ID": "pass_ball_child",
+        "name": "Pasa la Pelota",
+        "text": "¡Los juegos son una forma increíble y divertida de pasar tiempo con tu familia!\n\n3️⃣ Este juego es mejor con al menos 3 personas.\n\n⚽ Encuentra una pelota para jugar. Si no puedes encontrar una pelota, elige un objeto que puedas lanzar con seguridad. Por ejemplo, una botella o un vaso de plástico.\n\n➡️ Pónganse en círculo y pasen la pelota.\n\n👋 Empiecen a aventar la pelota en nuevas direcciones (arriba, abajo, recta, curva, rodando por el suelo) y con diferentes fuerzas (fuerte, suave, media). Pueden hacer rebotar la pelota, lanzarla al aire y cacharla varias veces antes de pasarla.\n\n✨ Cuando todos sepan cachar la pelota, pueden empezar a moverse por el cuarto, sin dejar de pasarse la pelota.\n\n⭐ ¿Puedes aventar la pelota por debajo de la pierna? ¿Por detrás de la espalda? ¿Por encima de la cabeza? ¿Bloquear un pase? ¡Diviértete!",
+        "act_type": "Active|Group",
+        "act_age": "4 | 5 | 6 | 7 | 8 | 9"
+      },
+      {
+        "ID": "active_songs",
+        "name": "Canciones Activas",
+        "text": "😃 ¡A las niñas y niños les encantan los juegos físicos! Pero necesitan que les recuerden cómo jugar 💡\n🎵 ¡Las canciones con movimientos son divertidas y activas y dan instrucciones sobre cómo moverse!\n\nCanta canciones a {tu niño} o a un grupo de niñas y niños en las que tengan que:\n✅ Iniciar y detener ❌\n⬇️ Ir lento y acelerar ⬆️",
+        "act_type": "Active|Group",
+        "act_age": "2 | 3"
+      },
+      {
+        "ID": "follow_the_leader",
+        "name": "¡Seguir al Líder!",
+        "text": "⭐ Elige a alguien para que sea el líder (consejo: empieza con una persona adulta como tú)\n😃 Los demás jugadores se forman detrás del líder. ¡El líder se mueve como quiere!\n🏁 ¡Pueden correr, saltar, gatear, caminar de puntillas y de cualquier otra forma que quieran!\n👀 Los demás jugadores deben copiar lo que hace el líder, y este puede cambiar de movimiento en cualquier momento.\n\n🔄 ¡Túrnense para liderar!",
+        "act_type": "Active|Group",
+        "act_age": "2 | 3 | 4 | 5 | 6 | 7 | 8 | 9"
+      },
+      {
+        "ID": "be_the_narrator",
+        "name": "Sé el Narrador",
+        "text": "👀 Di lo que hace tu niña o niño mientras juegan\n\n👂 Esto les ayudará a aprender las palabras para describir sus acciones.\n\n😃 Puedes hacerlo de una forma sencilla, o de una forma graciosa, como un comentarista de deportes, un presentador de noticias, o un presentador de un programa de juegos\n\n💡 Haz preguntas como \"¿qué vas a hacer ahora?\" o \"veo que quieres meter la pelota en el tarro. ¿Hay otra forma de hacerlo?\"",
+        "act_type": "Calm | Quick",
+        "act_age": "2 | 3"
+      },
+      {
+        "ID": "be_an_artist",
+        "name": "¡Sé un Artista!",
+        "text": "📝 Dale a {child} papel y una pluma o un lápiz, o varias plumas o lápices diferentes.\n😃 ¡Deja que tu niña o niño dibuje lo que quiera!\n👀 Haz preguntas sobre lo que dibuja, el tamaño de lo que dibuja y los colores que usa.\n\n🏆 Si es posible, cuelga el dibujo de tu niña o niño en la pared cuando hayan terminado. ¡Halaga su creatividad y esfuerzos!",
+        "act_type": "Calm",
+        "act_age": "2 | 3"
+      },
+      {
+        "ID": "emotions_expert",
+        "name": "¡Sé un Experto en Emociones!",
+        "text": "📝 Crea un álbum de las seis emociones con {tu niño}: alegría, tristeza, enojo, disgusto, sorpresa, miedo.\n\nDibuja, recorta imágenes de revistas o toma fotos de miembros de la familia que muestren distintas emociones.\n\nEtiqueta cada emoción y agrega palabras sobre cómo siente esas emociones cada miembro de la familia.\n\nColoca el álbum en un lugar en el que todos estén de acuerdo, y utilízalo a lo largo del día para mostrar cómo se siente la familia. Por ejemplo, después de la escuela, cada uno puede señalar la emoción que está experimentando.\n\nSiéntete libre de agregar nuevos sentimientos a medida que surjan. Si alguien no sabe lo que siente, ayúdale a identificarlo explorando cómo se siente en su cuerpo. Intenten encontrar juntos una nueva palabra para esa emoción.\n\nEsto puede ayudar a todos los miembros de la familia a convertirse en expertos en comprenderse a sí mismos y ser conscientes de lo que su cuerpo necesita.",
+        "act_type": "Active|Group ",
+        "act_age": "4 | 5 | 6 | 7 | 8 | 9"
+      }
+    ]
+  }
+}
