@@ -1,6 +1,6 @@
-# Mexico ParentText Pipeline
+# Panama ParentText Pipeline
 
-This project builds RapidPro flows for the Mexico ParentText chatbot. It takes input from specific Google Sheets spreadsheets and produces RapidPro flow JSON files that are ready to upload to any RapidPro server.
+This project builds RapidPro flows for the Panama ParentText chatbot. It takes input from specific Google Sheets spreadsheets and produces RapidPro flow JSON files that are ready to upload to any RapidPro server.
 
 ## Usage
 
@@ -39,7 +39,7 @@ python -m parenttext_pipeline.cli pull_data
 python -m parenttext_pipeline.cli compile_flows
 ```
 
-The main script that contains the full process to produce RapidPro flows from the relevant Google Sheets. It reads configuration settings from the 'config.py' file, so any adjustments should be made in that file. That file contains information on what the various inputs mean. There is also an authoritative explanation of the [available pipeline configuration settings][1] in the repository for the general ParentText Pipeline.
+The main script that contains the full process to produce RapidPro flows from the relevant Google Sheets. It reads configuration settings from the 'config.json' file, so any adjustments should be made in that file. That file contains information on what the various inputs mean. There is also an authoritative explanation of the [available pipeline configuration settings][1] in the repository for the general ParentText Pipeline.
 
 
 [1]: https://github.com/IDEMSInternational/parenttext-pipeline/blob/main/docs/configuration.md
