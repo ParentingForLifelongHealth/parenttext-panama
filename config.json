@@ -32,7 +32,9 @@
         "N_delivery_data": "1-qcZrH18Hn1VWLXGrHdH6lP7I0_FDYQ5mbxZyhmwfD8",
         "N_menu_data": "1tEmZ7bO64kgxIoJIecUqcffO_YQds4xe16GWR04jrms",
         "N_onboarding_data": "1UIu_Cstp446t6z8CrAzFUXei5pvaq8iqWLy9CLSPz1k",
-        "N_safeguarding_data": "1StGMV9sAalQ6zOakNEtgqK78co8CK9Jwsj_eFaovf_0"
+        "N_safeguarding_data": "1StGMV9sAalQ6zOakNEtgqK78co8CK9Jwsj_eFaovf_0",
+
+        "globals": "1gcSrIJV9ceuWiLlIPOKO-7_0G4lAGbQbaCuyX25Pgo0"
     },
     "sources": {
         "flow_definitions": {
@@ -55,7 +57,8 @@
                     "N_menu_data",
                     "T_menu",
                     "N_triggers",
-                    "PA_sheets"
+                    "PA_sheets",
+                    "globals"
                 ]
         },
         "edits_pretranslation": {
