@@ -5,7 +5,7 @@
     },
      "parents": {
         "survey": {
-            "location": "https://github.com/IDEMSInternational/rapidpro-survey-templates/archive/refs/tags/v1.1.0.zip"
+            "location": "https://github.com/IDEMSInternational/rapidpro-survey-templates/archive/refs/tags/v1.3.1.zip"
         }
     },
     "flows_outputbasename": "parenttext_all",
@@ -18,12 +18,9 @@
         "T_safeguarding": "1RZLY7GGILdBHkc4G-tzymYbNN0lvONgXJlPjG9Ol19I",
         "T_delivery": "1D54mvGh0Scbhv1rqCOFxqonxOtglLsYINkvuIceQV6c",
         "T_menu": "1IMV1slKvWN3P330v6S73JHlegjMHhPNSN3EW7UhiGUg",
-        "ab_testing_sheet_ID": "1obsIesRWuzCYUv-96fP7cfMKOC9H0N9wG_62RN0IuTI",
-        "localisation_sheet_ID" : "1Apht9nmImLIdLXSM2FnRWAdtwu4fraRWztHwL67QMe8", 
-        "eng_edits_sheet_ID" : "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI",
-        "transl_edits_sheet_ID" : "1BuVd7L66tJ8KNW0vZQbujyBagz_coOLQH9kEGQYsFWQ",
 
         "C_ltp_activities": "1_YYHhePrE0AQ-kb-6kEMeR2kALe0JSSgRiUlaZgPgq0",
+        "C_demo_ltp": "10UPUaNwjB1Pog7aXq_kuIMJ18TvQTada4zo0DrzHK_w",
         "C_modules_all_ages": "1Aj0OhvVqOgNoIEZs26ffes0B0vGlsc1z9f_QdMaB_vw",
         "C_modules_child": "17_S_UhYTAA6_E2UQujrquezOMx-F9yjEm6HV5Bh64Sg",
         "C_modules_teen": "10kFnGIEDf64abqR_uYQd92ofQSHKmZqdCLDPxWAXB3Y",
@@ -34,7 +31,9 @@
         "N_onboarding_data": "1UIu_Cstp446t6z8CrAzFUXei5pvaq8iqWLy9CLSPz1k",
         "N_safeguarding_data": "1StGMV9sAalQ6zOakNEtgqK78co8CK9Jwsj_eFaovf_0",
 
-        "globals": "1gcSrIJV9ceuWiLlIPOKO-7_0G4lAGbQbaCuyX25Pgo0"
+        "globals": "1gcSrIJV9ceuWiLlIPOKO-7_0G4lAGbQbaCuyX25Pgo0",
+
+        "edit_sheet" : "1FqyUGAzCixpMvB9-CfqcoJcFbAeeEgvGtx20VBWpzCE"
     },
     "sources": {
         "flow_definitions": {
@@ -42,8 +41,9 @@
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
+                    "globals",
                     "N_onboarding_data",
-                    "C_ltp_activities",
+                    "C_demo_ltp",
                     "C_modules_all_ages",
                     "C_modules_teen",
                     "C_modules_child",
@@ -57,8 +57,7 @@
                     "N_menu_data",
                     "T_menu",
                     "N_triggers",
-                    "PA_sheets",
-                    "globals"
+                    "PA_sheets"
                 ]
         },
         "edits_pretranslation": {
@@ -66,27 +65,7 @@
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
-                "ab_testing_sheet_ID",
-                "localisation_sheet_ID"
-            ]
-        },
-        "edits_posttranslation": {
-            "parent_sources": [],
-            "format": "sheets",
-            "subformat": "google_sheets",
-            "files_list": [
-                "eng_edits_sheet_ID",
-                "transl_edits_sheet_ID"
-            ]
-        },
-        "translation": {
-            "format": "translation_repo",
-            "translation_repo": "https://github.com/IDEMSInternational/plh-digital-content",
-            "folder_within_repo": "translations/parent_text_v2_mexico",
-            "commit_hash": "",
-            "commit_tag": "",
-            "languages": [
-                {"language": "spa", "code": "es"}
+                "edit_sheet"
             ]
         },
         "expiration_times": {
@@ -150,18 +129,6 @@
         },
         {
             "id": "overall_integrity_check_pretranslation",
-            "type": "overall_integrity_check"
-        },
-        {
-            "id": "hasanyword_posttranslation",
-            "type": "has_any_word_check"
-        },
-        {
-            "id": "fix_arg_qr_translation",
-            "type": "fix_arg_qr_translation"
-        },
-        {
-            "id": "overall_integrity_check_posttranslation",
             "type": "overall_integrity_check"
         },
         {
