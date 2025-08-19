@@ -5725,74 +5725,62 @@
       {
         "ID": "daily_interaction",
         "name": "daily_interaction",
-        "uuid": "75bb2c5b-7492-4f04-b6da-63bf79bce24f",
-        "text": "I've got another lesson ready for you! Is now a good time to continue with the course, {{1}}?\n\nPress a number on your keypad:\n1. Yes\n2. No, remind me tomorrow. "
+        "uuid": "75bb2c5b-7492-4f04-b6da-63bf79bce24f"
       },
       {
         "ID": "first_module_intro",
         "name": "first_module_intro",
-        "uuid": "eb5817ba-401e-4907-90cf-88fe674981b3",
-        "text": "It’s time to get started on your course, {{1}}. Are you ready?\n\nPress a number on your keypad:\n1. Yes!\n2. Remind me tomorrow"
+        "uuid": "eb5817ba-401e-4907-90cf-88fe674981b3"
       },
       {
         "ID": "start_started_mod_or_change_goal_one",
         "name": "start_started_mod_or_change_goal_one",
-        "uuid": "33daff58-9921-4bfb-92b6-362ff3fff2da",
-        "text": "You're almost finished with this course! You only have 1 unfinished lesson. What would you like to do?\n\nPress a number on your keypad:\n1. Finish this lesson and earn my course certificate\n2. Leave this course unfinished and select a new course"
+        "uuid": "33daff58-9921-4bfb-92b6-362ff3fff2da"
       },
       {
         "ID": "start_started_mod_or_change_goal_multiple",
         "name": "start_started_mod_or_change_goal_multiple",
-        "uuid": "c3ff0990-224a-4e2e-8b79-a6f685c21591",
-        "text": "You're almost finished with this course! You have @fields.c_n_mod_started unfinished lessons. What would you like to do?\n\nPress a number on your keypad:\n1. Complete unfinished lessons to earn my course certificate\n2. Leave this course unfinished and select a new course"
+        "uuid": "c3ff0990-224a-4e2e-8b79-a6f685c21591"
       },
       {
         "ID": "start_started_mod_or_later_one",
         "name": "start_started_mod_or_later_one",
-        "uuid": "3658a5ee-17f8-453b-9c52-5ef5742e967d",
-        "text": "You're almost finished with this course! You only have 1 unfinished lesson. What would you like to do?\n\nPress a number on your keypad:\n1. Finish this lesson and earn my course certificate\n2. Remind me tomorrow"
+        "uuid": "3658a5ee-17f8-453b-9c52-5ef5742e967d"
       },
       {
         "ID": "start_started_mod_or_later_multiple",
         "name": "start_started_mod_or_later_multiple",
-        "uuid": "d4c14ed3-ab3c-4f8d-a48d-a2cfe5b8eea4",
-        "text": "You're almost finished with this course! You have @fields.c_n_mod_started unfinished lessons. What would you like to do?\n\nPress a number on your keypad:\n1. Complete unfinished lessons to earn my course certificate\n2. Remind me tomorrow"
+        "uuid": "d4c14ed3-ab3c-4f8d-a48d-a2cfe5b8eea4"
       },
       {
         "ID": "unfinished_onboarding",
         "name": "unfinished_onboarding",
-        "uuid": "05dd8aba-4b9a-413b-b6a7-43bb21be65aa",
-        "text": "ParentText has begun. Are you ready to complete your registration and get started?\n\nPress a number on your keypad:\n1. Yes\n2. Remind me Later"
+        "uuid": "05dd8aba-4b9a-413b-b6a7-43bb21be65aa"
       },
       {
         "ID": "select_goal",
         "name": "select_goal",
-        "uuid": "113d4a21-894d-4af4-b263-5acc90026864",
-        "text": "You have made great progress. Are you ready to select your next parenting course?\n\nPress a number on your keypad:\n1. Yes\n2. Remind me tomorrow"
+        "uuid": "113d4a21-894d-4af4-b263-5acc90026864"
       },
       {
         "ID": "no_response",
-        "name": "no_response",
-        "uuid": "30fea801-80fb-4cc9-946d-08b4bf1d5a7f",
-        "text": "These messages don’t seem to be working. When you are ready to keep going, press 1. "
+        "name": "no_response_feedback",
+        "uuid": "30fea801-80fb-2cc9-946d-08b4bf1d5a8f"
       },
       {
         "ID": "complete_start_module",
         "name": "complete_start_module_updated",
-        "uuid": "5c5da063-edb5-4d0f-bd97-0cfb1ba6b658",
-        "text": "You’re off track! Do you want to complete a previous lesson or start a new lesson?\n\nPress a number on your keypad:\n1. Complete\n2. Start new"
+        "uuid": "5c5da063-edb5-4d0f-bd97-0cfb1ba6b658"
       },
       {
         "ID": "new_goals_available",
         "name": "new_goals_available",
-        "uuid": "48515c70-30fd-40c7-8490-0f4ce0aa69c2",
-        "text": "There are new parenting courses available for you! \n\nPress a number on your keypad:\n1. Tell me about them!\n2. No thanks! I am already a parenting expert and don't need another course. "
+        "uuid": "48515c70-30fd-40c7-8490-0f4ce0aa69c2"
       },
       {
         "ID": "new_goal_available",
         "name": "new_goal_available",
-        "uuid": "3822d0fe-98d0-4fef-9f3c-5a01cde9fc4c",
-        "text": "There is a new parenting course available for you! \n\nPress a number on your keypad:\n1. Tell me about it!\n2. No thanks! I am already a parenting expert and don't need another course. "
+        "uuid": "3822d0fe-98d0-4fef-9f3c-5a01cde9fc4c"
       }
     ],
     "pre_programme_checkin": [

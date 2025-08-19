@@ -27,7 +27,7 @@
         "Included in scale? ": "scale",
         "Cap Users At": "",
         "Location, if applicable": "",
-        "Link": "",
+        "Link": "https://wa.me/525651006984?text=familia",
         "QR": "",
         "Description": "Users who join because someone shared a link with them from the menu",
         "Expired User Groups": ""
@@ -50,7 +50,7 @@
         "ID": "sano",
         "Trigger": "",
         "Experience (user group)": "digital",
-        "Recruitment (user group)": "from unicef nutrition",
+        "Recruitment (user group)": "",
         "Additional (user group)": "SNDIF",
         "Included in scale? ": "scale",
         "Cap Users At": "",
@@ -205,7 +205,7 @@
       {
         "ID": "sano",
         "triggers": "sano",
-        "groups": "digital;from unicef nutrition;SNDIF;scale",
+        "groups": "digital;SNDIF;scale",
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",

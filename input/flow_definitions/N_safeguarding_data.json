@@ -155,19 +155,10 @@
         "var.value": ""
       },
       {
-        "ID": "safe",
-        "disabled_not_completed_registration": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
-        "disabled_not_selected_first_goal": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
-        "conclusion_msg": "Excellent work. You have learned the basics of self defence. Remember you can access this information at any time typing {SAFE}. ",
-        "expiration_msg": "",
-        "var.name": "",
-        "var.value": ""
-      },
-      {
         "ID": "prevent",
         "disabled_not_completed_registration": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
         "disabled_not_selected_first_goal": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
-        "conclusion_msg": "Excellent work. You have completed the Prevent Sexual Violence skill. Remember you can access this information at any time typing {PREVENT}. ",
+        "conclusion_msg": "Excelente trabajo. Has completado la sesión para Prevenir la violencia sexual. Recuerda que puedes acceder a esta información en cualquier momento escribiendo {PREVENIR}.",
         "expiration_msg": "",
         "var.name": "",
         "var.value": ""
@@ -221,7 +212,7 @@
     "safeguarding_leave_programme_data": [
       {
         "ID": "intro",
-        "msg": "Seguir en Crianza de Conciencia+ te ayudará a ti y a tu niña o niño. ¿Estás seguro de que quieres abandonar el programa?",
+        "msg": "Seguir en @fields.prog_name te ayudará a ti y a tu niña o niño. ¿Estás seguro de que quieres abandonar el programa?",
         "metadata.description": ""
       },
       {
@@ -253,7 +244,7 @@
     "safeguarding_start_programme_data": [
       {
         "ID": "join_again_in_program",
-        "msg": "¡Ya eres parte de Crianza con Conciencia +!",
+        "msg": "¡Ya eres parte de @fields.prog_name!",
         "metadata.description": ""
       },
       {
@@ -263,12 +254,12 @@
       },
       {
         "ID": "join_again_completed",
-        "msg": "¡Completaste Crianza con Conciencia +!",
+        "msg": "¡Completaste @fields.prog_name!",
         "metadata.description": ""
       },
       {
         "ID": "rejoin_greeting",
-        "msg": "¡Te damos la bienvenida de nuevo a Crianza con Conciencia +!",
+        "msg": "¡Te damos la bienvenida de nuevo a @fields.prog_name!",
         "metadata.description": ""
       }
     ],
@@ -277,9 +268,9 @@
         "ID": "generic",
         "question": "¿Tienes una emergencia en este momento?",
         "yes_opt": "Sí",
-        "yes_aliases": "yes y yeah yep",
+        "yes_aliases": "sí s si claro seguro",
         "no_opt": "No",
-        "no_aliases": "no n nope",
+        "no_aliases": "no n nop",
         "intro": "Aquí tienes los datos de contacto de los servicios de emergencia de tu comunidad:",
         "no_message": "Escribe y manda {AYUDA} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas. ¡Recuerda que todo lo que digas se quedará en privado!"
       },
@@ -287,9 +278,9 @@
         "ID": "mental_health",
         "question": "¿Necesitas apoyo con un problema emocional?",
         "yes_opt": "Sí",
-        "yes_aliases": "yes y yeah yep",
+        "yes_aliases": "sí s si claro seguro",
         "no_opt": "No",
-        "no_aliases": "no n nope",
+        "no_aliases": "no n nop",
         "intro": "Si alguna vez quieres hablar en privado con un profesional, puedes llamar:",
         "no_message": "Escribe y manda {AYUDA} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas. ¡Recuerda que todo lo que digas se quedará en privado!"
       },
@@ -297,9 +288,9 @@
         "ID": "health",
         "question": "¿Estás experimentando algún problema de salud?",
         "yes_opt": "Sí",
-        "yes_aliases": "yes y yeah yep",
+        "yes_aliases": "sí s si claro seguro",
         "no_opt": "No",
-        "no_aliases": "no n nope",
+        "no_aliases": "no n nop",
         "intro": "Aquí tienes los datos de contacto de los servicios médicos de tu comunidad:",
         "no_message": "Escribe y manda {AYUDA} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas. ¡Recuerda que todo lo que digas se quedará en privado!"
       },
@@ -307,9 +298,9 @@
         "ID": "violence",
         "question": "¿Estás viviendo alguna situación insegura?",
         "yes_opt": "Sí",
-        "yes_aliases": "yes y yeah yep",
+        "yes_aliases": "sí s si claro seguro",
         "no_opt": "No",
-        "no_aliases": "no n nope",
+        "no_aliases": "no n nop",
         "intro": "Si alguna vez quieres hablar en privado con un profesional, puedes llamar:",
         "no_message": "Escribe y manda {AYUDA} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas. ¡Recuerda que todo lo que digas se quedará en privado!"
       },
@@ -317,9 +308,9 @@
         "ID": "natural_disasters",
         "question": "¿Tienes una emergencia?",
         "yes_opt": "Sí",
-        "yes_aliases": "yes y yeah yep",
+        "yes_aliases": "sí s si claro seguro",
         "no_opt": "No",
-        "no_aliases": "no n nope",
+        "no_aliases": "no n nop",
         "intro": "Aquí tienes los datos de contacto de los servicios de emergencia de tu comunidad:",
         "no_message": "Escribe y manda {AYUDA} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas. ¡Recuerda que todo lo que digas se quedará en privado!"
       },
@@ -327,9 +318,9 @@
         "ID": "drugs",
         "question": "¿Necesitas ayuda urgente?",
         "yes_opt": "Sí",
-        "yes_aliases": "yes y yeah yep",
+        "yes_aliases": "sí s si claro seguro",
         "no_opt": "No",
-        "no_aliases": "no n nope",
+        "no_aliases": "no n nop",
         "intro": "Si alguna vez quieres hablar en privado con un profesional, puedes llamar:",
         "no_message": "Escribe y manda {AYUDA} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas. ¡Recuerda que todo lo que digas se quedará en privado!"
       }
@@ -465,17 +456,12 @@
         "ID": "success_msg",
         "msg": "Tu número de registro es @fields.research_id",
         "metadata.description": ""
-      },
-      {
-        "ID": "failure_msg",
-        "msg": "Something went wrong when creating your user ID, please get in touch with your facilitator.",
-        "metadata.description": ""
       }
     ],
     "uncaught_message_flow_data": [
       {
         "ID": "rejoin_greetings",
-        "msg": "¡Te damos la bienvenida de nuevo a Crianza con Conciencia +!",
+        "msg": "¡Te damos la bienvenida de nuevo a @fields.prog_name!",
         "metadata.description": ""
       },
       {
@@ -505,7 +491,7 @@
       },
       {
         "ID": "rejoin_question",
-        "msg": "Criar a una niña, un niño o un adolescente es difícil. Crianza con Conciencia + te puede ayudar. Has completado @fields.n_goals_completed de @fields.n_goals_prog objetivos relacionados con la crianza. ¿Te gustaría seguir avanzando?",
+        "msg": "Criar a una niña, un niño o un adolescente es difícil. @fields.prog_name te puede ayudar. Has completado @fields.n_goals_completed de @fields.n_goals_prog objetivos relacionados con la crianza. ¿Te gustaría seguir avanzando?",
         "metadata.description": ""
       },
       {

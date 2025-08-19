@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "content_index": [
+      {
+        "type": "globals_dict",
+        "sheet_name": "parenttext_globals",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      }
+    ],
+    "parenttext_globals": [
+      {
+        "ID": "unrecognised_response_message",
+        "value": "Disculpa, no entiendo lo que quieres decir."
+      },
+      {
+        "ID": "next_button",
+        "value": "SIGUIENTE"
+      },
+      {
+        "ID": "yes_opt",
+        "value": "Sí"
+      },
+      {
+        "ID": "yes_opt_aliases",
+        "value": "sí  claro sip"
+      },
+      {
+        "ID": "no_opt",
+        "value": "No"
+      },
+      {
+        "ID": "no_opt_aliases",
+        "value": "no nop n"
+      },
+      {
+        "ID": "fail",
+        "value": "Ups, algo salió mal"
+      },
+      {
+        "ID": "fail_name",
+        "value": "✨"
+      },
+      {
+        "ID": "completed_msg_1",
+        "value": "¡Has completado el"
+      },
+      {
+        "ID": "completed_msg_2",
+        "value": "de esta habilidad! Pulsa SIGUIENTE para continuar."
+      },
+      {
+        "ID": "which_to_test",
+        "value": "¿Cuál te gustaría probar?"
+      },
+      {
+        "ID": "type_n_to_stop",
+        "value": "Escribe \"N\" para detener"
+      },
+      {
+        "ID": "trigger_to_start",
+        "value": "Escribe el disparador para empezar de nuevo"
+      },
+      {
+        "ID": "skip_question",
+        "value": "Saltar pregunta"
+      },
+      {
+        "ID": "skip_reply",
+        "value": "No pasa nada."
+      },
+      {
+        "ID": "next_offer",
+        "value": "¿Qué quieres hacer ahora?"
+      },
+      {
+        "ID": "more_help_option",
+        "value": "Obtener más ayuda"
+      },
+      {
+        "ID": "stop_option",
+        "value": "Continuar mi Progreso Mañana"
+      },
+      {
+        "ID": "proceed_option",
+        "value": "¿Te gustaría empezar ahorita o hasta mañana?"
+      },
+      {
+        "ID": "now",
+        "value": "Ahora"
+      },
+      {
+        "ID": "tomorrow",
+        "value": "Mañana"
+      },
+      {
+        "ID": "see_you_tomorrow",
+        "value": "Genial, ¡nos vemos mañana!"
+      },
+      {
+        "ID": "variables_reset",
+        "value": "Las variables han sido restablecidas"
+      },
+      {
+        "ID": "provide_dob",
+        "value": "Por favor, indica la fecha de nacimiento de tu niña, niño o adolescente en el siguiente formato: DD/MM/AAAA. Por ejemplo, si tu niña o niño nació el 19 de mayo de 2010, ingresa 19/05/2010."
+      },
+      {
+        "ID": "invalid_date",
+        "value": "Lo sentimos, esta fecha no es válida."
+      },
+      {
+        "ID": "future_date",
+        "value": "La fecha que has introducido es futura. "
+      },
+      {
+        "ID": "try_again_date",
+        "value": "Intentémoslo de nuevo. "
+      },
+      {
+        "ID": "too_old",
+        "value": "años. {prog_name} es solo para madres, padres o personas cuidadoras que interactuan con niñas, niños y adolescentes de 0 a 17 años.  "
+      },
+      {
+        "ID": "too_old_2_17",
+        "value": "años. {prog_name} es solo para madres, padres o personas cuidadoras que interactuan con niñas, niños y adolescentes de 2 a 17 años.  "
+      },
+      {
+        "ID": "years_old_correct",
+        "value": "años. ¿Es correcto?"
+      },
+      {
+        "ID": "months_old_correct",
+        "value": "meses. ¿Es correcto?"
+      },
+      {
+        "ID": "your_baby_is",
+        "value": "Según la fecha que has proporcionado, tendría"
+      },
+      {
+        "ID": "your_child_is",
+        "value": "Según la fecha que has proporcionado,tendría"
+      },
+      {
+        "ID": "your_teen_is",
+        "value": "Según la fecha que has proporcionado,  tendría"
+      },
+      {
+        "ID": "dont_understand_menu",
+        "value": "Escribe y manda {MENU} para tener acceso a algunos recursos y revisar los módulos completados, {PLAY} para recibir una actividad lúdica que puedas hacer con tu niña o niño, o {HELP} para ver una lista de recursos de apoyo locales en caso de crisis."
+      },
+      {
+        "ID": "no_consent",
+        "value": "No has dado tu consentimiento para participar en este programa. ¿Te gustaría participar?"
+      },
+      {
+        "ID": "to_start_type",
+        "value": "Si en algún momento decides participar en el programa, solo escribe {START}. \nEsperamos volver a verte pronto, ¡y te deseamos un feliz y tranquilo día!"
+      },
+      {
+        "ID": "parenting_is_hard",
+        "value": "Criar a una niña, un niño o un adolescente es difícil. Crianza con Conciencia + te puede ayudar. Has completado @fields.n_goals_completed de @fields.n_goals_prog objetivos relacionados con la crianza. ¿Te gustaría seguir avanzando?"
+      },
+      {
+        "ID": "come_back_type_start",
+        "value": "No pasa nada. Si en algún momento decides regresar, escribe {START}. \nEsperamos volver a verte pronto, ¡y te deseamos un feliz y tranquilo día!"
+      },
+      {
+        "ID": "transaction_failed",
+        "value": "Transacción fallida"
+      },
+      {
+        "ID": "your_child",
+        "value": "{tu niño}"
+      },
+      {
+        "ID": "your_teen",
+        "value": "{tu adolescente}"
+      },
+      {
+        "ID": "your_baby",
+        "value": "{tu bebé}"
+      }
+    ]
+  }
+}
