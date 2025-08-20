@@ -143,6 +143,20 @@
         "QR": "Secretaría de seguridad y protección ciudadana - Paz.png",
         "Description": "programa Somos Sembradores de Paz de la Secretaría de Seguridad Ciudadana",
         "Expired User Groups": ""
+      },
+      {
+        "ID": "empezar",
+        "Trigger": "",
+        "Experience (user group)": "light-touch",
+        "Recruitment (user group)": "virtually trained facilitator",
+        "Additional (user group)": "SNDIF",
+        "Included in scale? ": "scale",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "https://wa.me/525651006984?text=empezar",
+        "QR": "",
+        "Description": "parents recruited into CC+ resulting from online training courses made available by SNDIF",
+        "Expired User Groups": ""
       }
     ],
     "content_index": [
@@ -284,6 +298,19 @@
         "ID": "paz",
         "triggers": "paz",
         "groups": "digital;Secretaría de seguridad y protección ciudadana;scale",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza con Conciencia +",
+        "variables.2.name": "",
+        "variables.2.value": "",
+        "variables.3.name": "",
+        "variables.3.value": ""
+      },
+      {
+        "ID": "empezar",
+        "triggers": "empezar",
+        "groups": "light-touch;virtually trained facilitator;SNDIF;scale",
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
