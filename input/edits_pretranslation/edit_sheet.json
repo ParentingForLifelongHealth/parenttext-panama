@@ -5,445 +5,442 @@
   "sheets": {
     "==content==": [
       {
-        "flow_type": "translation_editing",
-        "flow_name": "",
-        "sheet_name": "comic_names_transl",
-        "status": "released",
-        "order": "1"
-      },
-      {
         "flow_type": "flow_editing",
         "flow_name": "",
-        "sheet_name": "external_references_eng",
-        "status": "released",
-        "order": "1"
-      },
-      {
-        "flow_type": "translation_editing",
-        "flow_name": "",
-        "sheet_name": "external_references_transl",
-        "status": "released",
-        "order": "1"
-      },
-      {
-        "flow_type": "flow_editing",
-        "flow_name": "",
-        "sheet_name": "referrals_add_location",
+        "sheet_name": "comic_names",
         "status": "released",
         "order": "0"
       },
       {
         "flow_type": "flow_editing",
         "flow_name": "",
-        "sheet_name": "referrals_eng",
+        "sheet_name": "insert_child_age_group",
         "status": "released",
-        "order": "1"
-      },
-      {
-        "flow_type": "translation_editing",
-        "flow_name": "",
-        "sheet_name": "referrals_transl",
-        "status": "released",
-        "order": "1"
+        "order": "-1"
       },
       {
         "flow_type": "flow_editing",
         "flow_name": "",
-        "sheet_name": "child_gender_1",
-        "status": "released",
-        "order": "1"
-      },
-      {
-        "flow_type": "flow_editing",
-        "flow_name": "",
-        "sheet_name": "child_gender_2",
-        "status": "released",
-        "order": "2"
-      },
-      {
-        "flow_type": "translation_editing",
-        "flow_name": "",
-        "sheet_name": "child_gender_transl",
-        "status": "released",
-        "order": "2"
-      },
-      {
-        "flow_type": "flow_editing",
-        "flow_name": "",
-        "sheet_name": "parenttext_name_eng_consistent",
+        "sheet_name": "insert_childname_beginning_punctuation",
         "status": "released",
         "order": "0"
       },
       {
         "flow_type": "flow_editing",
         "flow_name": "",
-        "sheet_name": "parenttext_name_eng",
-        "status": "released",
-        "order": "1"
-      },
-      {
-        "flow_type": "translation_editing",
-        "flow_name": "",
-        "sheet_name": "parenttext_name_transl",
+        "sheet_name": "insert_childname",
         "status": "released",
         "order": "1"
       },
       {
         "flow_type": "flow_editing",
         "flow_name": "",
-        "sheet_name": "triggers_eng",
+        "sheet_name": "insert_child_gender",
         "status": "released",
-        "order": "1"
-      },
-      {
-        "flow_type": "translation_editing",
-        "flow_name": "",
-        "sheet_name": "triggers_transl",
-        "status": "released",
-        "order": "1"
+        "order": "2"
       },
       {
         "flow_type": "flow_editing",
         "flow_name": "",
-        "sheet_name": "remove_wa_bold_eng",
+        "sheet_name": "bold_consistent",
         "status": "released",
-        "order": "1"
+        "order": "-1"
       },
       {
-        "flow_type": "translation_editing",
+        "flow_type": "flow_editing",
         "flow_name": "",
-        "sheet_name": "remove_wa_bold_transl",
+        "sheet_name": "bold_telegram",
         "status": "released",
-        "order": "1"
+        "order": "0"
       }
     ],
-    "child_gender_1": [
+    "comic_names": [
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{child}.*",
-        "change": "{child}",
-        "condition_var": "@fields.child_gender",
-        "category": "{boy or girl}",
-        "category:female": "{girl}",
+        "node_identifier": "Regex:.*{F1_MADRE}.*",
+        "change": "{F1_MADRE}",
+        "condition_var": "",
+        "category": "Isabel"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_PADRE}.*",
+        "change": "{F1_PADRE}",
+        "condition_var": "",
+        "category": "Mario"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_HIJO_17}.*",
+        "change": "{F1_HIJO_17}",
+        "condition_var": "",
+        "category": "Diego"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_HIJA_16}.*",
+        "change": "{F1_HIJA_16}",
+        "condition_var": "",
+        "category": "Regina"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_HIJA_13}.*",
+        "change": "{F1_HIJA_13}",
+        "condition_var": "",
+        "category": "Marifer"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_HIJA_6}.*",
+        "change": "{F1_HIJA_6}",
+        "condition_var": "",
+        "category": "Alex"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_HIJA_2}.*",
+        "change": "{F1_HIJA_2}",
+        "condition_var": "",
+        "category": "Natalia"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_HIJO_5}.*",
+        "change": "{F1_HIJO_5}",
+        "condition_var": "",
+        "category": "René"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_ABUELA}.*",
+        "change": "{F2_ABUELA}",
+        "condition_var": "",
+        "category": "Abue María"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_ABUELO}.*",
+        "change": "{F2_ABUELO}",
+        "condition_var": "",
+        "category": "Abuelo Francisco"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_HIJA_17}.*",
+        "change": "{F2_HIJA_17}",
+        "condition_var": "",
+        "category": "Pati"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_HIJO_15}.*",
+        "change": "{F2_HIJO_15}",
+        "condition_var": "",
+        "category": "Santiago"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_HIJO_8}.*",
+        "change": "{F2_HIJO_8}",
+        "condition_var": "",
+        "category": "Dani"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_HIJA_3}.*",
+        "change": "{F2_HIJA_3}",
+        "condition_var": "",
+        "category": "Quetzali"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_MADRE}.*",
+        "change": "{F3_MADRE}",
+        "condition_var": "",
+        "category": "Silvia"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_TÍO}.*",
+        "change": "{F3_TÍO}",
+        "condition_var": "",
+        "category": "Tío Beto "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_HIJA_12}.*",
+        "change": "{F3_HIJA_12}",
+        "condition_var": "",
+        "category": "Rosita"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_HIJA_7}.*",
+        "change": "{F3_HIJA_7}",
+        "condition_var": "",
+        "category": "Itzel"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_HIJO_4}.*",
+        "change": "{F3_HIJO_4}",
+        "condition_var": "",
+        "category": "Toño"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{AMIGA_MUJER_1}.*",
+        "change": "{AMIGA_MUJER_1}",
+        "condition_var": "",
+        "category": "Laura"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{AMIGA_MUJER_2}.*",
+        "change": "{AMIGA_MUJER_2}",
+        "condition_var": "",
+        "category": "Jimena"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{HOMBRE_EN_COCHE}.*",
+        "change": "{HOMBRE_EN_COCHE}",
+        "condition_var": "",
+        "category": "Miguel"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{NOVIO}.*",
+        "change": "{NOVIO}",
+        "condition_var": "",
+        "category": "Leo"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{HOMBRE_AMENAZANTE}.*",
+        "change": "{HOMBRE_AMENAZANTE}",
+        "condition_var": "",
+        "category": "José"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{NOVIA}.*",
+        "change": "{NOVIA}",
+        "condition_var": "",
+        "category": "Carmen"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PROFESOR_1}.*",
+        "change": "{PROFESOR_1}",
+        "condition_var": "",
+        "category": "Teresa"
+      }
+    ],
+    "bold_consistent": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*\\*\\*.*",
+        "change": "**",
+        "condition_var": "",
+        "category": "*"
+      }
+    ],
+    "bold_telegram": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*\\*.*",
+        "change": "*",
+        "condition_var": "",
+        "category": "**"
+      }
+    ],
+    "insert_childname_beginning_punctuation": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*(?:^|(?<=[^a-zA-Z0-9_,:] )){Tu adolescente}.*",
+        "change": "Regex:(?:^|(?<=[^a-zA-Z0-9_,:] )){Tu adolescente}",
+        "condition_var": "@fields.child_nickname",
+        "category": "Tu adolescente",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*(?:^|(?<=[^a-zA-Z0-9_,:] )){tu adolescente}.*",
+        "change": "Regex:(?:^|(?<=[^a-zA-Z0-9_,:] )){tu adolescente}",
+        "condition_var": "@fields.child_nickname",
+        "category": "Tu adolescente",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*(?:^|(?<=[^a-zA-Z0-9_,:] )){Tu niño}.*",
+        "change": "Regex:(?:^|(?<=[^a-zA-Z0-9_,:] )){Tu niño}",
+        "condition_var": "@fields.child_nickname",
+        "category": "Tu {niño} ",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*(?:^|(?<=[^a-zA-Z0-9_,:] )){tu niño}.*",
+        "change": "Regex:(?:^|(?<=[^a-zA-Z0-9_,:] )){tu niño}",
+        "condition_var": "@fields.child_nickname",
+        "category": "Tu {niño} ",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      }
+    ],
+    "insert_child_age_group": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{tu grupo_de_edad}.*",
+        "change": "{tu grupo_de_edad}",
+        "condition_var": "@fields.age_group_for_tips",
+        "category": "{tu niño}",
+        "category:teen": "{tu adolescente}",
+        "condition:teen": "teen",
+        "condition_type:teen": "has_any_word"
+      }
+    ],
+    "insert_childname": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{tu adolescente}.*",
+        "change": "{tu adolescente}",
+        "condition_var": "@fields.child_nickname",
+        "category": "tu adolescente",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{Tu adolescente}.*",
+        "change": "{Tu adolescente}",
+        "condition_var": "@fields.child_nickname",
+        "category": "Tu adolescente",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{tu niño}.*",
+        "change": "{tu niño}",
+        "condition_var": "@fields.child_nickname",
+        "category": "tu {niño}",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{Tu niño}.*",
+        "change": "{Tu niño}",
+        "condition_var": "@fields.child_nickname",
+        "category": "Tu {niño}",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      }
+    ],
+    "insert_child_gender": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{niño}.*",
+        "change": "{niño}",
+        "condition_var": "@fields.child_grammatical_gender",
+        "category": "niño o niña",
+        "category:female": "niña",
         "condition:female": "female",
         "condition_type:female": "has_any_word",
-        "category:male": "{boy}",
+        "category:male": "niño",
         "condition:male": "male",
         "condition_type:male": "has_any_word"
-      }
-    ],
-    "child_gender_2": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{boy or girl}.*",
-        "change": "{boy or girl}",
-        "condition_var": "",
-        "category": "boy or girl"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{girl}.*",
-        "change": "{girl}",
-        "condition_var": "",
-        "category": "girl"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{boy}.*",
-        "change": "{boy}",
-        "condition_var": "",
-        "category": "boy"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{teen}.*",
-        "change": "{teen}",
-        "condition_var": "",
-        "category": "adolescent"
-      }
-    ],
-    "child_gender_transl": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{boy or girl}.*",
-        "original": "{child}",
-        "language": "spa",
-        "replacement": "niño o niña"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{girl}.*",
-        "original": "{child}",
-        "language": "spa",
-        "replacement": "niña"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{boy}.*",
-        "original": "{child}",
-        "language": "spa",
-        "replacement": "niño"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{teen}.*",
-        "original": "{teen}",
-        "language": "spa",
-        "replacement": "adolescente"
-      }
-    ],
-    "comic_names_transl": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F1_MOTHER}.*",
-        "original": "{F1_MOTHER}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_MOTHER\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F1_FATHER}.*",
-        "original": "{F1_FATHER}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_FATHER\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F1_SON_17}.*",
-        "original": "{F1_SON_17}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_SON_17\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F1_DAUGHTER_16}.*",
-        "original": "{F1_DAUGHTER_16}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_16\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F1_DAUGHTER_13}.*",
-        "original": "{F1_DAUGHTER_13}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_13\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F1_DAUGHTER_6}.*",
-        "original": "{F1_DAUGHTER_6}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_6\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F1_DAUGHTER_2}.*",
-        "original": "{F1_DAUGHTER_2}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_2\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F1_SON_5}.*",
-        "original": "{F1_SON_5}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_SON_5\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F2_GRANDMOTHER}.*",
-        "original": "{F2_GRANDMOTHER}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_GRANDMOTHER\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F2_GRANDFATHER}.*",
-        "original": "{F2_GRANDFATHER}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_GRANDFATHER\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F2_DAUGHTER_17}.*",
-        "original": "{F2_DAUGHTER_17}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_DAUGHTER_17\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F2_SON_15}.*",
-        "original": "{F2_SON_15}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_SON_15\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F2_SON_8}.*",
-        "original": "{F2_SON_8}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_SON_8\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F2_DAUGHTER_3}.*",
-        "original": "{F2_DAUGHTER_3}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_DAUGHTER_3\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F3_MOTHER}.*",
-        "original": "{F3_MOTHER}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_MOTHER\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F3_UNCLE}.*",
-        "original": "{F3_UNCLE}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_UNCLE\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F3_DAUGHTER_12}.*",
-        "original": "{F3_DAUGHTER_12}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_DAUGHTER_12\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F3_DAUGHTER_7}.*",
-        "original": "{F3_DAUGHTER_7}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_DAUGHTER_7\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{F3_SON_4}.*",
-        "original": "{F3_SON_4}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_SON_4\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{FRIEND_FEMALE_1}.*",
-        "original": "{FRIEND_FEMALE_1}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"FRIEND_FEMALE_1\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{FRIEND_FEMALE_2}.*",
-        "original": "{FRIEND_FEMALE_2}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"FRIEND_FEMALE_2\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{MAN_IN_CAR}.*",
-        "original": "{MAN_IN_CAR}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"MAN_IN_CAR\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{BOYFRIEND}.*",
-        "original": "{BOYFRIEND}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"BOYFRIEND\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{MAN_THREAT}.*",
-        "original": "{MAN_THREAT}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"MAN_THREAT\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{GIRLFRIEND}.*",
-        "original": "{GIRLFRIEND}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"GIRLFRIEND\"][contact.language])"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{TEACHER_1}.*",
-        "original": "{TEACHER_1}",
-        "language": "spa",
-        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"TEACHER_1\"][contact.language])"
       }
     ],
     "external_references_eng": [
@@ -565,6 +562,50 @@
         "category": "\"Librero Digital\" https://www.alasyraices.gob.mx/librerogeneral.html\n\n\"Leoteca\" https://www.leoteca.es/\n\n\"Cuentos para Dormir\" https://play.google.com/store/apps/details?id=com.IVR.cuentosparadormir&hl=es_US&pli=1\n\n\"Audioteca\" https://www.alasyraices.gob.mx/leer_con_alas.html"
       }
     ],
+    "referrals_add_location": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health referrals}.*",
+        "change": "{mental_health referrals}",
+        "condition_var": "@fields.location",
+        "category": "{mental_health referrals}",
+        "category:mexico_city": "{mental_health referrals mexico_city}",
+        "condition:mexico_city": "mexico_city",
+        "condition_type:mexico_city": "has_only_phrase",
+        "category:baja_california": "{mental_health referrals}",
+        "condition:baja_california": "baja_california",
+        "condition_type:baja_california": "has_only_phrase",
+        "category:michoacán": "{mental_health referrals}",
+        "condition:michoacán": "michoacán",
+        "condition_type:michoacán": "has_only_phrase",
+        "category:chihuahua": "{mental_health referrals}",
+        "condition:chihuahua": "chihuahua",
+        "condition_type:chihuahua": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals}.*",
+        "change": "{violence referrals}",
+        "condition_var": "@fields.location",
+        "category": "{violence referrals}",
+        "category:mexico_city": "{violence referrals}",
+        "condition:mexico_city": "mexico_city",
+        "condition_type:mexico_city": "has_only_phrase",
+        "category:baja_california": "{violence referrals baja_california}",
+        "condition:baja_california": "baja_california",
+        "condition_type:baja_california": "has_only_phrase",
+        "category:michoacán": "{violence referrals}",
+        "condition:michoacán": "michoacán",
+        "condition_type:michoacán": "has_only_phrase",
+        "category:chihuahua": "{violence referrals chihuahua}",
+        "condition:chihuahua": "chihuahua",
+        "condition_type:chihuahua": "has_only_phrase"
+      }
+    ],
     "external_references_transl": [
       {
         "type_of_edit": "replace_bit_of_text",
@@ -682,50 +723,6 @@
         "original": "{book resources}",
         "language": "spa",
         "replacement": "\"Librero Digital\" https://www.alasyraices.gob.mx/librerogeneral.html\n\n\"Leoteca\" https://www.leoteca.es/\n\n\"Cuentos para Dormir\" https://play.google.com/store/apps/details?id=com.IVR.cuentosparadormir&hl=es_US&pli=1\n\n\"Audioteca\" https://www.alasyraices.gob.mx/leer_con_alas.html"
-      }
-    ],
-    "referrals_add_location": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{mental_health referrals}.*",
-        "change": "{mental_health referrals}",
-        "condition_var": "@fields.location",
-        "category": "{mental_health referrals}",
-        "category:mexico_city": "{mental_health referrals mexico_city}",
-        "condition:mexico_city": "mexico_city",
-        "condition_type:mexico_city": "has_only_phrase",
-        "category:baja_california": "{mental_health referrals}",
-        "condition:baja_california": "baja_california",
-        "condition_type:baja_california": "has_only_phrase",
-        "category:michoacán": "{mental_health referrals}",
-        "condition:michoacán": "michoacán",
-        "condition_type:michoacán": "has_only_phrase",
-        "category:chihuahua": "{mental_health referrals}",
-        "condition:chihuahua": "chihuahua",
-        "condition_type:chihuahua": "has_only_phrase"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{violence referrals}.*",
-        "change": "{violence referrals}",
-        "condition_var": "@fields.location",
-        "category": "{violence referrals}",
-        "category:mexico_city": "{violence referrals}",
-        "condition:mexico_city": "mexico_city",
-        "condition_type:mexico_city": "has_only_phrase",
-        "category:baja_california": "{violence referrals baja_california}",
-        "condition:baja_california": "baja_california",
-        "condition_type:baja_california": "has_only_phrase",
-        "category:michoacán": "{violence referrals}",
-        "condition:michoacán": "michoacán",
-        "condition_type:michoacán": "has_only_phrase",
-        "category:chihuahua": "{violence referrals chihuahua}",
-        "condition:chihuahua": "chihuahua",
-        "condition_type:chihuahua": "has_only_phrase"
       }
     ],
     "referrals_eng": [
@@ -948,184 +945,14 @@
         "replacement": "Centro de Integración Juvenil (CIJ). Material interactivo para familias: http://www.cij.gob.mx/Prevencion/Interactivos/interactivos.html\n                                                                                                                                                                                                                 Centro de integración Juvenil (CIJ). Grupo para apoyo de padres: https://www.facebook.com/groups/teammadrespadres/?locale=es_LA"
       }
     ],
-    "parenttext_name_eng_consistent": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*ParentText.*",
-        "change": "ParentText",
-        "condition_var": "",
-        "category": "ParentText"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*Crianza con Conciencia +.*",
-        "change": "Crianza con Conciencia +",
-        "condition_var": "",
-        "category": "ParentText"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*Crianza con Conciencia+.*",
-        "change": "Crianza con Conciencia+",
-        "condition_var": "",
-        "category": "ParentText"
-      }
-    ],
-    "parenttext_name_eng": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*ParentText.*",
-        "change": "ParentText",
-        "condition_var": "",
-        "category": "@(if(fields.prog_name, fields.prog_name,\"Crianza con Conciencia +\"))"
-      }
-    ],
-    "parenttext_name_transl": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*ParentText.*",
-        "original": "Crianza con Conciencia +",
-        "language": "spa",
-        "replacement": "@(if(fields.prog_name, fields.prog_name,\"Crianza con Conciencia +\"))"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*ParentText.*",
-        "original": "Crianza con Conciencia+",
-        "language": "spa",
-        "replacement": "@(if(fields.prog_name, fields.prog_name,\"Crianza con Conciencia +\"))"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*ParentText.*",
-        "original": "ParentText",
-        "language": "spa",
-        "replacement": "@(if(fields.prog_name, fields.prog_name,\"Crianza con Conciencia +\"))"
-      }
-    ],
-    "triggers_eng": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{HELP}.*",
-        "change": "{HELP}",
-        "condition_var": "",
-        "category": "HELP"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{MENU}.*",
-        "change": "{MENU}",
-        "condition_var": "",
-        "category": "MENU"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{PLAY}.*",
-        "change": "{PLAY}",
-        "condition_var": "",
-        "category": "PLAY"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{GROW}.*",
-        "change": "{GROW}",
-        "condition_var": "",
-        "category": "GROW"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{STOP}.*",
-        "change": "{STOP}",
-        "condition_var": "",
-        "category": "STOP"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{BOOK}.*",
-        "change": "{BOOK}",
-        "condition_var": "",
-        "category": "BOOK"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{PREVENT}.*",
-        "change": "{PREVENT}",
-        "condition_var": "",
-        "category": "PREVENT"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{REVIEW}.*",
-        "change": "{REVIEW}",
-        "condition_var": "",
-        "category": "REVIEW"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{PAUSE}.*",
-        "change": "{PAUSE}",
-        "condition_var": "",
-        "category": "PAUSE"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{RESET}.*",
-        "change": "{RESET}",
-        "condition_var": "",
-        "category": "FACREANUDAR"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{FACSTART}.*",
-        "change": "{FACSTART}",
-        "condition_var": "",
-        "category": "FORMANDO"
-      }
-    ],
-    "triggers_transl": [
+    "triggers": [
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{HELP}.*",
         "original": "{HELP}",
-        "language": "spa",
+        "condition_var": "",
         "replacement": "AYUDA"
       },
       {
@@ -1134,7 +961,7 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{MENU}.*",
         "original": "{MENU}",
-        "language": "spa",
+        "condition_var": "",
         "replacement": "MENÚ"
       },
       {
@@ -1143,7 +970,7 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{PLAY}.*",
         "original": "{PLAY}",
-        "language": "spa",
+        "condition_var": "",
         "replacement": "JUGAR"
       },
       {
@@ -1152,7 +979,7 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{GROW}.*",
         "original": "{GROW}",
-        "language": "spa",
+        "condition_var": "",
         "replacement": "CRECER"
       },
       {
@@ -1161,7 +988,7 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{STOP}.*",
         "original": "{STOP}",
-        "language": "spa",
+        "condition_var": "",
         "replacement": "DETENER"
       },
       {
@@ -1170,7 +997,7 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{BOOK}.*",
         "original": "{BOOK}",
-        "language": "spa",
+        "condition_var": "",
         "replacement": "LIBRO"
       },
       {
@@ -1179,7 +1006,7 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{PREVENT}.*",
         "original": "{PREVENT}",
-        "language": "spa",
+        "condition_var": "",
         "replacement": "PREVENIR"
       },
       {
@@ -1188,7 +1015,7 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{REVIEW}.*",
         "original": "{REVIEW}",
-        "language": "spa",
+        "condition_var": "",
         "replacement": "RESEÑA"
       },
       {
@@ -1197,7 +1024,7 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{PAUSE}.*",
         "original": "{PAUSE}",
-        "language": "spa",
+        "condition_var": "",
         "replacement": "PAUSAR"
       },
       {
@@ -1206,7 +1033,7 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{RESET}.*",
         "original": "{RESET}",
-        "language": "spa",
+        "condition_var": "",
         "replacement": "FACREANUDAR"
       },
       {
@@ -1215,30 +1042,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{FACSTART}.*",
         "original": "{FACSTART}",
-        "language": "spa",
-        "replacement": "FORMANDO"
-      }
-    ],
-    "remove_wa_bold_eng": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*",
-        "change": "**",
         "condition_var": "",
-        "category": "*"
-      }
-    ],
-    "remove_wa_bold_transl": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*",
-        "original": "**",
-        "language": "spa",
-        "replacement": "*"
+        "replacement": "FORMANDO"
       }
     ]
   }
