@@ -147,7 +147,7 @@
       {
         "ID": "empezar",
         "Trigger": "",
-        "Experience (user group)": "light-touch",
+        "Experience (user group)": "encouraged",
         "Recruitment (user group)": "virtually trained facilitator",
         "Additional (user group)": "SNDIF",
         "Included in scale? ": "scale",
@@ -188,7 +188,9 @@
         "variables.2.name": "",
         "variables.2.value": "",
         "variables.3.name": "",
-        "variables.3.value": ""
+        "variables.3.value": "",
+        "variables.4.name": "",
+        "variables.4.value": ""
       },
       {
         "ID": "familia",
@@ -201,7 +203,9 @@
         "variables.2.name": "",
         "variables.2.value": "",
         "variables.3.name": "",
-        "variables.3.value": ""
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
       },
       {
         "ID": "testers",
@@ -214,7 +218,9 @@
         "variables.2.name": "",
         "variables.2.value": "",
         "variables.3.name": "",
-        "variables.3.value": ""
+        "variables.3.value": "",
+        "variables.4.name": "",
+        "variables.4.value": ""
       },
       {
         "ID": "sano",
@@ -227,7 +233,9 @@
         "variables.2.name": "",
         "variables.2.value": "",
         "variables.3.name": "",
-        "variables.3.value": ""
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
       },
       {
         "ID": "afectiva",
@@ -240,7 +248,9 @@
         "variables.2.name": "location",
         "variables.2.value": "chihuahua",
         "variables.3.name": "completed location",
-        "variables.3.value": "yes"
+        "variables.3.value": "yes",
+        "variables.4.name": "",
+        "variables.4.value": ""
       },
       {
         "ID": "aprender",
@@ -253,7 +263,9 @@
         "variables.2.name": "",
         "variables.2.value": "",
         "variables.3.name": "",
-        "variables.3.value": ""
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
       },
       {
         "ID": "salud",
@@ -266,7 +278,9 @@
         "variables.2.name": "",
         "variables.2.value": "",
         "variables.3.name": "",
-        "variables.3.value": ""
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
       },
       {
         "ID": "crianza",
@@ -279,7 +293,9 @@
         "variables.2.name": "",
         "variables.2.value": "",
         "variables.3.name": "",
-        "variables.3.value": ""
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
       },
       {
         "ID": "positiva",
@@ -292,7 +308,9 @@
         "variables.2.name": "",
         "variables.2.value": "",
         "variables.3.name": "",
-        "variables.3.value": ""
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
       },
       {
         "ID": "paz",
@@ -305,12 +323,14 @@
         "variables.2.name": "",
         "variables.2.value": "",
         "variables.3.name": "",
-        "variables.3.value": ""
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
       },
       {
         "ID": "empezar",
         "triggers": "empezar",
-        "groups": "light-touch;virtually trained facilitator;SNDIF;scale",
+        "groups": "encouraged;virtually trained facilitator;SNDIF;scale",
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
@@ -318,7 +338,9 @@
         "variables.2.name": "",
         "variables.2.value": "",
         "variables.3.name": "",
-        "variables.3.value": ""
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
       }
     ],
     "Notes": [

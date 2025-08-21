@@ -963,6 +963,22 @@
         "tags.2": "",
         "tags.3": "",
         "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "timed_programme_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "TimedProgrammeModel",
+        "operation": "",
+        "template_arguments": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
       }
     ],
     "content_index_revised_onboarding": [
@@ -8515,6 +8531,78 @@
         "ID": "deployment",
         "name": "deployment",
         "value": "Mexico"
+      }
+    ],
+    "timed_programme_data": [
+      {
+        "ID": "research_id",
+        "completion_variable": "@fields.assigned_research_id",
+        "incomplete_value": "no",
+        "incomplete_test": "has_any_word",
+        "incomplete_name": "NOT assigned research id",
+        "interaction_flow": "proceed",
+        "interaction_proceed_value": "yes",
+        "flow": "safeguarding_id_generator_wrapper"
+      },
+      {
+        "ID": "onboarding",
+        "completion_variable": "@fields.completed_onboarding",
+        "incomplete_value": "no",
+        "incomplete_test": "has_any_word",
+        "incomplete_name": "NOT completed onboarding",
+        "interaction_flow": "interaction_unfinished_onboarding_wrapper",
+        "interaction_proceed_value": "yes",
+        "flow": "onboarding_wrapper"
+      },
+      {
+        "ID": "take_a_pause",
+        "completion_variable": "@fields.completed_pause",
+        "incomplete_value": "no",
+        "incomplete_test": "has_any_word",
+        "incomplete_name": "NOT pause",
+        "interaction_flow": "interaction - unfinished_onboarding",
+        "interaction_proceed_value": "yes",
+        "flow": "take_a_pause_wrapper"
+      },
+      {
+        "ID": "goal_selection",
+        "completion_variable": "@(text_length(fields.curr_goal))",
+        "incomplete_value": "0",
+        "incomplete_test": "has_number_eq",
+        "incomplete_name": "NOT selected goal",
+        "interaction_flow": "interaction_select_goal_wrapper",
+        "interaction_proceed_value": "yes",
+        "flow": "timed_select_goal"
+      },
+      {
+        "ID": "pregoal_checkin",
+        "completion_variable": "@fields.completed_pre_goal_checkin",
+        "incomplete_value": "no",
+        "incomplete_test": "has_any_word",
+        "incomplete_name": "NOT compl pregoal ",
+        "interaction_flow": "interaction - first_module_intro",
+        "interaction_proceed_value": "yes",
+        "flow": "pregoal_checkin_wrapper"
+      },
+      {
+        "ID": "first_module",
+        "completion_variable": "@(fields.c_n_mod_compl + fields.c_n_mod_started)",
+        "incomplete_value": "0",
+        "incomplete_test": "has_number_eq",
+        "incomplete_name": "NOT started first module",
+        "interaction_flow": "interaction - first_module_intro",
+        "interaction_proceed_value": "yes",
+        "flow": "timed_goal_content"
+      },
+      {
+        "ID": "goal_content",
+        "completion_variable": "@(text_length(fields.completion_time))",
+        "incomplete_value": "0",
+        "incomplete_test": "has_number_eq",
+        "incomplete_name": "in program",
+        "interaction_flow": "proceed",
+        "interaction_proceed_value": "yes",
+        "flow": "timed_goal_content"
       }
     ]
   }
