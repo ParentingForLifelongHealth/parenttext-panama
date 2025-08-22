@@ -2742,7 +2742,7 @@
       {
         "ID": "family_relation",
         "type": "multiple_choice",
-        "messages.1.text": "¿Cuál es tu relación con este niño/a?",
+        "messages.1.text": "¿Cuál es tu relación con {tu niño}?",
         "messages.1.image": "",
         "skipoption.text": "",
         "skipoption.choice": "",

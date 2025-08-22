@@ -309,7 +309,7 @@
         "node_identifier": "Regex:.*\\*.*",
         "change": "*",
         "condition_var": "",
-        "category": "**"
+        "category": ""
       }
     ],
     "insert_childname_beginning_punctuation": [

@@ -5,7 +5,7 @@
   "sheets": {
     "content_index": [
       {
-        "type": "globals_dict",
+        "type": "globals",
         "sheet_name": "parenttext_globals",
         "data_sheet": "",
         "data_row_id": "",
@@ -169,7 +169,7 @@
       },
       {
         "ID": "parenting_is_hard",
-        "value": "Criar a una niña, un niño o un adolescente es difícil. Crianza con Conciencia + te puede ayudar. Has completado @fields.n_goals_completed de @fields.n_goals_prog objetivos relacionados con la crianza. ¿Te gustaría seguir avanzando?"
+        "value": "Criar a una niña, un niño o un adolescente es difícil. Crianza Responsable y Amorosa te puede ayudar. Has completado @fields.n_goals_completed de @fields.n_goals_prog objetivos relacionados con la crianza. ¿Te gustaría seguir avanzando?"
       },
       {
         "ID": "come_back_type_start",
@@ -190,6 +190,46 @@
       {
         "ID": "your_baby",
         "value": "{tu bebé}"
+      },
+      {
+        "ID": "Your_child",
+        "value": "Tu niño o niña"
+      },
+      {
+        "ID": "Your_teen",
+        "value": "Tu adolescente"
+      },
+      {
+        "ID": "Your_baby",
+        "value": "Tu bebé"
+      },
+      {
+        "ID": "Your_Child",
+        "value": "{tu niño}"
+      },
+      {
+        "ID": "Your_Teen",
+        "value": "{tu adolescente}"
+      },
+      {
+        "ID": "Your_Baby",
+        "value": "{tu bebé}"
+      },
+      {
+        "ID": "child_age_group",
+        "value": "{grupo_de_edad}"
+      },
+      {
+        "ID": "day",
+        "value": "DÍA"
+      },
+      {
+        "ID": "demo_complete",
+        "value": "Completaste la demostración de ParentText. Escribe {RESET} y luego {FACSTART} para reiniciar."
+      },
+      {
+        "ID": "Age_Group",
+        "value": ""
       }
     ]
   }

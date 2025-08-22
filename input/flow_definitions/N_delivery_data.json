@@ -205,12 +205,12 @@
       },
       {
         "ID": "final_completion",
-        "msg": "🎉¡Lo lograste! ¡Felicidades!🎉 Has completado el programa. ¡Bien hecho!\nRecuerda que siempre puedes volver a Crianza con Conciencia + para obtener ayuda adicional o repasar estos cursos. Solo tienes que mandar la palabra {MENÚ}.",
-        "extra_msg": "Completar Crianza con Conciencia + es un logro importante. ¡Bien hecho! Es posible que pronto tengamos cursos nuevos disponibles. Cuando estén disponibles, recibirás una notificación por este medio."
+        "msg": "🎉¡Lo lograste! ¡Felicidades!🎉 Has completado el programa. ¡Bien hecho!\nRecuerda que siempre puedes volver a Crianza Responsable y Amorosa para obtener ayuda adicional o repasar estos cursos. Solo tienes que mandar la palabra {MENÚ}.",
+        "extra_msg": "Completar Crianza Responsable y Amorosa es un logro importante. ¡Bien hecho! Es posible que pronto tengamos cursos nuevos disponibles. Cuando estén disponibles, recibirás una notificación por este medio."
       },
       {
         "ID": "take_a_pause_completion",
-        "msg": "Buen trabajo. Ya puedes empezar el primer curso.",
+        "msg": "💪🏽 Buen trabajo. Ya puedes empezar el primer curso.",
         "extra_msg": ""
       }
     ],
@@ -360,7 +360,7 @@
         "n_max_opt": "10",
         "msg_no_options.message": "NA",
         "msg_no_options.image": "",
-        "msg_one_option.message": "¡Ya casi terminas Crianza con Conciencia +! Solo queda este curso:",
+        "msg_one_option.message": "¡Ya casi terminas Crianza Responsable y Amorosa! Solo queda este curso:",
         "msg_one_option.question": "",
         "msg_one_option.affirmative": "",
         "msg_one_option.negative": "",
@@ -377,7 +377,7 @@
         "n_max_opt": "10",
         "msg_no_options.message": "NA",
         "msg_no_options.image": "",
-        "msg_one_option.message": "¡Ya casi terminas Crianza con Conciencia +! Solo queda este curso:",
+        "msg_one_option.message": "¡Ya casi terminas Crianza Responsable y Amorosa! Solo queda este curso:",
         "msg_one_option.question": "",
         "msg_one_option.affirmative": "",
         "msg_one_option.negative": "",
@@ -530,7 +530,7 @@
         "list_var": "fields.goals_to_start",
         "print_type": "goal",
         "n_max_opt": "10",
-        "msg_no_options.message": "¡Vas por buen camino para completar todo el programa de Crianza con Conciencia +! ¡No tienes cursos nuevos por empezar!",
+        "msg_no_options.message": "¡Vas por buen camino para completar todo el programa de Crianza Responsable y Amorosa! ¡No tienes cursos nuevos por empezar!",
         "msg_one_option.message": "Tienes este curso disponible:",
         "msg_multiple_options": "Tienes estos cursos disponibles:"
       },
@@ -564,7 +564,7 @@
       },
       {
         "ID": "first",
-        "msg": "Completar el Curso Elemental \"@results.name\" solo te llevará 5 días. Una vez que hayas obtenido tu reconocimiento, tendrás acceso a otros cursos útiles acerca de crianza. Podrás elegir hacer los cursos que te interesen o los que aporten más a las necesidades de tu familia."
+        "msg": "Completar el Curso Elemental \"@results.name\" solo te llevará 5️⃣ días. \n\nUna vez que hayas obtenido tu reconocimiento, tendrás acceso a otros cursos útiles acerca de crianza. Podrás elegir hacer los cursos que te interesen o los que aporten más a las necesidades de tu familia."
       }
     ],
     "interaction_data": [
@@ -585,7 +585,7 @@
       },
       {
         "ID": "unfinished_onboarding",
-        "question": "El Curso Crianza con Conciencia Positiva ha comenzado. ¿Estás listo para completar tu registro y empezar?\n\nPresiona un número en el teclado:\n1. Sí\n2. Recuérdamelo más tarde, por favor.",
+        "question": "El Curso Crianza Responsable y Amorosa ha comenzado. ¿Estás listo para completar tu registro y empezar?\n\nPresiona un número en el teclado:\n1. Sí\n2. Recuérdamelo más tarde, por favor.",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
