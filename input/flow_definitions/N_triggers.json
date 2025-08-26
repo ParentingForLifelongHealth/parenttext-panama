@@ -19,20 +19,6 @@
         "Expired User Groups": "mx pilot"
       },
       {
-        "ID": "familia",
-        "Trigger": "",
-        "Experience (user group)": "digital",
-        "Recruitment (user group)": "share",
-        "Additional (user group)": "SNDIF",
-        "Included in scale? ": "scale",
-        "Cap Users At": "",
-        "Location, if applicable": "",
-        "Link": "https://wa.me/525651006984?text=familia",
-        "QR": "",
-        "Description": "Users who join because someone shared a link with them from the menu",
-        "Expired User Groups": ""
-      },
-      {
         "ID": "testers",
         "Trigger": "",
         "Experience (user group)": "hybrid",
@@ -47,20 +33,6 @@
         "Expired User Groups": "pilot"
       },
       {
-        "ID": "sano",
-        "Trigger": "",
-        "Experience (user group)": "digital",
-        "Recruitment (user group)": "",
-        "Additional (user group)": "SNDIF",
-        "Included in scale? ": "scale",
-        "Cap Users At": "",
-        "Location, if applicable": "",
-        "Link": "https://wa.me/525651006984?text=sano",
-        "QR": "",
-        "Description": "from unicef nutrition",
-        "Expired User Groups": ""
-      },
-      {
         "ID": "afectiva",
         "Trigger": "",
         "Experience (user group)": "hybrid",
@@ -73,6 +45,34 @@
         "QR": "",
         "Description": "Parents in the Mexico Pilot from Chihuahua who need the programme named \"Crianza Afectiva\"",
         "Expired User Groups": "pilot chihuahua"
+      },
+      {
+        "ID": "familia",
+        "Trigger": "",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "share",
+        "Additional (user group)": "SNDIF",
+        "Included in scale? ": "scale",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "https://wa.me/525651006984?text=familia",
+        "QR": "",
+        "Description": "Users who join because someone shared a link with them from the menu",
+        "Expired User Groups": ""
+      },
+      {
+        "ID": "sano",
+        "Trigger": "",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "",
+        "Additional (user group)": "SNDIF",
+        "Included in scale? ": "scale",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "https://wa.me/525651006984?text=sano",
+        "QR": "",
+        "Description": "from unicef nutrition",
+        "Expired User Groups": ""
       },
       {
         "ID": "aprender",

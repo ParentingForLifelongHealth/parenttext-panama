@@ -33,7 +33,7 @@
       },
       {
         "ID": "yes_opt_aliases",
-        "value": "sí  claro sip"
+        "value": "sí si claro sip"
       },
       {
         "ID": "no_opt",
@@ -229,7 +229,7 @@
       },
       {
         "ID": "Age_Group",
-        "value": ""
+        "value": "Grupo_De_Edad"
       }
     ]
   }
