@@ -9,7 +9,7 @@
         }
     },
     "flows_outputbasename": "parenttext_all",
-    "output_split_number": 1,
+    "output_split_number": 2,
     "sheet_names": {
         "PA_sheets": "1hYDdrnxLhR7NKaJB_eUH3xL7WvG9u8c59ZGjzsBF9Mg",
         "N_triggers": "195s4fnuluMNyls9S1ghjC2e7DaxczT2BPsOwEcDfvY8",
@@ -94,6 +94,25 @@
             "files_list": [
                 "1yUzKndclwMurTwBgDTzA5ha7xLjj214oZy10KYtjW4U"
             ]
+        },
+        "media_assets": {
+            "format": "media_assets",
+            "mappings": {
+                "Caregiver Gender": {
+                    "F": "female",
+                    "M": "male"
+                }
+            },
+            "path_template": [
+            "{% if format == 'image' %}{% if folder == 'Comics' %}comic/{{ name }}{% elif folder ==  'Logos' %}logo/{{ name }}{% elif folder ==  'Avatars' %}logo/{{ name }}{%else%}image/{{ name }}{% endif %}{% else %}voiceover/{{ format }}/{{ (annotations['Caregiver Gender'] or 'unknown') }}/spa/{{ name }}{% endif %}"
+            ],
+            "storage": {
+                "system": "canto",
+                "location": "V0LLG",
+                "annotations": {
+                    "site_base_url": "https://parentingforlifelonghealth.canto.com"
+                }
+            }
         }
     },
     "steps": [
