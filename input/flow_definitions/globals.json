@@ -16,6 +16,19 @@
         "tags.1": "",
         "tags.2": "",
         "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "demo_messages",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
       }
     ],
     "parenttext_globals": [
@@ -52,11 +65,57 @@
         "value": "✨"
       },
       {
-        "ID": "completed_msg_1",
+        "ID": "completed_block_msg_1",
         "value": "¡Has completado el"
       },
       {
-        "ID": "completed_msg_2",
+        "ID": "completed_block_msg_2",
+        "value": "de esta habilidad! Pulsa SIGUIENTE para continuar."
+      },
+      {
+        "ID": "transaction_failed",
+        "value": "Transacción fallida"
+      }
+    ],
+    "old parenttext_globals": [
+      {
+        "ID": "unrecognised_response_message",
+        "value": "Disculpa, no entiendo lo que quieres decir."
+      },
+      {
+        "ID": "next_button",
+        "value": "SIGUIENTE"
+      },
+      {
+        "ID": "yes_opt",
+        "value": "Sí"
+      },
+      {
+        "ID": "yes_opt_aliases",
+        "value": "sí si claro sip"
+      },
+      {
+        "ID": "no_opt",
+        "value": "No"
+      },
+      {
+        "ID": "no_opt_aliases",
+        "value": "no nop n"
+      },
+      {
+        "ID": "fail",
+        "value": "Ups, algo salió mal"
+      },
+      {
+        "ID": "fail_name",
+        "value": "✨"
+      },
+      {
+        "ID": "completed_block_msg_1",
+        "value": "¡Has completado el"
+      },
+      {
+        "ID": "completed_block_msg_2",
         "value": "de esta habilidad! Pulsa SIGUIENTE para continuar."
       },
       {
@@ -230,6 +289,72 @@
       {
         "ID": "Age_Group",
         "value": "Grupo_De_Edad"
+      }
+    ],
+    "demo_messages": [
+      {
+        "ID": "question_ltp",
+        "msg": "¿Cuál te gustaría probar?"
+      },
+      {
+        "ID": "question_modules",
+        "msg": "¿Cuál te gustaría probar?"
+      },
+      {
+        "ID": "question_home_activity",
+        "msg": "¿Cuál te gustaría probar?"
+      },
+      {
+        "ID": "question_goal_checkin",
+        "msg": "¿Cuál te gustaría probar?"
+      },
+      {
+        "ID": "pre_goal",
+        "msg": "***pre goal***"
+      },
+      {
+        "ID": "post_goal",
+        "msg": "***post goal***"
+      },
+      {
+        "ID": "stop_instructions",
+        "msg": "Escribe \"N\" para detener"
+      },
+      {
+        "ID": "stop_value",
+        "msg": "n"
+      },
+      {
+        "ID": "start_instructions_ltp",
+        "msg": "Type {test_ltp} to start again"
+      },
+      {
+        "ID": "start_instructions_modules",
+        "msg": "Type {test_module} to start again"
+      },
+      {
+        "ID": "start_instructions_home_activity",
+        "msg": "Type {test_home} to start again"
+      },
+      {
+        "ID": "start_instructions_modules",
+        "msg": "Type {test_module} to start again"
+      },
+      {
+        "ID": "start_instructions_goal_checkin",
+        "msg": "Type {test_check} to start again"
+      },
+      {
+        "ID": "demo_complete",
+        "msg": "Completaste la demostración de ParentText. Escribe {RESET} y luego {FACSTART} para reiniciar."
+      },
+      {
+        "ID": "demo_day",
+        "msg": "*DÍA @fields.curr_demo_day*"
+      },
+      {
+        "ID": "variables_reset",
+        "msg": "Las variables han sido restablecidas"
       }
     ]
   }

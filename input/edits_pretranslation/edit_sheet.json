@@ -49,7 +49,63 @@
       {
         "flow_type": "flow_editing",
         "flow_name": "",
-        "sheet_name": "bold_telegram",
+        "sheet_name": "bold_wa",
+        "status": "released",
+        "order": "0"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "external_references",
+        "status": "released",
+        "order": "0"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "youtube_add_split",
+        "status": "released",
+        "order": "0"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "youtube_male",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "youtube_female",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "youtube_male_review",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "youtube_female_review",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "remove-comics",
+        "status": "released",
+        "order": "0"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "triggers",
         "status": "released",
         "order": "0"
       }
@@ -301,7 +357,7 @@
         "category": "*"
       }
     ],
-    "bold_telegram": [
+    "bold_wa": [
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
@@ -309,7 +365,7 @@
         "node_identifier": "Regex:.*\\*.*",
         "change": "*",
         "condition_var": "",
-        "category": ""
+        "category": "*"
       }
     ],
     "insert_childname_beginning_punctuation": [
@@ -443,170 +499,7 @@
         "condition_type:male": "has_any_word"
       }
     ],
-    "external_references_eng": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "survey - onb - question - consent",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{consent}.*",
-        "change": "{consent}",
-        "condition_var": "",
-        "category": "https://bit.ly/CCPrivacy-Terms"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "survey - onb - question - welcome",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{URL}.*",
-        "change": "{URL}",
-        "condition_var": "",
-        "category": "https://bit.ly/AboutCC_es"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "share",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{insert link}.*",
-        "change": "{insert link}",
-        "condition_var": "",
-        "category": "https://wa.me/5215651006984/?text=familia"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{development resources 1}.*",
-        "change": "{development resources 1}",
-        "condition_var": "",
-        "category": "“Crianza positiva en el hogar” Buscarlo en: https://aprendomas.cuaed.unam.mx/\n\nClínica de la conducta https://www2.aefcm.gob.mx/directorio_escuelas/cct_mas_gbmx.jsp?cve_cct=09DML0122H\n\nHPIJNN\nhttps://www.gob.mx/salud/sap/acciones-y-programas/hospital-psiquiatrico-infantil-juan-n-navarro\n\nCDC\nhttps://www.cdc.gov/ncbddd/spanish/childdevelopment/early-brain-development.html\n\nInstituto Mexicano de la Juventud \nInstituto Mexicano de la Juventud | Gobierno | gob.mx (www.gob.mx)\n\nFundación Mexicana para la Planeación Familiar\nhttps://mexfam.org.mx/lineadeayuda/\n\nCentro Nacional de Equidad de Género y Salud Reproductiva \nDirectorio Servicios Amigables 2023.pdf \nCentros de Integración Juvenil \nhttps://www.cij.org.mx:89/\n"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{development resources 2}.*",
-        "change": "{development resources 2}",
-        "condition_var": "",
-        "category": "“Crianza positiva en el hogar” Buscarlo en: https://aprendomas.cuaed.unam.mx/\n\nClínica de la conducta https://www2.aefcm.gob.mx/directorio_escuelas/cct_mas_gbmx.jsp?cve_cct=09DML0122H\n\nHPIJNN\nhttps://www.gob.mx/salud/sap/acciones-y-programas/hospital-psiquiatrico-infantil-juan-n-navarro\n\nCDC\nhttps://www.cdc.gov/ncbddd/spanish/childdevelopment/early-brain-development.html\n\nInstituto Mexicano de la Juventud \nInstituto Mexicano de la Juventud | Gobierno | gob.mx (www.gob.mx)\n\nFundación Mexicana para la Planeación Familiar\nhttps://mexfam.org.mx/lineadeayuda/\n\nCentro Nacional de Equidad de Género y Salud Reproductiva \nDirectorio Servicios Amigables 2023.pdf \n\nCentros de Integración Juvenil \nhttps://www.cij.org.mx:89/\n"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{learning resources 1}.*",
-        "change": "{learning resources 1}",
-        "condition_var": "",
-        "category": "Recursos audiovisuales por materia\nhttps://aprende.gob.mx/\n\nPoemas y recursos literarios en audio https://www.alasyraices.gob.mx/leer_con_alas.html\n\nAplicaciones de actividades educativas diferenciadas por edad\nhttps://alasyraices.gob.mx/apps.html"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{learning resources 2}.*",
-        "change": "{learning resources 2}",
-        "condition_var": "",
-        "category": "Recorridos virtuales de museos\nhttps://inba.gob.mx/digital\n\nhttps://www.gob.mx/cultura/articulos/museos-de-mexico-que-puedes-visitar-de-manera-virtual?idiom=es"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{learning resources 3}.*",
-        "change": "{learning resources 3}",
-        "condition_var": "",
-        "category": "Programa de capacitación para madres. padres y personas cuidadoras\nhttps://iris.paho.org/handle/10665.2/52623\n\nConsejo Nacional para el Desarrollo y la Inclusión de las personas con discapacidad\nhttps://www.gob.mx/conadis"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{learning resources 4}.*",
-        "change": "{learning resources 4}",
-        "condition_var": "",
-        "category": "Guía para madres, padres, cuidadores y docentes\nhttps://www.consejodiscapacidades.gob.ec/wp-content/uploads/downloads/2014/12/Gu%C3%ADa-para-padres-y-maestros-La-vida-es-maravillosa-4-8.pdf\n\nCredencial Nacional para Personas con Discapacidad\nhttps://www.gob.mx/difnacional/acciones-y-programas/credencial-nacional-para-personas-con-discapacidad"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{cyber safety}.*",
-        "change": "{cyber safety}",
-        "condition_var": "",
-        "category": "Pantallas Amigas https://www.pantallasamigas.net/"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{structure resources}.*",
-        "change": "{structure resources}",
-        "condition_var": "",
-        "category": "Buen Trato https://www.unicef.org/mexico/buentrato?_gl=1*1dhtbjx*_ga*NjM5MDQ1MTMyLjE2MzQ5NjM5NDQ.*_ga_ZEPV2PX419*MTcwMDcwMTU4MC4xLjEuMTcwMDcwNDU2OS40OC4wLjA."
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{mental health resources}.*",
-        "change": "{mental health resources}",
-        "condition_var": "",
-        "category": "Plataforma Aprendo+ https://aprendomasplus.cuaieed.unam.mx/\n\nLínea de Atención Psicológica UNAM Call Center especializada en salud mental: (55) 5025-0855"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{book resources}.*",
-        "change": "{book resources}",
-        "condition_var": "",
-        "category": "\"Librero Digital\" https://www.alasyraices.gob.mx/librerogeneral.html\n\n\"Leoteca\" https://www.leoteca.es/\n\n\"Cuentos para Dormir\" https://play.google.com/store/apps/details?id=com.IVR.cuentosparadormir&hl=es_US&pli=1\n\n\"Audioteca\" https://www.alasyraices.gob.mx/leer_con_alas.html"
-      }
-    ],
-    "referrals_add_location": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{mental_health referrals}.*",
-        "change": "{mental_health referrals}",
-        "condition_var": "@fields.location",
-        "category": "{mental_health referrals}",
-        "category:mexico_city": "{mental_health referrals mexico_city}",
-        "condition:mexico_city": "mexico_city",
-        "condition_type:mexico_city": "has_only_phrase",
-        "category:baja_california": "{mental_health referrals}",
-        "condition:baja_california": "baja_california",
-        "condition_type:baja_california": "has_only_phrase",
-        "category:michoacán": "{mental_health referrals}",
-        "condition:michoacán": "michoacán",
-        "condition_type:michoacán": "has_only_phrase",
-        "category:chihuahua": "{mental_health referrals}",
-        "condition:chihuahua": "chihuahua",
-        "condition_type:chihuahua": "has_only_phrase"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{violence referrals}.*",
-        "change": "{violence referrals}",
-        "condition_var": "@fields.location",
-        "category": "{violence referrals}",
-        "category:mexico_city": "{violence referrals}",
-        "condition:mexico_city": "mexico_city",
-        "condition_type:mexico_city": "has_only_phrase",
-        "category:baja_california": "{violence referrals baja_california}",
-        "condition:baja_california": "baja_california",
-        "condition_type:baja_california": "has_only_phrase",
-        "category:michoacán": "{violence referrals}",
-        "condition:michoacán": "michoacán",
-        "condition_type:michoacán": "has_only_phrase",
-        "category:chihuahua": "{violence referrals chihuahua}",
-        "condition:chihuahua": "chihuahua",
-        "condition_type:chihuahua": "has_only_phrase"
-      }
-    ],
-    "external_references_transl": [
+    "external_references": [
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "survey - onb - question - consent",
@@ -632,7 +525,7 @@
         "node_identifier": "Regex:.*{insert link}.*",
         "original": "{insert link}",
         "language": "spa",
-        "replacement": "https://wa.me/5215651006984/?text=familia"
+        "replacement": "add link"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -725,7 +618,7 @@
         "replacement": "\"Librero Digital\" https://www.alasyraices.gob.mx/librerogeneral.html\n\n\"Leoteca\" https://www.leoteca.es/\n\n\"Cuentos para Dormir\" https://play.google.com/store/apps/details?id=com.IVR.cuentosparadormir&hl=es_US&pli=1\n\n\"Audioteca\" https://www.alasyraices.gob.mx/leer_con_alas.html"
       }
     ],
-    "referrals_eng": [
+    "referrals": [
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
@@ -748,15 +641,6 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{mental_health referrals mexico_city}.*",
-        "change": "{mental_health referrals mexico_city}",
-        "condition_var": "",
-        "category": "- Sistema Nacional de Apoyo, Consejo Psicológico, e Intervención en Crisis por Teléfono. www.saptel.org.mx 55 5259-8121 55 5533-5533\n- LOCATEL ayuda emocional  *0311*0311 Locatel - CDMX\n- Línea Nacional de Prevención del Suicidio. También puedes llamar al 1-800-273-8255 para hablar con alguien sobre cómo puedes ayudar a una persona en crisis.\n- Instituto Nacional de Psiquiatría Ramón de la Fuente Muñiz línea telefónica donde pueden atender casos de estrés, ansiedad, cualquier crisis emocional o situaciones de emergencia.  CDMX: 55 4160-5372 Int. República 55 4160-3282. https://www.inprf.gob.mx/                                                  \n- El 9-1-1 es un número único de llamadas de emergencia. En él se homologan todos los números de atención de emergencias médicas, de seguridad y de protección civil a nivel federal, estatal y municipal.Se puede acudir a la llamada del 911 en caso de una crísis psicológica de emergencia.\n- Línea de Atención Psicológica UNAM Call Center especializada en salud mental  (55) 5025-0855\n- Contacto Jóven (servicio a  jóvenes entre 13 y 29). Manda mensaje con la palabra \"Contacto\" al 5579009669"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
         "node_identifier": "Regex:.*{health referrals}.*",
         "change": "{health referrals}",
         "condition_var": "",
@@ -770,42 +654,6 @@
         "change": "{violence referrals}",
         "condition_var": "",
         "category": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nSecretaría de las mujeres https://mujeresseguras.cdmx.gob.mx/como-denunciar/ https://denunciadigital.cdmx.gob.mx/ \n\nCentro de Terapia de Apoyo a Víctimas de Delitos Sexuales https://www.fgjcdmx.gob.mx/nuestros-servicios/en-linea/mp-virtual/cta-centro-de-terapia-de-apoyo-victimas-de-delitos-sexuales\n\nProgramas de atención a la violencia https://web.sectei.cdmx.gob.mx/bibliotecas/profesionalizacion/directoriocentros/\n"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{violence referrals baja_california}.*",
-        "change": "{violence referrals}",
-        "condition_var": "",
-        "category": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nINMUJER Sitio web: https://www.bajacalifornia.gob.mx/inmujer/\n\nBotón morado para mujeres en riesgo \nInstalar aplicación en tu celular \nhttps://play.google.com/store/apps/details?id=com.tijuana.seguro&hl=es&gl=US&pli=1"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{violence referrals chihuahua}.*",
-        "change": "{violence referrals}",
-        "condition_var": "",
-        "category": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nSEDIF Chihuahua\nLlamada anónima:  800 230 4050  "
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{violence referrals mexico_city}.*",
-        "change": "{violence referrals}",
-        "condition_var": "",
-        "category": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nCAVI. Servicio gratuito. \n(55) 5345 5248, (55) 5345 5228, (55) 5345 5229. Sitio web: https://www.fgjcdmx.gob.mx/cavi \n-CARIVA (55) 5200 9166 y (55) 5200 9172 Sitio web: https://www.fgjcdmx.gob.mx/CARIVA\n-“LUNAS“,  Lunes a viernes de 9:00 a 17:00 horas. Número Telefónico: 55 55122836 ext. 502"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{violence referrals michoacán}.*",
-        "change": "{violence referrals}",
-        "condition_var": "",
-        "category": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nCOEPREDV Número Telefónico: 443 274 3105 Sitio web: https://coepredv.michoacan.gob.mx/ "
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -835,215 +683,612 @@
         "category": "Centro de Integración Juvenil (CIJ). Material interactivo para familias: http://www.cij.gob.mx/Prevencion/Interactivos/interactivos.html\n                                                                                                                                                                                                                 Centro de integración Juvenil (CIJ). Grupo para apoyo de padres: https://www.facebook.com/groups/teammadrespadres/?locale=es_LA"
       }
     ],
-    "referrals_transl": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{generic referrals}.*",
-        "original": "{generic referrals}",
-        "language": "spa",
-        "replacement": "Secretaría de Seguridad Ciudadana Sitio web:  https://www.ssc.cdmx.gob.mx/\n\nDenuncia de secuestro o extorsión telefónica:  088\n\nPolicia Federal\nDenuncia Anónima: 089\n\nCentro de Denuncia y Atención Ciudadana (CEDAD): 800 00 85 400"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{mental_health referrals}.*",
-        "original": "{mental_health referrals}",
-        "language": "spa",
-        "replacement": "Sistema Nacional de Apoyo, Consejo Psicológico, e Intervención en Crisis por Teléfono. www.saptel.org.mx 55 5259-8121 55 5533-5533\n\nLínea Nacional de Prevención del Suicidio. También puedes llamar al 1-800-273-8255 para hablar con alguien sobre cómo puedes ayudar a una persona en crisis.                                            \n\nEl 9-1-1 es un número único de llamadas de emergencia. En él se homologan todos los números de atención de emergencias médicas, de seguridad y de protección civil a nivel federal, estatal y municipal. Se puede acudir a la llamada del 911 en caso de una crísis psicológica de emergencia.\n\nLínea de Atención Psicológica UNAM Call Center especializada en salud mental  (55) 5025-0855\n\nContacto Jóven (servicio a  jóvenes entre 13 y 29). Manda mensaje con la palabra \"Contacto\" al 5579009669"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{mental_health referrals mexico_city}.*",
-        "original": "{mental_health referrals}",
-        "language": "spa",
-        "replacement": "Sistema Nacional de Apoyo, Consejo Psicológico, e Intervención en Crisis por Teléfono. www.saptel.org.mx 55 5259-8121 55 5533-5533\n\nLOCATEL ayuda emocional  *0311*0311 Locatel - CDMX- Línea Nacional de Prevención del Suicidio. También puedes llamar al 1-800-273-8255 para hablar con alguien sobre cómo puedes ayudar a una persona en crisis.\n\nInstituto Nacional de Psiquiatría Ramón de la Fuente Muñiz línea telefónica donde pueden atender casos de estrés, ansiedad, cualquier crisis emocional o situaciones de emergencia.  CDMX: 55 4160-5372 Int. República 55 4160-3282. https://www.inprf.gob.mx/                                                       \n\nEl 9-1-1 es un número único de llamadas de emergencia. En él se homologan todos los números de atención de emergencias médicas, de seguridad y de protección civil a nivel federal, estatal y municipal.Se puede acudir a la llamada del 911 en caso de una crísis psicológica de emergencia.\n\nLínea de Atención Psicológica UNAM Call Center especializada en salud mental  (55) 5025-0855\n\nContacto Jóven (servicio a  jóvenes entre 13 y 29). Manda mensaje con la palabra \"Contacto\" al 5579009669"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{health referrals}.*",
-        "original": "{health referrals}",
-        "language": "spa",
-        "replacement": "Llama al 911 para recibir ayuda en situaciones de emergencia médica o emocional."
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{violence referrals}.*",
-        "original": "{violence referrals}",
-        "language": "spa",
-        "replacement": "Secretaría de las mujeres https://mujeresseguras.cdmx.gob.mx/como-denunciar/ https://denunciadigital.cdmx.gob.mx/ \n\nCentro de Terapia de Apoyo a Víctimas de Delitos Sexuales https://www.fgjcdmx.gob.mx/nuestros-servicios/en-linea/mp-virtual/cta-centro-de-terapia-de-apoyo-victimas-de-delitos-sexuales\n\nProgramas de atención a la violencia https://web.sectei.cdmx.gob.mx/bibliotecas/profesionalizacion/directoriocentros/"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{violence referrals chihuahua}.*",
-        "original": "{violence referrals}",
-        "language": "spa",
-        "replacement": "SEDIF Chihuahua\nLlamada anónima:  800 230 4050  "
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{violence referrals baja_california}.*",
-        "original": "{violence referrals}",
-        "language": "spa",
-        "replacement": "Botón morado para mujeres en riesgo \nInstalar aplicación en tu celular \nhttps://play.google.com/store/apps/details?id=com.tijuana.seguro&hl=es&gl=US&pli=1"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{violence referrals mexico_city}.*",
-        "original": "{violence referrals}",
-        "language": "spa",
-        "replacement": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nCAVI. Servicio gratuito. \n(55) 5345 5248, (55) 5345 5228, (55) 5345 5229. Sitio web: https://www.fgjcdmx.gob.mx/cavi \n\nCARIVA (55) 5200 9166 y (55) 5200 9172 Sitio web: https://www.fgjcdmx.gob.mx/CARIVA\n\nLUNAS  Lunes a viernes de 9:00 a 17:00 horas. Número Telefónico: 55 55122836 ext. 502"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{violence referrals michoacán}.*",
-        "original": "{violence referrals}",
-        "language": "spa",
-        "replacement": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nCOEPREDV Número Telefónico: 443 274 3105 Sitio web: https://coepredv.michoacan.gob.mx/ "
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{natural_disasters referrals}.*",
-        "original": "{natural_disasters referrals}",
-        "language": "spa",
-        "replacement": "LOCATEL 5556581111\nhttps://311locatel.cdmx.gob.mx/ \n                                                                                                                                                                                                Atención de llamadas de Emergencia 911\nNúmeros de emergencia: https://www.gob.mx/sct/es/articulos/lleva-contigo-los-numeros-de-emergencia                                                                                                                                                                                                                                                                                                                                                      "
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{drugs referrals}.*",
-        "original": "{drugs referrals}",
-        "language": "spa",
-        "replacement": "Centro de Integración Juvenil  https://www.cij.org.mx:89/\n55 52 12 12 12 \n\nAlcohólicos Anónimos\nhttps://aamexico.org.mx/\n800 216 92 31"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{family referrals}.*",
-        "original": "{family referrals}",
-        "language": "spa",
-        "replacement": "Centro de Integración Juvenil (CIJ). Material interactivo para familias: http://www.cij.gob.mx/Prevencion/Interactivos/interactivos.html\n                                                                                                                                                                                                                 Centro de integración Juvenil (CIJ). Grupo para apoyo de padres: https://www.facebook.com/groups/teammadrespadres/?locale=es_LA"
-      }
-    ],
     "triggers": [
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{HELP}.*",
-        "original": "{HELP}",
+        "node_identifier": "Regex:.*{AYUDA}.*",
+        "change": "{AYUDA}",
         "condition_var": "",
-        "replacement": "AYUDA"
+        "category": "AYUDA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MENÚ}.*",
+        "change": "{MENÚ}",
+        "condition_var": "",
+        "category": "MENÚ"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{MENU}.*",
-        "original": "{MENU}",
+        "change": "{MENU}",
         "condition_var": "",
-        "replacement": "MENÚ"
+        "category": "MENÚ"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{PLAY}.*",
-        "original": "{PLAY}",
+        "node_identifier": "Regex:.*{JUGAR}.*",
+        "change": "{JUGAR}",
         "condition_var": "",
-        "replacement": "JUGAR"
+        "category": "JUGAR"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{GROW}.*",
-        "original": "{GROW}",
+        "node_identifier": "Regex:.*{CRECER}.*",
+        "change": "{CRECER}",
         "condition_var": "",
-        "replacement": "CRECER"
+        "category": "CRECER"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{STOP}.*",
-        "original": "{STOP}",
+        "node_identifier": "Regex:.*{DETENER}.*",
+        "change": "{DETENER}",
         "condition_var": "",
-        "replacement": "DETENER"
+        "category": "DETENER"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{BOOK}.*",
-        "original": "{BOOK}",
+        "node_identifier": "Regex:.*{LIBRO}.*",
+        "change": "{LIBRO}",
         "condition_var": "",
-        "replacement": "LIBRO"
+        "category": "LIBRO"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{PREVENT}.*",
-        "original": "{PREVENT}",
+        "node_identifier": "Regex:.*{PREVENIR}.*",
+        "change": "{PREVENIR}",
         "condition_var": "",
-        "replacement": "PREVENIR"
+        "category": "PREVENIR"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{REVIEW}.*",
-        "original": "{REVIEW}",
+        "node_identifier": "Regex:.*{RESEÑA}.*",
+        "change": "{RESEÑA}",
         "condition_var": "",
-        "replacement": "RESEÑA"
+        "category": "RESEÑA"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{PAUSE}.*",
-        "original": "{PAUSE}",
+        "node_identifier": "Regex:.*{PAUSAR}.*",
+        "change": "{PAUSAR}",
         "condition_var": "",
-        "replacement": "PAUSAR"
+        "category": "PAUSAR"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{RESET}.*",
-        "original": "{RESET}",
+        "node_identifier": "Regex:.*{FACREANUDAR}.*",
+        "change": "{FACREANUDAR}",
         "condition_var": "",
-        "replacement": "FACREANUDAR"
+        "category": "FACREANUDAR"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{FACSTART}.*",
-        "original": "{FACSTART}",
+        "node_identifier": "Regex:.*{FORMANDO}.*",
+        "change": "{FORMANDO}",
         "condition_var": "",
-        "replacement": "FORMANDO"
+        "category": "FORMANDO"
+      }
+    ],
+    "youtube_add_split": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*module -.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url}.*",
+        "change": "{video_url}",
+        "condition_var": "@fields.attachment_gender",
+        "category": "{video_url_female}",
+        "category:male": "{video_url_male}",
+        "condition:male": "male",
+        "condition_type:male": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*module_review -.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url}.*",
+        "change": "{video_url}",
+        "condition_var": "@fields.attachment_gender",
+        "category": "{video_url_female}",
+        "category:male": "{video_url_male}",
+        "condition:male": "male",
+        "condition_type:male": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "orientation",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url}.*",
+        "change": "{video_url}",
+        "condition_var": "@fields.attachment_gender",
+        "category": "{video_url_female}",
+        "category:male": "{video_url_male}",
+        "condition:male": "male",
+        "condition_type:male": "has_only_phrase"
+      }
+    ],
+    "youtube_male": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - one_on_one_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/-z0sZVQdKdE"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - give_praise_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://www.youtube.com/watch?v=zXa4BB4wy9c"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - routines_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/yFRao7ShF0U"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - feelings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/RVrKRsCBMkA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - calm_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/_n1_50lXCQA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - one_on_one_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/qZMg6Dc4Pkc"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - give_praise_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/wLmxn5tScnc"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - routines_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/yIhwHMo2mMs"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - feelings_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/HxloKGnhDxM"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - calm_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/dtZg6f3ZAt0"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - take_a_pause",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/Jy2LeF4NWNA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "orientation",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/4cs14xI9QI0"
+      }
+    ],
+    "youtube_female": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - one_on_one_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/KM9DjED2zOk"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - give_praise_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/0yqDmkM6dik"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - routines_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/DKDPEdaC0Rc"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - feelings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/X9xbh32lVTw"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - calm_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/b_sKbksPY1o"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - one_on_one_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/aPUWNrc2VD0"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - give_praise_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/3lfneqoVzkA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - routines_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/fjnUFYEYhTM"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - feelings_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/Fu-NpRsXlfQ"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - calm_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/uPDC_CNHGBI"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - take_a_pause",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/aBcF-gpN4ME"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "orientation",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/PIUol9JOWQk"
+      }
+    ],
+    "youtube_male_review": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - one_on_one_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/-z0sZVQdKdE"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - give_praise_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://www.youtube.com/watch?v=zXa4BB4wy9c"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - routines_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/yFRao7ShF0U"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - feelings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/RVrKRsCBMkA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - calm_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/_n1_50lXCQA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - one_on_one_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/qZMg6Dc4Pkc"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - give_praise_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/wLmxn5tScnc"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - routines_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/yIhwHMo2mMs"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - feelings_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/HxloKGnhDxM"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - calm_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/dtZg6f3ZAt0"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - take_a_pause",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_male}.*",
+        "change": "{video_url_male}",
+        "condition_var": "",
+        "category": "https://youtu.be/Jy2LeF4NWNA"
+      }
+    ],
+    "youtube_female_review": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - one_on_one_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/KM9DjED2zOk"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - give_praise_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/0yqDmkM6dik"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - routines_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/DKDPEdaC0Rc"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - feelings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/X9xbh32lVTw"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - calm_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/b_sKbksPY1o"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - one_on_one_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/aPUWNrc2VD0"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - give_praise_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/3lfneqoVzkA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - routines_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/fjnUFYEYhTM"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - feelings_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/Fu-NpRsXlfQ"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - calm_teen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/uPDC_CNHGBI"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - take_a_pause",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{video_url_female}.*",
+        "change": "{video_url_female}",
+        "condition_var": "",
+        "category": "https://youtu.be/aBcF-gpN4ME"
+      }
+    ],
+    "remove-comics": [
+      {
+        "type_of_edit": "remove_attachments",
+        "flow_id": "module - calm_yc",
+        "original_row_id": "",
+        "node_identifier": "{F2_ABUELO} pensando: Me siento más tranquilo. Ahora sí puedo pensar con más claridad sobre qué hacer para apoyar a mi nieto.",
+        "change": "@(fields.comic_path & \"calm_yc_3.jpg\")",
+        "condition_var": "",
+        "category": ""
+      },
+      {
+        "type_of_edit": "remove_attachments",
+        "flow_id": "module - calm_teen",
+        "original_row_id": "",
+        "node_identifier": "{F2_ABUELA} pensando: Me siento más tranquila. Ahora sí puedo pensar con más claridad sobre qué hacer para apoyar a mi niño.",
+        "change": "@(fields.comic_path & \"calm_teen_3.jpg\")",
+        "condition_var": "",
+        "category": ""
+      },
+      {
+        "type_of_edit": "remove_attachments",
+        "flow_id": "module_review - calm_yc",
+        "original_row_id": "",
+        "node_identifier": "{F2_ABUELO} pensando: Me siento más tranquilo. Ahora sí puedo pensar con más claridad sobre qué hacer para apoyar a mi nieto.",
+        "change": "@(fields.comic_path & \"calm_yc_3.jpg\")",
+        "condition_var": "",
+        "category": ""
+      },
+      {
+        "type_of_edit": "remove_attachments",
+        "flow_id": "module_review - calm_teen",
+        "original_row_id": "",
+        "node_identifier": "{F2_ABUELA} pensando: Me siento más tranquila. Ahora sí puedo pensar con más claridad sobre qué hacer para apoyar a mi niño.",
+        "change": "@(fields.comic_path & \"calm_teen_3.jpg\")",
+        "condition_var": "",
+        "category": ""
       }
     ]
   }
