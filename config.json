@@ -9,10 +9,10 @@
         }
     },
     "flows_outputbasename": "parenttext_all",
-    "output_split_number": 2,
+    "output_split_number": 1,
     "sheet_names": {
         "PA_sheets": "1hYDdrnxLhR7NKaJB_eUH3xL7WvG9u8c59ZGjzsBF9Mg",
-        "N_triggers": "195s4fnuluMNyls9S1ghjC2e7DaxczT2BPsOwEcDfvY8",
+        "N_triggers": "1kzrU0Grsyx9Yqdx963RL0kOfNO4EVnVBDaJ6k-4Oht0",
         "T_content": "1IlKACAmKqILhpumKRiTf8ovWO7h7MIJurIYqj-SgMXo",
         "C_dev_asess_tool" : "1zducXLM9OwD8G5quEzYDjqrelBdeCr_4h88nGAjL74M",
         "T_safeguarding": "1RZLY7GGILdBHkc4G-tzymYbNN0lvONgXJlPjG9Ol19I",
@@ -46,7 +46,6 @@
                     "C_modules_teen",
                     "C_modules_child",
                     "C_goal_checkin",
-                    "C_dev_asess_tool",
                     "T_content",
                     "N_safeguarding_data",
                     "T_safeguarding",
@@ -83,9 +82,9 @@
             "format": "safeguarding",
             "sources": [
                 {
-                    "key": "spa",
-                    "location": "1QXmuAiqa8RgpM3Xbtw3aem_6g2EeBTMM"
-                 }
+                    "key": "eng",
+                    "location": "1HXWMtP8EPNSyhnE3Q6JPKv8CnOVVMmYV"
+                }
             ]
         },
         "goals_api": {
