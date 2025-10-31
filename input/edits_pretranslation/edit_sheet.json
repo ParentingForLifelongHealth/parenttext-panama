@@ -108,6 +108,13 @@
         "sheet_name": "triggers",
         "status": "released",
         "order": "0"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "goal_module_name",
+        "status": "released",
+        "order": "0"
       }
     ],
     "comic_names": [
@@ -1289,6 +1296,26 @@
         "change": "@(fields.comic_path & \"calm_teen_3.jpg\")",
         "condition_var": "",
         "category": ""
+      }
+    ],
+    "goal_module_name": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{nombre_curso}.*",
+        "change": "{nombre_curso}",
+        "condition_var": "",
+        "category": "@results.name"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{nombre_modulo}.*",
+        "change": "{nombre_modulo}",
+        "condition_var": "",
+        "category": "@results.name"
       }
     ]
   }
