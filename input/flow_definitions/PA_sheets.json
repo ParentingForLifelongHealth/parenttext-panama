@@ -1062,6 +1062,22 @@
       },
       {
         "type": "create_flow",
+        "sheet_name": "settings_profile",
+        "data_sheet": "settings_profile_data",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "",
+        "operation": "",
+        "template_arguments": "menu - return_or_exit",
+        "status": "",
+        "group": "",
+        "tags.1": "menu",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
+      },
+      {
+        "type": "create_flow",
         "sheet_name": "hook_message_referral_path",
         "data_sheet": "",
         "data_row_id": "",
@@ -1078,7 +1094,7 @@
       },
       {
         "type": "content_index",
-        "sheet_name": "content_index_5day_pilot",
+        "sheet_name": "content_index_5day",
         "data_sheet": "",
         "data_row_id": "",
         "new_name": "",
@@ -1093,7 +1109,7 @@
         "tags.4": ""
       }
     ],
-    "content_index_5day_pilot": [
+    "content_index_5day": [
       {
         "type": "ignore_row",
         "sheet_name": "survey_behave",
@@ -1207,88 +1223,8 @@
         "tags.4": ""
       },
       {
-        "type": "template_definition",
-        "sheet_name": "program_completion_congrats_5day",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "",
-        "operation": "",
-        "template_arguments": "messages;sheet|",
-        "status": "",
-        "group": "",
-        "tags.1": "",
-        "tags.2": "",
-        "tags.3": "",
-        "tags.4": ""
-      },
-      {
-        "type": "create_flow",
-        "sheet_name": "program_completion_congrats_5day",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "",
-        "operation": "",
-        "template_arguments": "congrats_data",
-        "status": "",
-        "group": "",
-        "tags.1": "delivery",
-        "tags.2": "",
-        "tags.3": "",
-        "tags.4": ""
-      },
-      {
         "type": "data_sheet",
-        "sheet_name": "course_congrats_data_5day",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "CongratsDataModel",
-        "operation": "",
-        "template_arguments": "",
-        "status": "",
-        "group": "",
-        "tags.1": "",
-        "tags.2": "",
-        "tags.3": "",
-        "tags.4": ""
-      },
-      {
-        "type": "data_sheet",
-        "sheet_name": "congrats_data;\ncourse_congrats_data_5day",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "congrats_data",
-        "data_model": "",
-        "operation": "concat",
-        "template_arguments": "",
-        "status": "",
-        "group": "",
-        "tags.1": "",
-        "tags.2": "",
-        "tags.3": "",
-        "tags.4": ""
-      },
-      {
-        "type": "data_sheet",
-        "sheet_name": "course_description_data_5day",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "SingleMessageModel",
-        "operation": "",
-        "template_arguments": "",
-        "status": "",
-        "group": "",
-        "tags.1": "",
-        "tags.2": "",
-        "tags.3": "",
-        "tags.4": ""
-      },
-      {
-        "type": "data_sheet",
-        "sheet_name": "description_data;\ncourse_description_data_5day",
+        "sheet_name": "description_data;\ndescription_data_5day",
         "data_sheet": "",
         "data_row_id": "",
         "new_name": "description_data",
@@ -1298,70 +1234,6 @@
         "status": "",
         "group": "",
         "tags.1": "",
-        "tags.2": "",
-        "tags.3": "",
-        "tags.4": ""
-      },
-      {
-        "type": "template_definition",
-        "sheet_name": "start_first_goal_fixed_5day",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "",
-        "operation": "",
-        "template_arguments": "messages;sheet|",
-        "status": "",
-        "group": "",
-        "tags.1": "",
-        "tags.2": "",
-        "tags.3": "",
-        "tags.4": ""
-      },
-      {
-        "type": "create_flow",
-        "sheet_name": "start_first_goal_fixed_5day",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "",
-        "operation": "",
-        "template_arguments": "description_data",
-        "status": "",
-        "group": "",
-        "tags.1": "delivery",
-        "tags.2": "",
-        "tags.3": "",
-        "tags.4": ""
-      },
-      {
-        "type": "create_flow",
-        "sheet_name": "onboarding_question_language_pilot",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "",
-        "operation": "",
-        "template_arguments": "",
-        "status": "draft",
-        "group": "",
-        "tags.1": "onboarding",
-        "tags.2": "",
-        "tags.3": "",
-        "tags.4": ""
-      },
-      {
-        "type": "create_flow",
-        "sheet_name": "onboarding_welcome_msg_pilot",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "",
-        "operation": "",
-        "template_arguments": "",
-        "status": "draft",
-        "group": "",
-        "tags.1": "onboarding",
         "tags.2": "",
         "tags.3": "",
         "tags.4": ""
@@ -1858,8 +1730,8 @@
         "relationship": "yes|no",
         "checkin_c": "safety_c",
         "checkin_t": "safety_t",
-        "name_c.spa": "Seguridad y Salud de Mi Niña o Niño ",
-        "name_t.spa": "Seguridad y Salud de Mi Adolescente"
+        "name_c.spa": "Seguridad de Mi Niña o Niño ",
+        "name_t.spa": "Seguridad de Mi Adolescente"
       },
       {
         "ID": "learning",
@@ -1897,7 +1769,7 @@
         "relationship": "yes|no",
         "checkin_c": "develop_c",
         "checkin_t": "",
-        "name_c.spa": "Entender el Desarrollo de Mi Niña o Niño",
+        "name_c.spa": "Entiendo el Desarrollo de Mi Niña o Niño",
         "name_t.spa": ""
       }
     ],
@@ -1908,7 +1780,7 @@
         "priority_in_topic": "",
         "age": "2|3| 4 | 5 | 6 | 7 | 8 | 9",
         "child_gender": "male|female",
-        "name.spa": "Pasar Tiempo para Estar Juntos y Conectados"
+        "name.spa": "Pasar Tiempo Juntos y Conectados con mi Niña o Niño"
       },
       {
         "ID": "give_praise_yc",
@@ -1948,7 +1820,7 @@
         "priority_in_topic": "",
         "age": "10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
-        "name.spa": "Pasar Tiempo Uno a Uno Con Mi Adolescente"
+        "name.spa": "Pasar Tiempo Juntos y Conectados con mi Adolescente"
       },
       {
         "ID": "give_praise_teen",
@@ -2910,13 +2782,6 @@
         "ID": "certificate",
         "url": "https://rapidpro-next.idems.international/certificator/mexico/certificates",
         "token": ""
-      }
-    ],
-    "course_congrats_data_5day": [
-      {
-        "ID": "final_completion_5day",
-        "msg": "🎉You did it! Congratulations!🎉 Thank you for participating!\nRemember, you can always return to ParentText and get extra support or review these courses. Just type {MENU}.",
-        "extra_msg": "Completing this course was an important achievement. New courses might be available soon. As they become available, you'll receive a notification through this channel. "
       }
     ],
     "course_description_data_5day": [
