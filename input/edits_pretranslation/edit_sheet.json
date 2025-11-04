@@ -125,7 +125,7 @@
         "node_identifier": "Regex:.*{F1_MADRE}.*",
         "change": "{F1_MADRE}",
         "condition_var": "",
-        "category": "Isabel"
+        "category": "Librada"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -143,7 +143,7 @@
         "node_identifier": "Regex:.*{F1_HIJO_17}.*",
         "change": "{F1_HIJO_17}",
         "condition_var": "",
-        "category": "Diego"
+        "category": "Camilo"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -152,7 +152,7 @@
         "node_identifier": "Regex:.*{F1_HIJA_16}.*",
         "change": "{F1_HIJA_16}",
         "condition_var": "",
-        "category": "Regina"
+        "category": "Dilsia"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -161,7 +161,7 @@
         "node_identifier": "Regex:.*{F1_HIJA_13}.*",
         "change": "{F1_HIJA_13}",
         "condition_var": "",
-        "category": "Marifer"
+        "category": "Jazmin"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -170,7 +170,7 @@
         "node_identifier": "Regex:.*{F1_HIJA_6}.*",
         "change": "{F1_HIJA_6}",
         "condition_var": "",
-        "category": "Alex"
+        "category": "Rita"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -188,7 +188,7 @@
         "node_identifier": "Regex:.*{F1_HIJO_5}.*",
         "change": "{F1_HIJO_5}",
         "condition_var": "",
-        "category": "René"
+        "category": "Juan"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -224,7 +224,7 @@
         "node_identifier": "Regex:.*{F2_HIJO_15}.*",
         "change": "{F2_HIJO_15}",
         "condition_var": "",
-        "category": "Santiago"
+        "category": "Isaac"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -242,7 +242,7 @@
         "node_identifier": "Regex:.*{F2_HIJA_3}.*",
         "change": "{F2_HIJA_3}",
         "condition_var": "",
-        "category": "Quetzali"
+        "category": "Yani"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -251,7 +251,7 @@
         "node_identifier": "Regex:.*{F3_MADRE}.*",
         "change": "{F3_MADRE}",
         "condition_var": "",
-        "category": "Silvia"
+        "category": "Mariela"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -260,7 +260,7 @@
         "node_identifier": "Regex:.*{F3_TÍO}.*",
         "change": "{F3_TÍO}",
         "condition_var": "",
-        "category": "Tío Beto "
+        "category": "Beto"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -278,7 +278,7 @@
         "node_identifier": "Regex:.*{F3_HIJA_7}.*",
         "change": "{F3_HIJA_7}",
         "condition_var": "",
-        "category": "Itzel"
+        "category": "Nayelis"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -287,7 +287,7 @@
         "node_identifier": "Regex:.*{F3_HIJO_4}.*",
         "change": "{F3_HIJO_4}",
         "condition_var": "",
-        "category": "Toño"
+        "category": "Brayan"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -633,7 +633,7 @@
         "node_identifier": "Regex:.*{generic referrals}.*",
         "change": "{generic referrals}",
         "condition_var": "",
-        "category": "Secretaría de Seguridad Ciudadana Sitio web:  https://www.ssc.cdmx.gob.mx/\nDenuncia de secuestro o extorsión telefónica:  088\nPolicia Federal\nDenuncia Anónima: 089\nCentro de Denuncia y Atención Ciudadana (CEDAD): 800 00 85 400"
+        "category": "104 / (507) 511-7000, Seguridad ciudadana, prevención e investigación de delitos, http://policia.gob.pa/"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -642,7 +642,7 @@
         "node_identifier": "Regex:.*{mental_health referrals}.*",
         "change": "{mental_health referrals}",
         "condition_var": "",
-        "category": "- Sistema Nacional de Apoyo, Consejo Psicológico, e Intervención en Crisis por Teléfono. www.saptel.org.mx 55 5259-8121 55 5533-5533\n- LOCATEL ayuda emocional  *0311*0311 Locatel - CDMX\n- Línea Nacional de Prevención del Suicidio. También puedes llamar al 1-800-273-8255 para hablar con alguien sobre cómo puedes ayudar a una persona en crisis.\n- Instituto Nacional de Psiquiatría Ramón de la Fuente Muñiz línea telefónica donde pueden atender casos de estrés, ansiedad, cualquier crisis emocional o situaciones de emergencia.  CDMX: 55 4160-5372 Int. República 55 4160-3282. https://www.inprf.gob.mx/                                                  \n- El 9-1-1 es un número único de llamadas de emergencia. En él se homologan todos los números de atención de emergencias médicas, de seguridad y de protección civil a nivel federal, estatal y municipal.Se puede acudir a la llamada del 911 en caso de una crísis psicológica de emergencia.\n- Línea de Atención Psicológica UNAM Call Center especializada en salud mental  (55) 5025-0855"
+        "category": "Salud emocional 169, opción 2 Atención emocional general,https://www.minsa.gob.pa/noticia/linea-169-se-alista-para-brindar-atencion-de-salud-mental\n\nMIDES Línea 147,147 / WhatsApp 6694-2747,Apoyo emocional 24/7 para crisis, ansiedad, etcLos casos que se atenderán a través de la Línea 147 estarán relacionado con:\n•  Línea gratuita y confidencial de atención psicológica 24/7.\n•  Brinda primeros auxilios emocionales en casos de ansiedad, duelo, ideación suicida, adicciones y violencia doméstica.\n•  Deriva a centros especializados si el caso lo requiere y recopila datos para mejorar políticas públicas.\nhttps://www.mides.gob.pa/2024/09/16/mides-pone-al-servicio-de-la-comunidad-la-linea-gratuita-147-que-brindara-atencion-profesional-en-salud-mental-24-horas/"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -651,7 +651,7 @@
         "node_identifier": "Regex:.*{health referrals}.*",
         "change": "{health referrals}",
         "condition_var": "",
-        "category": "Call 911 for help in medical or emotional emergencies."
+        "category": "SUME 911, Sistema Único de Manejo de Emergencias,sume911.pa- Emergencias médicas prehospitalarias\n\n455: Asistencia médica\n•  Organización sin fines de lucro dedicada a la prevención y tratamiento del uso indebido de drogas.\n•  Ofrece orientación a personas, familias y empresas sobre consumo responsable de alcohol.\n•  Realiza programas de autoestima, comunicación, resiliencia y prevención de adicciones.\ncruzroja.org.pa\n\n107: Ambulancia para afiliados al Seguro Social, css.gob.pa"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -660,7 +660,7 @@
         "node_identifier": "Regex:.*{violence referrals}.*",
         "change": "{violence referrals}",
         "condition_var": "",
-        "category": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nSecretaría de las mujeres https://mujeresseguras.cdmx.gob.mx/como-denunciar/ https://denunciadigital.cdmx.gob.mx/ \n\nCentro de Terapia de Apoyo a Víctimas de Delitos Sexuales https://www.fgjcdmx.gob.mx/nuestros-servicios/en-linea/mp-virtual/cta-centro-de-terapia-de-apoyo-victimas-de-delitos-sexuales\n\nProgramas de atención a la violencia https://web.sectei.cdmx.gob.mx/bibliotecas/profesionalizacion/directoriocentros/\n"
+        "category": "Atención de Violencia doméstica,182 / 323-3281    \n•  Los Centros de Atención Integral (CAI) ofrecen acompañamiento personalizado y planes de seguridad.\n•  Línea 182 disponible 24/7 para denuncias y asistencia."
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -669,7 +669,7 @@
         "node_identifier": "Regex:.*{natural_disasters referrals}.*",
         "change": "{natural_disasters referrals}",
         "condition_var": "",
-        "category": "LOCATEL 5556581111\nhttps://311locatel.cdmx.gob.mx/ \n                                                                                                                                                                                                Atención de llamadas de Emergencia 911\nNúmeros de emergencia: https://www.gob.mx/sct/es/articulos/lleva-contigo-los-numeros-de-emergencia                                                                                                                                                                                                                                                                                                                                                      "
+        "category": "SINAPROC 335 / 316-3200\n•  Previene y responde ante desastres naturales y emergencias\n•  Promueve educación sobre ,gestión de riesgos y protección https://www.sinaproc.gob.pa/\n\n103 Control de incendios, rescates y materiales peligrosos, bomberos.gob.pa"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -678,7 +678,7 @@
         "node_identifier": "Regex:.*{drugs referrals}.*",
         "change": "{drugs referrals}",
         "condition_var": "",
-        "category": "Centro de Integración Juvenil  https://www.cij.org.mx:89/\n55 52 12 12 12 \n\nAlcohólicos Anónimos\nhttps://aamexico.org.mx/\n800 216 92 31"
+        "category": "Cruz Blanca Panameña, 6674-9695 / 6020-9825 (whatsapp)\nEs una organización sin fines de lucro que tiene como propósito ofrecerles acciones de prevención y tratamiento del uso indebido de drogas a jóvenes y adulto\nwww.cruzblancapanamena.org"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -687,7 +687,7 @@
         "node_identifier": "Regex:.*{family referrals}.*",
         "change": "{family referrals}",
         "condition_var": "",
-        "category": "Centro de Integración Juvenil (CIJ). Material interactivo para familias: http://www.cij.gob.mx/Prevencion/Interactivos/interactivos.html\n                                                                                                                                                                                                                 Centro de integración Juvenil (CIJ). Grupo para apoyo de padres: https://www.facebook.com/groups/teammadrespadres/?locale=es_LA"
+        "category": "SENNIAF, 6378-3466 (llamadas y whatsapp para denuncias para protección de niños y niñas)\nProtección de personas menores de edad y familias,senniaf.gob.pa\n•  Protege los derechos de niños, niñas y adolescentes.\n•  Investiga casos de abuso infantil y puede retirar menores de entornos peligrosos.\n•  Administra albergues y programas de atención integral para menores en riesgo social."
       }
     ],
     "triggers": [
