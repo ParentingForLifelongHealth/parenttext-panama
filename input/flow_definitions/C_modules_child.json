@@ -187,7 +187,7 @@
         "home_activity.activity": "*_Actividad para Casa_*⭐ \n\nIntenta pasar por lo menos 15 minutos de Tiempo Juntos y Conectados todos los días. ¡Hará una gran diferencia! ¿Puedes hacerlo hoy? ⏰",
         "home_activity.positive_msg": "¡Muy bien! Usa las estrategias que aprendiste hoy y ¡diviértete!, ya que es una forma estupenda de establecer una relación positiva. 💙 ",
         "home_activity.negative_msg": "¡De acuerdo! Si hoy no tienes tiempo, puedes apartar un poco para mañana.",
-        "congratulations.msg_list": "¡Completaste la lección! Has aprendido la importancia de Pasar Tiempo Juntos y Conectados con {tu niño}.\n;\nCompletaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso Quiero mejorar la relación con mi niña, niño o adolescente.⭐",
+        "congratulations.msg_list": "¡Completaste la lección! Has aprendido la importancia de Pasar Tiempo Juntos y Conectados con {tu niño}.\n;\nCompletaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso {nombre_curso}.⭐",
         "attached_single_doc": ""
       },
       {
@@ -236,7 +236,7 @@
         "home_activity.activity": "*_Actividad para Casa_*⭐ \n\nPara hoy, tu Actividad en Casa es ELOGIAR a {tu niño} durante su Tiempo de estar Juntos y Conectados. Intenta valorar y apreciar a {tu niño} durante estos minutos. ¿Tienes tiempo de hacerlo hoy?",
         "home_activity.positive_msg": "¡Increíble! 🎉 Intenta ELOGIAR a {tu niño} al menos una vez durante su Tiempo Juntos y Conectados. También puedes ELOGIAR a  {tu niño} en otros momentos del día. Fíjate cómo responde a lo que le dices.",
         "home_activity.negative_msg": "💚 ¡De acuerdo! A veces las cosas toman tiempo. Puedes volver a revisar esta lección en el Menú Principal en cualquier momento. Al final del día, piensa en todas las cosas positivas que pasaron así será más sencillo poderlas identificar. ☀️ \nPoco a poco, ELOGIAR se irá haciendo más fácil.",
-        "congratulations.msg_list": "¡Buen trabajo! ⭐ Has aprendido los cuatro pasos para Dar Reconocimiento.\nCompletaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso Quiero mejorar la relación con mi niña, niño o adolescente  ⭐",
+        "congratulations.msg_list": "¡Buen trabajo! ⭐ Has aprendido los cuatro pasos para Dar Reconocimiento.\nCompletaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso {nombre_curso}⭐",
         "attached_single_doc": ""
       },
       {
@@ -285,7 +285,7 @@
         "home_activity.activity": "*_Actividad para Casa_*⭐ \n\nHaz que el Tiempo de Estar Juntos y Conectados con {tu niño} se convierta en algo del día a día, igual que comer juntos o salir pasear. 📝 ¿Puedes hacerlo hoy?",
         "home_activity.positive_msg": "¡Muy bien! 🎉 Esto ayudará a mostrar interés en lo que hace {tu niño} y mejorará la relación entre ustedes.",
         "home_activity.negative_msg": "¡De acuerdo! Empezar algo nuevo lleva su tiempo. Tal vez puedes empezar con algo sencillo, como pasar un momento especial en alguna actividad que tú y {tu niño} ya hagan en el día. ⚽\n\nPor ejemplo, salir a cenar o a pasear. Pídele ideas a {tu niño} sobre las rutinas con las que podrían empezar y seleccionen una. ¡Puede que te sorprenda! ⏰🍚🚲",
-        "congratulations.msg_list": "¡Buen trabajo! ⭐ Has aprendido los tres pasos para Crear Rutinas diarias con tu niña o niño.\nCompletaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso Quiero mejorar la relación con mi niña, niño o adolescente. ⭐",
+        "congratulations.msg_list": "¡Buen trabajo! ⭐ Has aprendido los tres pasos para Crear Rutinas diarias con tu niña o niño.\nCompletaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso {nombre_curso}⭐",
         "attached_single_doc": ""
       },
       {
@@ -334,7 +334,7 @@
         "home_activity.activity": "*_Actividad para Casa_*⭐ \n\nDurante el Tiempo de Estar Juntos y Conectados, practica identificar las emociones de {tu niño}. Conversa con él o ella describiendo tus propias emociones y las de {tu niño} \n\n¿Tienes tiempo para hacerlo hoy?",
         "home_activity.positive_msg": "¡Muy buen trabajo! ⭐\n\nEsto marcará una gran diferencia.",
         "home_activity.negative_msg": "Está bien. Intenta encontrar tiempo durante esta semana.",
-        "congratulations.msg_list": "¡Buen trabajo! ⭐ Has aprendido cómo Identificar Emociones.\nCompletaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso Quiero mejorar la relación con mi niña, niño o adolescente. ⭐",
+        "congratulations.msg_list": "¡Buen trabajo! ⭐ Has aprendido cómo Identificar Emociones.\nCompletaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso {nombre_curso} ⭐",
         "attached_single_doc": ""
       },
       {
@@ -383,7 +383,7 @@
         "home_activity.activity": "*_Actividad para Casa_*⭐ \n\nRecuerda usar estos cuatro pasos si empiezas a sentir estrés o enojo durante el Tiempo de Estar Juntos y Conectados con {tu niño}. Comparte estas estrategias con otros miembros de la familia, ya que será de beneficio para todas y todos. ➡️\n\n¿Puedes compartir estas estrategias hoy?",
         "home_activity.positive_msg": "¡Increíble! ✨ Durante los próximos días, intenta mantener la calma cuando hay estrés y redirigir el comportamiento negativo de tu  niña, niño o adolescente  hacia uno positivo antes de que empeore. Por ejemplo, si prevés que tu niño o niña va a tener un berrinche en el supermercado, redirígelo pidiéndole que ayude a buscar algún vegetal reconociendo que es bueno haciendo esa tarea.",
         "home_activity.negative_msg": "¡De acuerdo! 📝 Puedes empezar por practicar el Hacer una Pausa incluso cuando te sientas bien. Esto te ayudará a estar más preparado para cuando te sientas estresado. ⭐",
-        "congratulations.msg_list": "¡Buen trabajo! 🎉 ¡Has aprendido cómo Mantener la Calma Cuando Hay Estrés y a redirigir a tu niña o niño cuando te sientes estresado!\nCompletaste @(fields.c_n_mod_compl +1) de las sesiones @fields.c_n_mod del curso, Quiero mejorar la relación con mi niña, niño o adolescente. ⭐",
+        "congratulations.msg_list": "¡Buen trabajo! 🎉 ¡Has aprendido cómo Mantener la Calma Cuando Hay Estrés y a redirigir a tu niña o niño cuando te sientes estresado!\nCompletaste @(fields.c_n_mod_compl +1) de las sesiones @fields.c_n_mod del curso, {nombre_curso} ⭐",
         "attached_single_doc": ""
       }
     ],
