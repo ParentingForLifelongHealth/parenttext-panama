@@ -86,6 +86,22 @@
       },
       {
         "type": "data_sheet",
+        "sheet_name": "description_data_5day",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
         "sheet_name": "interaction_data",
         "data_sheet": "",
         "data_row_id": "",
@@ -205,13 +221,33 @@
       },
       {
         "ID": "final_completion",
-        "msg": "🎉¡Lo lograste! ¡Felicidades!🎉 Has completado el programa. ¡Bien hecho!\nRecuerda que siempre puedes volver a Crianza Responsable y Amorosa para obtener ayuda adicional o repasar estos cursos. Solo tienes que mandar la palabra {MENÚ}.",
-        "extra_msg": "Completar Crianza Responsable y Amorosa es un logro importante. ¡Bien hecho! Es posible que pronto tengamos cursos nuevos disponibles. Cuando estén disponibles, recibirás una notificación por este medio."
+        "msg": "🎉¡Lo lograste! ¡Felicidades!🎉 Has completado el programa. ¡Bien hecho!\nRecuerda que siempre puedes volver a @fields.prog_name para obtener ayuda adicional o repasar estos cursos. Solo tienes que mandar la palabra {MENÚ}.",
+        "extra_msg": "Completar @fields.prog_name es un logro importante. ¡Bien hecho! Es posible que pronto tengamos cursos nuevos disponibles. Cuando estén disponibles, recibirás una notificación por este medio."
       },
       {
         "ID": "take_a_pause_completion",
         "msg": "💪🏽 Buen trabajo. Ya puedes empezar el primer curso.",
         "extra_msg": ""
+      }
+    ],
+    "description_data": [
+      {
+        "ID": "started",
+        "msg": "Completaste @fields.c_n_mod_compl de las @fields.c_n_mod sesiones de este curso. La sesión de hoy es @results.name."
+      },
+      {
+        "ID": "new",
+        "msg": "En este curso, completarás @fields.c_n_mod sesiones. Recibirás una sesión nueva por día. Tu primera sesión es @results.name."
+      },
+      {
+        "ID": "first",
+        "msg": "Completar el Curso Elemental \"@results.name\" solo te llevará 5️⃣ días. \n\nUna vez que hayas obtenido tu reconocimiento, tendrás acceso a otros cursos útiles acerca de crianza. Podrás elegir hacer los cursos que te interesen o los que aporten más a las necesidades de tu familia."
+      }
+    ],
+    "description_data_5day": [
+      {
+        "ID": "first",
+        "msg": "Completar el Curso Elemental \"@results.name\" solo te llevará 5️⃣ días."
       }
     ],
     "certificate_name_data": [
@@ -551,20 +587,6 @@
         "msg_no_options.message": "Aún no has terminado ningún curso.",
         "msg_one_option.message": "Has terminado el siguiente curso:",
         "msg_multiple_options": "Has terminado los siguientes cursos:"
-      }
-    ],
-    "description_data": [
-      {
-        "ID": "started",
-        "msg": "Completaste @fields.c_n_mod_compl de las @fields.c_n_mod sesiones de este curso. La sesión de hoy es @results.name."
-      },
-      {
-        "ID": "new",
-        "msg": "En este curso, completarás @fields.c_n_mod sesiones. Recibirás una sesión nueva por día. Tu primera sesión es @results.name."
-      },
-      {
-        "ID": "first",
-        "msg": "Completar el Curso Elemental \"@results.name\" solo te llevará 5️⃣ días. \n\nUna vez que hayas obtenido tu reconocimiento, tendrás acceso a otros cursos útiles acerca de crianza. Podrás elegir hacer los cursos que te interesen o los que aporten más a las necesidades de tu familia."
       }
     ],
     "interaction_data": [
