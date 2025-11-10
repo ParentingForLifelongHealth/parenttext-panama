@@ -115,6 +115,13 @@
         "sheet_name": "goal_module_name",
         "status": "released",
         "order": "0"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "referrals",
+        "status": "released",
+        "order": "0"
       }
     ],
     "comic_names": [
@@ -511,19 +518,10 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "survey - onb - question - consent",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{consent}.*",
-        "original": "{consent}",
+        "node_identifier": "Regex:.*{enlace de consentimiento aquí}.*",
+        "original": "{enlace de consentimiento aquí}",
         "language": "spa",
-        "replacement": "https://bit.ly/CCPrivacy-Terms"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "survey - onb - question - welcome",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{URL}.*",
-        "original": "{URL}",
-        "language": "spa",
-        "replacement": "https://bit.ly/AboutCC_es"
+        "replacement": "{enlace de consentimiento aquí}"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -532,97 +530,7 @@
         "node_identifier": "Regex:.*{insert link}.*",
         "original": "{insert link}",
         "language": "spa",
-        "replacement": "add link"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{development resources 1}.*",
-        "original": "{development resources 1}",
-        "language": "spa",
-        "replacement": "“Crianza positiva en el hogar” https://aprendomas.cuaed.unam.mx/\n\nClínica de la conducta https://www2.aefcm.gob.mx/directorio_escuelas/cct_mas_gbmx.jsp?cve_cct=09DML0122H\n\nHPIJNN\nhttps://www.gob.mx/salud/sap/acciones-y-programas/hospital-psiquiatrico-infantil-juan-n-navarro\n\nCDC\nhttps://www.cdc.gov/ncbddd/spanish/childdevelopment/early-brain-development.html"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{development resources 2}.*",
-        "original": "{development resources 2}",
-        "language": "spa",
-        "replacement": "“Crianza positiva en el hogar” https://aprendomas.cuaed.unam.mx/\n\nClínica de la conducta https://www2.aefcm.gob.mx/directorio_escuelas/cct_mas_gbmx.jsp?cve_cct=09DML0122H\n\nHPIJNN\nhttps://www.gob.mx/salud/sap/acciones-y-programas/hospital-psiquiatrico-infantil-juan-n-navarro\n\nCDC\nhttps://www.cdc.gov/ncbddd/spanish/childdevelopment/early-brain-development.html"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{learning resources 1}.*",
-        "original": "{learning resources 1}",
-        "language": "spa",
-        "replacement": "Recursos audiovisuales por materia\nhttps://aprende.gob.mx/\n\nPoemas y recursos literarios en audio https://www.alasyraices.gob.mx/leer_con_alas.html\n\nAplicaciones de actividades educativas diferenciadas por edad\nhttps://alasyraices.gob.mx/apps.html"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{learning resources 2}.*",
-        "original": "{learning resources 2}",
-        "language": "spa",
-        "replacement": "Recorridos virtuales de museos\nhttps://inba.gob.mx/digital\n\nhttps://www.gob.mx/cultura/articulos/museos-de-mexico-que-puedes-visitar-de-manera-virtual?idiom=es"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{learning resources 3}.*",
-        "original": "{learning resources 3}",
-        "language": "spa",
-        "replacement": "Programa de capacitación para madres. padres y personas cuidadoras\nhttps://iris.paho.org/handle/10665.2/52623\n\nConsejo Nacional para el Desarrollo y la Inclusión de las personas con discapacidad\nhttps://www.gob.mx/conadis"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{learning resources 4}.*",
-        "original": "{learning resources 4}",
-        "language": "spa",
-        "replacement": "Guía para madres, padres, cuidadores y docentes\nhttps://www.consejodiscapacidades.gob.ec/wp-content/uploads/downloads/2014/12/Gu%C3%ADa-para-padres-y-maestros-La-vida-es-maravillosa-4-8.pdf\n\nCredencial Nacional para Personas con Discapacidad\nhttps://www.gob.mx/difnacional/acciones-y-programas/credencial-nacional-para-personas-con-discapacidad"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{cyber safety}.*",
-        "original": "{cyber safety}",
-        "language": "spa",
-        "replacement": "Pantallas Amigas https://www.pantallasamigas.net/"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{structure resources}.*",
-        "original": "{structure resources}",
-        "language": "spa",
-        "replacement": "Buen Trato https://www.unicef.org/mexico/buentrato?_gl=1*1dhtbjx*_ga*NjM5MDQ1MTMyLjE2MzQ5NjM5NDQ.*_ga_ZEPV2PX419*MTcwMDcwMTU4MC4xLjEuMTcwMDcwNDU2OS40OC4wLjA."
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{mental health resources}.*",
-        "original": "{mental health resources}",
-        "language": "spa",
-        "replacement": "Plataforma Aprendo+ https://aprendomasplus.cuaieed.unam.mx/\n\nLínea de Atención Psicológica UNAM Call Center especializada en salud mental: (55) 5025-0855"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{book resources}.*",
-        "original": "{book resources}",
-        "language": "spa",
-        "replacement": "\"Librero Digital\" https://www.alasyraices.gob.mx/librerogeneral.html\n\n\"Leoteca\" https://www.leoteca.es/\n\n\"Cuentos para Dormir\" https://play.google.com/store/apps/details?id=com.IVR.cuentosparadormir&hl=es_US&pli=1\n\n\"Audioteca\" https://www.alasyraices.gob.mx/leer_con_alas.html"
+        "replacement": "https://wa.me/50764986901/?text=familia"
       }
     ],
     "referrals": [
@@ -633,7 +541,7 @@
         "node_identifier": "Regex:.*{generic referrals}.*",
         "change": "{generic referrals}",
         "condition_var": "",
-        "category": "104 / (507) 511-7000, Seguridad ciudadana, prevención e investigación de delitos, http://policia.gob.pa/"
+        "category": "*Policía Nacional*\n104 / (507) 511-7000, Seguridad ciudadana, prevención e investigación de delitos, http://policia.gob.pa/\n\n*Protección infantil y prevención de abuso*\n511-9228 / 511-9540, http://www.policia.gob.pa/ninez.html\n • Protege a personas menores de edad en situación de riesgo: abandono, maltrato, explotación o extravío.\n•  Supervisa actividades laborales y desplazamientos de menores.\n•  Realiza programas educativos como DARE y GREAT para prevenir conductas antisociales y el uso de drogas."
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -642,7 +550,7 @@
         "node_identifier": "Regex:.*{mental_health referrals}.*",
         "change": "{mental_health referrals}",
         "condition_var": "",
-        "category": "Salud emocional 169, opción 2 Atención emocional general,https://www.minsa.gob.pa/noticia/linea-169-se-alista-para-brindar-atencion-de-salud-mental\n\nMIDES Línea 147,147 / WhatsApp 6694-2747,Apoyo emocional 24/7 para crisis, ansiedad, etcLos casos que se atenderán a través de la Línea 147 estarán relacionado con:\n•  Línea gratuita y confidencial de atención psicológica 24/7.\n•  Brinda primeros auxilios emocionales en casos de ansiedad, duelo, ideación suicida, adicciones y violencia doméstica.\n•  Deriva a centros especializados si el caso lo requiere y recopila datos para mejorar políticas públicas.\nhttps://www.mides.gob.pa/2024/09/16/mides-pone-al-servicio-de-la-comunidad-la-linea-gratuita-147-que-brindara-atencion-profesional-en-salud-mental-24-horas/"
+        "category": "*Servicios de Salud Mental*\nSalud emocional 169, opción 2 Atención emocional general,https://www.minsa.gob.pa/noticia/linea-169-se-alista-para-brindar-atencion-de-salud-mental\n\n*Línea directa para la prevención de suicidio*\nMIDES Línea 147,147 / WhatsApp 6694-2747,Apoyo emocional 24/7 para crisis, ansiedad, etcLos casos que se atenderán a través de la Línea 147 estarán relacionado con:\n•  Línea gratuita y confidencial de atención psicológica 24/7.\n•  Brinda primeros auxilios emocionales en casos de ansiedad, duelo, ideación suicida, adicciones y violencia doméstica.\n•  Deriva a centros especializados si el caso lo requiere y recopila datos para mejorar políticas públicas.\nhttps://www.mides.gob.pa/2024/09/16/mides-pone-al-servicio-de-la-comunidad-la-linea-gratuita-147-que-brindara-atencion-profesional-en-salud-mental-24-horas/"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -669,7 +577,7 @@
         "node_identifier": "Regex:.*{natural_disasters referrals}.*",
         "change": "{natural_disasters referrals}",
         "condition_var": "",
-        "category": "SINAPROC 335 / 316-3200\n•  Previene y responde ante desastres naturales y emergencias\n•  Promueve educación sobre ,gestión de riesgos y protección https://www.sinaproc.gob.pa/\n\n103 Control de incendios, rescates y materiales peligrosos, bomberos.gob.pa"
+        "category": "*Bomberos*\n103 Control de incendios, rescates y materiales peligrosos, bomberos.gob.pa\n\n*Desastres naturales*\nSINAPROC 335 / 316-3200\n•  Previene y responde ante desastres naturales y emergencias\n•  Promueve educación sobre ,gestión de riesgos y protección https://www.sinaproc.gob.pa/"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -687,7 +595,16 @@
         "node_identifier": "Regex:.*{family referrals}.*",
         "change": "{family referrals}",
         "condition_var": "",
-        "category": "SENNIAF, 6378-3466 (llamadas y whatsapp para denuncias para protección de niños y niñas)\nProtección de personas menores de edad y familias,senniaf.gob.pa\n•  Protege los derechos de niños, niñas y adolescentes.\n•  Investiga casos de abuso infantil y puede retirar menores de entornos peligrosos.\n•  Administra albergues y programas de atención integral para menores en riesgo social."
+        "category": "SENNIAF, 6378-3466 (llamadas y whatsapp para denuncias para protección de niños y niñas)\nProtección de personas menores de edad y familias, senniaf.gob.pa\n•  Protege los derechos de niños, niñas y adolescentes.\n•  Investiga casos de abuso infantil y puede retirar menores de entornos peligrosos.\n•  Administra albergues y programas de atención integral para menores en riesgo social."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 1}.*",
+        "change": "{development resources 1}",
+        "condition_var": "",
+        "category": "MIDES (Ministerio de desarrollo Social), CAIPI https://www.mides.gob.pa/caipi/\n\nLos Centros de Atención Integral a la Primera Infancia (CAIPI) brindan atención integral a la primera infancia por medio de una Cartera Integral de Servicios (CIS) que incluye servicios principales y complementarios de educación con calidad, salud y nutrición, identidad y crianza con pautas adecuadas, resepción del CAIPI 5006073, Coordinación 5005872"
       }
     ],
     "triggers": [
