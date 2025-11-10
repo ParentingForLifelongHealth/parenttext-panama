@@ -3143,14 +3143,20 @@
         {
             "English": {
                 "keywords": [
-                    "training"
+                    "demo",
+                    "Crianza",
+                    "activar_curso",
+                    "familia"
                 ],
                 "mispellings": []
             },
             "Translation": {
                 "eng": {
                     "keywords": [
-                        "training"
+                        "demo",
+                        "Crianza",
+                        "activar_curso",
+                        "familia"
                     ],
                     "mispellings": []
                 }

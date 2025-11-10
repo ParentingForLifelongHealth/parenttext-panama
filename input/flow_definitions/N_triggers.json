@@ -3,13 +3,120 @@
     "version": "0.1.0"
   },
   "sheets": {
+    "ALLTriggers": [
+      {
+        "ID": "testers",
+        "Joining Trigger": "Training",
+        "Recruitment  | Campaign": "",
+        "Programme name": "Crianza Responsable y Amorosa",
+        "Description": "Not sure if this is an example, it was in this template, is it not part of the trigger words selected by Panama Team."
+      },
+      {
+        "ID": "Caregiver",
+        "Joining Trigger": "Crianza",
+        "Recruitment  | Campaign": "",
+        "Programme name": "",
+        "Description": "Iniciar el chat del programa.\n\nThis is the initial word that caregivers must send to activate the course and register."
+      },
+      {
+        "ID": "Caregiver",
+        "Joining Trigger": "AYUDA",
+        "Recruitment  | Campaign": "",
+        "Programme name": "",
+        "Description": "Writing the word HELP provides contact informa\ntion for preventing and addressing issues related to domestic violence, sexual violence, mental health, addictions, and other urgent situations (safeguarding)   \n\nWith this word, the data from the referral directory will appear."
+      },
+      {
+        "ID": "Caregiver",
+        "Joining Trigger": "MENÚ",
+        "Recruitment  | Campaign": "",
+        "Programme name": "",
+        "Description": "Typing the word “MENU” will allow caregivers to change settings, review sessions they have completed, and replay the Welcome video."
+      },
+      {
+        "ID": "Caregiver",
+        "Joining Trigger": "JUGAR",
+        "Recruitment  | Campaign": "",
+        "Programme name": "",
+        "Description": "Writing the word HELP provides contact information for preventing and addressing issues related to domestic violence, sexual violence, mental health, addictions, and other urgent situations (safeguarding)"
+      },
+      {
+        "ID": "Caregiver",
+        "Joining Trigger": "PROGRESO",
+        "Recruitment  | Campaign": "",
+        "Programme name": "",
+        "Description": "Typing this triggers the Development Assessment Tool. This is offered as a home activity for the child development module. \n\nIn the opening sessions we would work them through the features for ParentText and explain the tool."
+      },
+      {
+        "ID": "Caregiver",
+        "Joining Trigger": "DETENER",
+        "Recruitment  | Campaign": "",
+        "Programme name": "",
+        "Description": "Stop receiving messages."
+      },
+      {
+        "ID": "Caregiver",
+        "Joining Trigger": "LIBRO",
+        "Recruitment  | Campaign": "",
+        "Programme name": "",
+        "Description": "Not for all deployments but users can receive a message directing them to digital books resources that they can use for reading with their children."
+      },
+      {
+        "ID": "Caregiver",
+        "Joining Trigger": "PREVENIR",
+        "Recruitment  | Campaign": "",
+        "Programme name": "",
+        "Description": "Specifically for sexual violence prevention module in teens. When typing this, parents can review this module with their teen since it’s their home activity."
+      },
+      {
+        "ID": "Caregiver",
+        "Joining Trigger": "PAUSAR",
+        "Recruitment  | Campaign": "",
+        "Programme name": "",
+        "Description": "Triggers the pause video (which is sent during onboarding)"
+      },
+      {
+        "ID": "Facilitator",
+        "Joining Trigger": "ACTIVAR CURSO",
+        "Recruitment  | Campaign": "",
+        "Programme name": "",
+        "Description": "This is the initial word you need to send to activate the course.\nAs the facilitator, you must start the chat with this command so we can differentiate you from the caregivers.\n\nThis command should NOT be shared with caregivers."
+      },
+      {
+        "ID": "Both",
+        "Joining Trigger": "SIGUIENTE",
+        "Recruitment  | Campaign": "",
+        "Programme name": "",
+        "Description": "This command will be useful to the caregiver when taking a session and the automatic chat does not send the following message automatically.\n\nThis command does not work to start a new session. Once the session is over we recommend that caregivers wait a day for the WhatsApp Course to automatically grant them access to a new session."
+      }
+    ],
     "JoiningTriggers": [
       {
         "ID": "testers",
-        "Joining Trigger": "training",
-        "Recruitment  | Campaign": "",
+        "Joining Trigger": "demo",
+        "Recruitment  | Campaign": "testers",
         "Programme name": "Crianza Responsable y Amorosa",
         "Description": ""
+      },
+      {
+        "ID": "Caregiver",
+        "Joining Trigger": "Crianza",
+        "Recruitment  | Campaign": "",
+        "Programme name": "Crianza Responsable y Amorosa",
+        "Description": "Iniciar el chat del programa.\n\nThis is the initial word that caregivers must send to activate the course and register."
+      },
+      {
+        "ID": "Facilitator",
+        "Joining Trigger": "activar_curso",
+        "Recruitment  | Campaign": "testers",
+        "Programme name": "Crianza Responsable y Amorosa",
+        "Description": "This is the initial word you need to send to activate the course.\nAs the facilitator, you must start the chat with this command so we can differentiate you from the caregivers.\n\nThis command should NOT be shared with caregivers."
+      },
+      {
+        "ID": "share",
+        "Joining Trigger": "familia",
+        "Recruitment  | Campaign": "Share",
+        "Programme name": "Crianza Responsable y Amorosa",
+        "Description": "Users who join because someone shared a link with them from the menu"
       }
     ],
     "content_index": [
@@ -32,8 +139,41 @@
     "joining_triggers_data": [
       {
         "ID": "testers",
-        "triggers": "training",
-        "groups": "training",
+        "triggers": "demo",
+        "groups": "testers",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza Responsable y Amorosa",
+        "variables.2.name": "",
+        "variables.2.value": ""
+      },
+      {
+        "ID": "Caregiver",
+        "triggers": "Crianza",
+        "groups": "",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza Responsable y Amorosa",
+        "variables.2.name": "",
+        "variables.2.value": ""
+      },
+      {
+        "ID": "Facilitator",
+        "triggers": "activar_curso",
+        "groups": "testers",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza Responsable y Amorosa",
+        "variables.2.name": "",
+        "variables.2.value": ""
+      },
+      {
+        "ID": "share",
+        "triggers": "familia",
+        "groups": "Share",
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
