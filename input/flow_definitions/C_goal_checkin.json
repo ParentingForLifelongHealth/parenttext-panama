@@ -130,7 +130,7 @@
         "pre_question": "empty",
         "question": "En las últimas 24 horas, ¿pasaste al menos 5 minutos de Tiempo de estar juntos y conectados con tu adolescente?",
         "options": "No|Sí",
-        "add_qr": "Sí",
+        "add_qr": "yes",
         "negative": "no",
         "positive": "sí",
         "improvement": ">",
