@@ -103,7 +103,7 @@
                 }
             },
             "path_template": [
-            "{% if format == 'image' %}{% if folder == 'Comics' %}comic/{{ name }}{% elif folder ==  'Logos' %}logo/{{ name }}{% elif folder ==  'Avatars' %}logo/{{ name }}{%else%}image/{{ name }}{% endif %}{% else %}voiceover/{{ format }}/{{ (annotations['Caregiver Gender'] or 'unknown') }}/spa/{{ name }}{% endif %}"
+            "{% if format == 'image' %}{% if folder == 'Comics' %}comic/{{ name }}{% elif folder ==  'Logos' %}logo/{{ name }}{% elif folder ==  'Illustrations' %}logo/{{ name }}{%else%}image/{{ name }}{% endif %}{% else %}voiceover/{{ format }}/{{ (annotations['Caregiver Gender'] or 'unknown') }}/spa/{{ name }}{% endif %}"
             ],
             "storage": {
                 "system": "canto",
