@@ -338,7 +338,7 @@
         "options.9.text": "",
         "options.9.flow": "",
         "wa_template_ID": "no_response",
-        "wa_template_vars": "@fields.prog_name"
+        "wa_template_vars": ""
       }
     ],
     "feedback_data": [
@@ -592,7 +592,7 @@
     "interaction_data": [
       {
         "ID": "select_goal",
-        "question": "Has logrado un gran avance. ¿Estás listo para seleccionar tu siguiente sesión de crianza?\n\nPresiona un número en el teclado:\n1. Sí\n2. No quiero hacer otra sesión, gracias.\n3. Recuérdamelo más tarde, por favor.",
+        "question": "Has logrado un gran avance. ¿Estás listo para seleccionar tu siguiente sesión de crianza?\n\nPresiona un número en el teclado:\n1. Sí\n2. No quiero hacer otra sesión, gracias\n3. Recuérdamelo más tarde, por favor",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -607,7 +607,7 @@
       },
       {
         "ID": "unfinished_onboarding",
-        "question": "El Curso Crianza Responsable y Amorosa ha comenzado. ¿Estás listo para completar tu registro y empezar?\n\nPresiona un número en el teclado:\n1. Sí\n2. Recuérdamelo más tarde, por favor.",
+        "question": "El Curso Crianza Responsable y Amorosa ha comenzado. ¿Estás listo para completar tu registro y empezar?\n\nPresiona un número en el teclado:\n1. Sí\n2. Recuérdamelo mañana, por favor",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -622,7 +622,7 @@
       },
       {
         "ID": "complete_start_module",
-        "question": "¡Te desviaste un poco del camino! ¿Quieres terminar la sesión anterior o empezar una nueva?\n\nEscoge tu respuesta y manda un número:\n1. Terminar la sesión anterior\n2. Iniciar una sesión nueva",
+        "question": "¡Te desviaste un poco del camino! ¿Quieres terminar la sesión anterior o empezar una nueva?\n\nPresiona un número en el teclado:\n1. Terminar la sesión anterior\n2. Iniciar una sesión nueva",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -651,38 +651,8 @@
         "wa_template_vars.2": ""
       },
       {
-        "ID": "start_started_mod_or_change_goal_one",
-        "question": "¡Ya casi terminas este curso! Solo te queda 1 sesión por terminar. ¿Qué te gustaría hacer?\n\nPresiona un número en el teclado:\n1. Terminar esta sesión y obtener mi certificado del curso\n2. Dejar esta curso sin terminar y seleccionar un nuevo curso",
-        "webhook_template_name": "",
-        "webhook_template_args": "",
-        "options.1.text": "1",
-        "options.1.proceed_result_value": "complete",
-        "options.1.stop_message": "",
-        "options.2.text": "2",
-        "options.2.proceed_result_value": "new",
-        "options.2.stop_message": "No pasa nada. Puedes volver para completar este curso entrando a la opción de Seguir Mi Progreso que se encuentra en el Menú Principal. Solo tienes que mandar la palabra {MENÚ}.",
-        "wa_template_ID": "start_started_mod_or_change_goal_one",
-        "wa_template_vars.1": "",
-        "wa_template_vars.2": ""
-      },
-      {
-        "ID": "start_started_mod_or_change_goal_multiple",
-        "question": "¡Ya casi terminas este curso! Te quedan @fields.c_n_mod_started sesiones por completar. ¿Qué te gustaría hacer?\n\nPresiona un número en el teclado:\n1. Terminar las sesiones incompletas para obtener mi certificado del curso\n2. Dejar esta curso sin terminar y seleccionar un nuevo curso",
-        "webhook_template_name": "",
-        "webhook_template_args": "",
-        "options.1.text": "1",
-        "options.1.proceed_result_value": "complete",
-        "options.1.stop_message": "",
-        "options.2.text": "2",
-        "options.2.proceed_result_value": "new",
-        "options.2.stop_message": "No pasa nada. Puedes volver para completar este curso entrando a la opción de Seguir Mi Progreso que se encuentra en el Menú Principal. Solo tienes que mandar la palabra {MENÚ}.",
-        "wa_template_ID": "start_started_mod_or_change_goal_multiple",
-        "wa_template_vars.1": "@fields.c_n_mod_started",
-        "wa_template_vars.2": ""
-      },
-      {
         "ID": "start_started_mod_or_later_one",
-        "question": "¡Ya casi terminas este curso! Solo te queda 1 sesión por terminar. ¿Qué te gustaría hacer?\n\nPresiona un número en el teclado:\n1. Terminar esta sesión y obtener mi certificado del curso\n2. Recuérdamelo mañana",
+        "question": "¡Ya casi terminas este curso! Solo te queda 1 sesión por terminar. ¿Qué te gustaría hacer?\n\nPresiona un número en el teclado:\n1. Terminar esta sesión y obtener mi certificado del curso\n2. Recuérdamelo mañana, por favor",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -697,7 +667,7 @@
       },
       {
         "ID": "start_started_mod_or_later_multiple",
-        "question": "¡Ya casi terminas este curso! Te quedan @fields.c_n_mod_started sesiones por completar. ¿Qué te gustaría hacer?\n\nPresiona un número en el teclado:\n1. Terminar las sesiones incompletas para obtener mi certificado del curso\n2. Recuérdamelo mañana",
+        "question": "¡Ya casi terminas este curso! Te quedan @fields.c_n_mod_started sesiones por completar. ¿Qué te gustaría hacer?\n\nPresiona un número en el teclado:\n1. Terminar las sesiones incompletas para obtener mi certificado del curso\n2. Recuérdamelo mañana, por favor",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -712,7 +682,7 @@
       },
       {
         "ID": "first_module_intro",
-        "question": "Es hora de empezar el curso, @results.name. ¿Estás listo?\n\nPresiona un número en el teclado:\n1. ¡Sí!\n2. Recuérdamelo mañana, por favor.",
+        "question": "Es hora de empezar el curso, @results.name. ¿Estás listo?\n\nPresiona un número en el teclado:\n1. ¡Sí!\n2. Recuérdamelo mañana, por favor",
         "webhook_template_name": "use_webhook_get_name",
         "webhook_template_args": "goal;fields.curr_goal;webhook_settings",
         "options.1.text": "1",
@@ -727,7 +697,7 @@
       },
       {
         "ID": "daily_interaction",
-        "question": "¡Tengo otra lección preparada para ti! ¿Estás listo para continuar con el curso, @results.name?\n\nEscoge tu respuesta y manda un número:\n1. Sí\n2. No, recuérdamelo mañana",
+        "question": "¡Tengo otra lección preparada para ti! ¿Estás listo para continuar con el curso, @results.name?\n\nPresiona un número en el teclado:\n1. Sí\n2. No, recuérdamelo mañana",
         "webhook_template_name": "use_webhook_get_name",
         "webhook_template_args": "goal;fields.curr_goal;webhook_settings",
         "options.1.text": "1",
