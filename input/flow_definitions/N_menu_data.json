@@ -631,7 +631,7 @@
         "update_inquiry_yes": "Sí",
         "update_inquiry_no": "No",
         "update_var_flow": "survey - onb - question - marital_status",
-        "update_prog_var_flow": "settings_update_get_ipv",
+        "update_prog_var_flow": "",
         "confirmation_msg": "Actualizado!",
         "variable": "@fields.marital_status",
         "missing.value": "no",
