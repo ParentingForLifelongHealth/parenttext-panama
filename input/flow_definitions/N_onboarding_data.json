@@ -3101,6 +3101,14 @@
         "attachment.file_type": "",
         "attachment.url": "",
         "metadata.description": "message with onboarding video"
+      },
+      {
+        "ID": "waiting_list",
+        "msg": "Gracias por escribirnos 🤍. Esto demuestra cuánto te interesas por tus hijos. Por ahora, el cupo disponible del programa está lleno, pero te hemos agregado a una lista de espera. En cuanto se libere un espacio, te avisaremos de inmediato.",
+        "next_button_option": "",
+        "attachment.file_type": "",
+        "attachment.url": "",
+        "metadata.description": ""
       }
     ]
   }

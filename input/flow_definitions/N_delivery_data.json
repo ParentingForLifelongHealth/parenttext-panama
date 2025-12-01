@@ -309,7 +309,7 @@
         "ID": "hook_message",
         "msg": "👍 ¡Gracias por tu comentario!\nSi quieres volver a unirte, escribe 1 en cualquier momento.",
         "next_button_option": "1",
-        "metadata.description": "hook message sent after 3 days of no response from the user. Needs to be aligned with whatsapp template \"no_response\". 1 can be replaced by anything (anything typed in the chat will work anyway)"
+        "metadata.description": ""
       }
     ],
     "referral_paths_data": [
@@ -719,6 +719,8 @@
         "accept.child": "Dame una idea para el Tiempo para Estar Juntos y Conectados con mi niña o niño",
         "accept.teen": "Dame una idea de Tiempo para Estar Juntos y Conectados con mi niña, niño o adolescente",
         "accept.baby": "Dame ideas para el Tiempo para Estar Juntos y Conectados con mi bebé",
+        "other_option": "Ir al Menú Principal",
+        "other_flow": "menu - main",
         "refuse": "He terminado por hoy",
         "refuse_msg": "Genial, ¡nos vemos mañana!",
         "next_offer_msg": "¿Qué te gustaría hacer?",
@@ -737,6 +739,8 @@
         "accept.child": "Dame una idea para el Tiempo para Estar Juntos y Conectados con mi niña o niño",
         "accept.teen": "Dame una idea de Tiempo para Estar Juntos y Conectados con mi niña, niño o adolescente",
         "accept.baby": "Dame ideas para el Tiempo para Estar Juntos y Conectados con mi bebé",
+        "other_option": "Ir al Menú Principal",
+        "other_flow": "menu - main",
         "refuse": "He terminado por hoy",
         "refuse_msg": "Genial, ¡nos vemos mañana!",
         "next_offer_msg": "¿Qué te gustaría hacer?",
@@ -755,6 +759,8 @@
         "accept.child": "",
         "accept.teen": "",
         "accept.baby": "",
+        "other_option": "",
+        "other_flow": "",
         "refuse": "",
         "refuse_msg": "",
         "next_offer_msg": "¿Qué te gustaría hacer?",
