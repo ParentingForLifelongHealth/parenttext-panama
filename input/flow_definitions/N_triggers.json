@@ -76,7 +76,7 @@
       },
       {
         "ID": "Facilitator",
-        "Joining Trigger": "ACTIVAR CURSO",
+        "Joining Trigger": "ACTIVAR",
         "Recruitment  | Campaign": "",
         "Programme name": "",
         "Description": "This is the initial word you need to send to activate the course.\nAs the facilitator, you must start the chat with this command so we can differentiate you from the caregivers.\n\nThis command should NOT be shared with caregivers."
@@ -108,7 +108,7 @@
       },
       {
         "ID": "Facilitator",
-        "Joining Trigger": "activar_curso",
+        "Joining Trigger": "activar",
         "Recruitment  | Campaign": "testers",
         "Programme name": "Crianza Responsable y Amorosa",
         "Cap users at": "100",
@@ -165,7 +165,7 @@
       },
       {
         "ID": "Facilitator",
-        "triggers": "activar_curso",
+        "triggers": "activar",
         "groups": "testers",
         "cap": "100",
         "location": "",
