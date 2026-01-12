@@ -4,6 +4,9 @@
         "pipeline_version": "1.0.0"
     },
      "parents": {
+        "plh": {
+            "location": "https://github.com/IDEMSInternational/parenttext-templates/archive/refs/tags/v1.2.0-no_onboarding.zip"
+        },
         "survey": {
             "location": "https://github.com/IDEMSInternational/rapidpro-survey-templates/archive/refs/tags/v1.4.1.zip"
         }
@@ -13,12 +16,7 @@
     "sheet_names": {
         "PA_sheets": "1hYDdrnxLhR7NKaJB_eUH3xL7WvG9u8c59ZGjzsBF9Mg",
         "N_triggers": "1kzrU0Grsyx9Yqdx963RL0kOfNO4EVnVBDaJ6k-4Oht0",
-        "T_content": "1IlKACAmKqILhpumKRiTf8ovWO7h7MIJurIYqj-SgMXo",
         "C_dev_asess_tool" : "1zducXLM9OwD8G5quEzYDjqrelBdeCr_4h88nGAjL74M",
-        "T_safeguarding": "1RZLY7GGILdBHkc4G-tzymYbNN0lvONgXJlPjG9Ol19I",
-        "T_delivery": "1D54mvGh0Scbhv1rqCOFxqonxOtglLsYINkvuIceQV6c",
-        "T_menu": "1IMV1slKvWN3P330v6S73JHlegjMHhPNSN3EW7UhiGUg",
-        "T_Trial": "1DlcRSkY_0Ha_6QIb6Pj7WhXE7K15oGlilENtO8aqsOE",
         "C_ltp_activities": "1_YYHhePrE0AQ-kb-6kEMeR2kALe0JSSgRiUlaZgPgq0",
         "C_modules_all_ages": "1Aj0OhvVqOgNoIEZs26ffes0B0vGlsc1z9f_QdMaB_vw",
         "C_modules_child": "17_S_UhYTAA6_E2UQujrquezOMx-F9yjEm6HV5Bh64Sg",
@@ -36,7 +34,10 @@
     },
     "sources": {
         "flow_definitions": {
-            "parent_sources": ["survey.flow_definitions"],
+            "parent_sources": [
+                "plh.flow_definitions",
+                "survey.flow_definitions"
+            ],
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
@@ -47,14 +48,9 @@
                     "C_modules_teen",
                     "C_modules_child",
                     "C_goal_checkin",
-                    "T_content",
                     "N_safeguarding_data",
-                    "T_safeguarding",
                     "N_delivery_data",
-                    "T_delivery",
                     "N_menu_data",
-                    "T_menu",
-                    "T_Trial",
                     "N_triggers",
                     "PA_sheets"
                 ]

@@ -288,3 +288,5 @@ cython_debug/
 
 canto/
 transcoded/
+diffable/
+.vscode/
